@@ -1,32 +1,25 @@
+
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import CardPresenter from '../components/CardPresenter'
+import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import styles from '../styles/Home.module.css'
-import { motion } from 'framer-motion';
-import Footer from '../components/Footer'
-import ProjectPresenter from '../components/ProjectPresenter'
-
-
-
 
 const Home: NextPage = () => {
   return (
 <div>
   <Navbar/>
-  <div>
-
-  
-  hello 
-  <div >
+    <div>
+        Projects
 
 
-    <ProjectPresenter/>
-                
     </div>
+    <div className=" mx-auto">
+               <CardPresenter/>
 
-
-  </div>
+          </div>
   <Footer/>
 </div>
   )
