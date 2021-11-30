@@ -12,13 +12,13 @@ export default function PostPage({
   return (
     <div className='mx-auto sm:w-6/12 w-11/12 '>
       <Link href='/Insights'>
-        <a className=''>Go Back</a>
+        <a className=' font-light'> {"<--"} Go Back</a>
       </Link>
       <br/>
-      <div className=''>
-        <h1 className='prose '>{title}</h1>
-        <div className='prose'>Posted on {date}</div>
-        <img src={cover_image} alt={title} />
+      <div className='mt-8'>
+        <h1 className='text-xl  '>{title}</h1>
+        <div className='prose mb-8'>Posted on {date}</div>
+        {/* <img src={cover_image} alt={title} /> */}
        
           <div className='prose prose max-w-none mx-auto' dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
        

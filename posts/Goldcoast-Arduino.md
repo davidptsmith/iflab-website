@@ -26,7 +26,7 @@ Our concept proposal for the Green Bridge public artwork in the Gold Coast was t
 The prototype was developed using an [Arduino]("https://www.arduino.cc"), an open-source micro-controller, with an ultrasonic sensor for measuring distance. The sensor emits an ultrasound which travels through the air, and if it hits an object it will bounce back to the sensor. The distance is then calculated by considering the speed and travel time of the ultrasound. 
 
 <div class="aspect-w-16 aspect-h-9">
-<iframe width="750" height="422" style="margin: auto;"src="https://www.youtube.com/embed/z3D8shNoJpk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe  style="margin: auto;"src="https://www.youtube.com/embed/z3D8shNoJpk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 
