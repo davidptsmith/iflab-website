@@ -18,7 +18,7 @@ import FAQ from '../components/home_page/FAQ'
 const Home: NextPage = () => (
   <div>
     <div className=' bg-white w-full z-50 h-36'>
-      <Navbar />
+
     </div>
 
     {/* <div className="max-h-screen overflow-y-scroll snap snap-y snap-mandatory ScrollingLayer"> */}
@@ -49,7 +49,7 @@ const Home: NextPage = () => (
     </div> */}
 
 
-    <Footer />
+
   </div>
 )
 

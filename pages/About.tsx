@@ -9,7 +9,7 @@ import styles from '../styles/Home.module.css'
 const Home: NextPage = () => {
   return (
     <div>
-  <Navbar/>
+
     <div>
          <div className="w-2/3 m-auto justify-items-center">
               <h1 className="font-semibold text-2xl tracking-widest m-4 tracking-tight text-black md:px-12 px-2  mx-auto lg:text-center text-left  lg:my-8">About if/Lab</h1>
@@ -46,7 +46,7 @@ const Home: NextPage = () => {
                 </div>
          </div>
          </div>
-  <Footer/>
+
   </div>
   )
 }
