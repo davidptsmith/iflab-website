@@ -1,6 +1,9 @@
-import * as firebase from "firebase/app";
-import "firebase/storage";
-import "firebase/firestore";
+// @ts-ignore
+import firebase from 'firebase/compat/app';
+import 'firebase/compat/auth';
+import 'firebase/compat/storage';
+import 'firebase/compat/firestore';
+
 
 // Your web app's Firebase configuration
 var firebaseConfig = {
@@ -12,10 +15,9 @@ var firebaseConfig = {
    appId: "1:515678089706:web:65285a95c6d3d748a54293"
  };
  // Initialize Firebase
- firebase.default.initializeApp(firebaseConfig);
+ firebase.initializeApp(firebaseConfig);
 
- const projectStorage = firebase.default.storage();
- const projectFirestore = firebase.default.firestore(); 
-
+ const projectStorage = firebase.storage();
+ const projectFirestore = firebase.firestore(); 
 
  export {projectStorage , projectFirestore};

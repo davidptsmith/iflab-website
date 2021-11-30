@@ -1,7 +1,9 @@
+// @ts-ignore
 import {useState, useEffect } from "react";
 import {projectFirestore} from "../firebase/config";
 
 const useFirestore =(collection) => {
+    console.log(collection)
         const[docs, setDocs] = useState([]);
         const[loading, setLoading] = useState(true);
         

@@ -17,8 +17,8 @@ const icon = {
 
 const IflabLogo_SVG = () => {
     return (
+       <div className="grid place-items-center   w-24   md:w-48   h-36">
       <Link href="/" passHref>
-       <div className="w-48  h-36">
                 <motion.svg className="transition duration-500 ease-in-out hover:border-blue-200  transform hover:-translate-y-1 hover:scale-105 fill-current hover:text-blue-200 " id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 896 429.6" >
                      <motion.path   d="M969.6,422.5a4.9,4.9,0,0,0-.5,1.6c-1.6,18-10.3,31.9-24.9,42.2-9.7,6.8-20.6,10.9-32.1,13.4a150.3,150.3,0,0,1-33.4,3.4H769.4V229.9h2.9c33.8,0,67.6-.1,101.5,0,14.4,0,28.5,1.9,42,7.1a68,68,0,0,1,23,14.1c11.1,10.6,16.5,23.7,17.2,38.7.4,9.9-.8,19.5-4.7,28.6-6.6,15.6-18.4,26-33.8,32.5l-7,2.6a16.5,16.5,0,0,0,2,.7c11.6,2.6,22.5,6.8,32.2,13.8,11.8,8.4,20,19.3,23.4,33.5a54,54,0,0,1,.9,5.8l.6,2.4ZM781.7,471.8h92.6c7.7,0,15.3-.4,23-1.1a89.8,89.8,0,0,0,27.8-7.2A59.5,59.5,0,0,0,944.5,450,47.6,47.6,0,0,0,957,419.5c.7-15.4-3.7-28.8-15.1-39.5A59.7,59.7,0,0,0,924,368.7c-13.1-5.6-26.9-7.8-41-7.8-32.9-.2-65.8-.1-98.7-.1l-2.6.2Zm0-122.2h89.4c5.1,0,10.1-.1,15.1-.5a77.9,77.9,0,0,0,26.8-6.8c11.5-5.3,20.5-13.2,25.9-24.8a53,53,0,0,0,4.7-25.4c-.5-13-5.1-24.2-14.7-33.2a59.2,59.2,0,0,0-18.2-11.3c-11.7-4.6-24-6.3-36.5-6.4h-90l-2.5.3Z" transform="translate(-73.6 -151.6)"/>
                      <motion.path  d="M338.9,151.6Q311.8,205,284.5,258.5L213.3,398.6,146.2,530.4l-24.9,49c-.3.6-.7,1.1-1,1.8H105.1c.5-1.1.8-1.9,1.2-2.7L207.1,380.4,311.3,175.7l10.9-21.5a27.7,27.7,0,0,0,1-2.6Z" transform="translate(-73.6 -151.6)"/>
@@ -49,8 +49,8 @@ const IflabLogo_SVG = () => {
                      <motion.path  d="M335.5,516.2H346V525H335.5A86,86,0,0,1,335.5,516.2Z" transform="translate(-73.6 -151.6)"/>
                   
                      </motion.svg>
-        </div>
       </Link>
+        </div>
         // <Link href="/" passHref>
         // <div className="w-48  h-36">
         //         <motion.svg className="transition duration-500 ease-in-out hover:border-blue-200  transform hover:-translate-y-1 hover:scale-105 fill-current hover:text-blue-200 " id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 896 429.6" >

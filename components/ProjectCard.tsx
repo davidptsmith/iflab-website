@@ -1,9 +1,5 @@
+// @ts-ignore
 import React from 'react'
-
-
-
-
-
 
 const ProjectCard = () => {
     return (

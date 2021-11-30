@@ -96,3 +96,27 @@
       shadow-lg
       hover:text-blue-300  transition duration-200 ease-in-out hover:border-blue-200  hover:scale-105
   }
+
+
+
+
+  /* Scrolling function */ 
+  @layer utilities {
+    .snap {
+      scroll-snap-type: var(--scroll-snap-direction) var(--scroll-snap-constraint);
+    }
+    .snap-y {
+      --scroll-snap-direction: y;
+    }
+    .snap-mandatory {
+      --scroll-snap-constraint: mandatory;
+    }
+    .snap-start {
+      scroll-snap-align: start;
+    }
+  }
+
+  .ScrollingLayer{
+      scroll-behavior: smooth;
+  }
+  
