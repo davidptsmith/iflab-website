@@ -1,4 +1,4 @@
-
+// @ts-ignore 
 import type { NextPage } from 'next'
 import Footer from '../../components/Footer'
 import Navbar from '../../components/Navbar'
