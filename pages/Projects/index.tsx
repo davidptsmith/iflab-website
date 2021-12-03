@@ -2,17 +2,17 @@
 import type { NextPage } from 'next'
 import Footer from '../../components/Footer'
 import Navbar from '../../components/Navbar'
-// import styles from '../styles/Home.module.css'
 import Head from 'next/head'
 import Image from 'next/image'
+
+import Project from "../../components/Projects/Project"
 
 import path from 'path'
 import fs from 'fs'
 import matter from 'gray-matter'
-import Post from '../../components/blog/Post'
+
 import { sortByDate } from "../../utils"
 import { useState } from 'react'
-
 import { motion } from 'framer-motion';
 import NoImagesCard from '../../components/NoResultsCard'
 
@@ -61,45 +61,25 @@ const Home: NextPage = ({ projects }) => {
 
       <div className="md:w-2/3 lg:w-2/3 xl:w-1/3 2xl:w-1/3  w-5/6 relative mb-6 mx-auto mt-4 pt-0 lg:mb-12 flex " >
         <button
-          className="mx-auto text-center font-light 
-                       text-xs  md:text-sm lg:text-sm xl:text-sm 2xl:text-sm
-                       p-2 w-1/4  text-gray-600 
-                       shadow-md 
-                       hover:text-blue-300  transition duration-200 ease-in-out hover:border-blue-200  hover:scale-105
-                       "
+          className="insightsFilterButton"
           onClick={() => applyFiler(setText, "Architecture")}
         >
           Architecture
         </button>
         <button
-          className="mx-auto text-center font-light 
-                        text-xs  md:text-sm lg:text-sm xl:text-sm 2xl:text-sm
-                        p-2 w-1/4  text-gray-600 
-                        shadow-md 
-                        hover:text-blue-300  transition duration-200 ease-in-out hover:border-blue-200  hover:scale-105
-                        "
+          className="insightsFilterButton"
           onClick={() => applyFiler(setText, "Public Art")}
         >
           Public Art
         </button>
         <button
-          className="mx-auto text-center font-light 
-                        text-xs  md:text-sm lg:text-sm xl:text-sm 2xl:text-sm
-                        p-2 w-1/4  text-gray-600 
-                        shadow-md shadow-inner-md 
-                        hover:text-blue-300  transition duration-200 ease-in-out hover:border-blue-200  hover:scale-105
-                        "
+          className="insightsFilterButton"
           onClick={() => applyFiler(setText, "Fabrication")}
         >
           Fabrication
         </button>
         <button
-          className="mx-auto text-center font-light 
-                        text-xs  md:text-sm lg:text-sm xl:text-sm 2xl:text-sm
-                        p-2 w-1/4  text-gray-600 
-                        shadow-md shadow-inner-md 
-                        hover:text-blue-300  transition duration-200 ease-in-out hover:border-blue-200  hover:scale-105
-                        "
+          className="insightsFilterButton"
           onClick={() => applyFiler(setText, "")}
         >
           Reset
@@ -155,16 +135,14 @@ const searchBlog = (projects, text) => {
     return (
 
       <ul className="container sm:w-10/12 w-11/12  grid sm:grid-cols-2 xl:grid-cols-3 grid-cols-1 gap-x-8 gap-y-8 m-auto">
-
-
           {/* <ul className="container sm:w-10/12 w-11/12  gap-2 m-auto"> */}
           {filteredPosts.map((projects, index) => (
             <div key={index} className=' overflow-hidden cursor-pointer h-full rounded-lg shadow-lg transition duration-500 ease-in-out transform  hover:shadow-2xl ' >
             
             <motion.li className="m-auto "  layout >
 
-              <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.1 }}>
-                <Post post={projects} key={index} />
+              <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.5 }}>
+                <Project project={projects} key={index} />
 
               </motion.div>
             </motion.li>

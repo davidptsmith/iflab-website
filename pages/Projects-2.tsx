@@ -10,14 +10,11 @@ import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
   return (
-<div>
-
-    <div className=" mx-auto">
-    <PinterestPresenter/>
-
-          </div>
-
-</div>
+    <div>
+      <div className=" mx-auto">
+        <PinterestPresenter />
+      </div>
+    </div>
   )
 }
 

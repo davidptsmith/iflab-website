@@ -2,39 +2,28 @@ import Link from 'next/link'
 
 export default function Project({ project }) {
   return (
-    <Link href={`/Insights/${project.slug}`} passHref  >
+    <Link href={`/Projects/${project.slug}`} passHref  >
       <div className='flex flex-col '>
 
-
-
-        <img src={project.frontmatter.cover_image} alt='' className=" h-72   min-w-full align-bottom object-cover opacity-90" />
-
-        {/* <div className='m-4 text- font-thin'>Posted on {post.frontmatter.date}</div> */}
-
+        <img src={project.frontmatter.cover_image} alt='' className=" h-72  min-w-full align-bottom object-cover opacity-90" />
 
         <h3 className='m-4  text-lg '>
           {project.frontmatter.title}
         </h3>
 
-
         <p className='text-sm  text-justify font-thin mx-4 '>
           {project.frontmatter.excerpt}
         </p>
-
 
         <div className="block mt-4 p-8">
           <div className="p-2 w-full h-10"></div>
         </div>
 
         <div className="absolute inset-x-0 bottom-0 ">
-
           <div className='flex flex-wrap   text-xs gap-2 m-4 '>
             {showTags(project)}
           </div>
-
         </div>
-
-
 
       </div>
     </Link>

@@ -12,7 +12,7 @@ export default function ProjectPage({
 }) {
   return (
     <div className='mx-auto sm:w-6/12 w-11/12 '>
-      <Link href='/Insights'>
+      <Link href='/Projects'>
         <a className=' font-light'> {"<--"} Go Back</a>
       </Link>
       <br/>

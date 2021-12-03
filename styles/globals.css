@@ -91,12 +91,19 @@
   .filterbutton{
       @apply mx-auto text-center font-light 
       text-xs  md:text-sm lg:text-sm xl:text-sm 2xl:text-sm
-      p-2 w-1/4  text-gray-600 shadow-inner
+      p-2 w-1/4  text-gray-600 
       shadow-lg
-      hover:text-blue-300  transition duration-200 ease-in-out hover:border-blue-200  hover:scale-105
+      hover:text-blue-300  transition duration-200 ease-in-out hover:border-blue-200  hover:scale-105;
   }
 
 
+  .insightsFilterButton{
+  @apply  mx-auto text-center font-light 
+                        text-xs  md:text-sm lg:text-sm xl:text-sm 2xl:text-sm
+                        p-2 w-1/4  text-gray-600 
+                        shadow-md 
+                        hover:text-blue-300  transition duration-200 ease-in-out hover:border-blue-200  hover:scale-105;
+  }
 
 
   /* Scrolling function */ 
@@ -132,3 +139,5 @@
       @apply text-2xl font-semibold mt-8 mb-4
     }
   }
+
+  
