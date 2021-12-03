@@ -16,7 +16,7 @@ import { useState } from 'react'
 import { motion } from 'framer-motion';
 import NoImagesCard from '../../components/NoResultsCard'
 
-const Home: NextPage = ({ posts }) => {
+const Home: NextPage = ({ projects }) => {
 
   const [text, setText] = useState("");
 
@@ -114,7 +114,7 @@ const Home: NextPage = ({ posts }) => {
 
 
 
-      {searchBlog(posts, text)}
+      {searchBlog(projects, text)}
 
 
 
@@ -126,15 +126,15 @@ export default Home
 
 
 
-const searchBlog = (posts, text) => {
+const searchBlog = (projects, text) => {
 
-  //filter post by title, then by tags, then by description
-  const filteredPosts = posts.filter(post => post.frontmatter.title.toLowerCase().includes(text.toLowerCase()) ||
-    post.frontmatter.tags.some((tag) => {
+  //filter projects by title, then by tags, then by description
+  const filteredPosts = projects.filter(projects => projects.frontmatter.title.toLowerCase().includes(text.toLowerCase()) ||
+  projects.frontmatter.tags.some((tag) => {
       return tag.toLowerCase().includes(text.toLowerCase())
     }
     ) ||
-    post.frontmatter.excerpt.toLowerCase().includes(text.toLowerCase())
+    projects.frontmatter.excerpt.toLowerCase().includes(text.toLowerCase())
 
   )
 
@@ -158,13 +158,13 @@ const searchBlog = (posts, text) => {
 
 
           {/* <ul className="container sm:w-10/12 w-11/12  gap-2 m-auto"> */}
-          {filteredPosts.map((post, index) => (
+          {filteredPosts.map((projects, index) => (
             <div key={index} className=' overflow-hidden cursor-pointer h-full rounded-lg shadow-lg transition duration-500 ease-in-out transform  hover:shadow-2xl ' >
             
             <motion.li className="m-auto "  layout >
 
               <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.1 }}>
-                <Post post={post} key={index} />
+                <Post post={projects} key={index} />
 
               </motion.div>
             </motion.li>
@@ -190,15 +190,15 @@ function applyFiler(setText, text) {
 export async function getStaticProps() {
 
   //get files from post dir 
-  const files = fs.readdirSync(path.join('posts'))
+  const files = fs.readdirSync(path.join('projects'))
 
-  //get slug and front matter from posts 
-  const posts = files.map(filename => {
+  //get slug and front matter from projects 
+  const projects = files.map(filename => {
 
     //create slug
     const slug = filename.replace('.md', "")
 
-    const markdownWithMeta = fs.readFileSync(path.join('posts', filename,), 'utf-8')
+    const markdownWithMeta = fs.readFileSync(path.join('projects', filename,), 'utf-8')
 
     const { data: frontmatter } = matter(markdownWithMeta)
 
@@ -210,7 +210,7 @@ export async function getStaticProps() {
 
   return {
     props: {
-      posts: posts.sort(sortByDate),
+      projects: projects.sort(sortByDate),
     }
   }
 }
