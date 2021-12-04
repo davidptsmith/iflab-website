@@ -37,7 +37,7 @@ const Home: NextPage = ({ projects }) => {
         </h2>
 
       </div>
-
+{/* 
 
       <div className="flex m-auto content-center justify-items-start ">
 
@@ -56,7 +56,7 @@ const Home: NextPage = ({ projects }) => {
             </svg>
           </div>
         </div>
-      </div>
+      </div> */}
 
 
       <div className="md:w-2/3 lg:w-2/3 xl:w-1/3 2xl:w-1/3  w-5/6 relative mb-6 mx-auto mt-4 pt-0 lg:mb-12 flex " >
@@ -110,14 +110,12 @@ const searchBlog = (projects, text) => {
 
   //filter projects by title, then by tags, then by description
   const filteredPosts = projects.filter(projects => projects.frontmatter.title.toLowerCase().includes(text.toLowerCase()) ||
-  projects.frontmatter.tags.some((tag) => {
+    projects.frontmatter.tags.some((tag) => {
       return tag.toLowerCase().includes(text.toLowerCase())
     }
     ) ||
     projects.frontmatter.excerpt.toLowerCase().includes(text.toLowerCase())
-
   )
-
 
   if (filteredPosts.length == 0) {
     return (
@@ -135,26 +133,22 @@ const searchBlog = (projects, text) => {
     return (
 
       <ul className="container sm:w-10/12 w-11/12  grid sm:grid-cols-2 xl:grid-cols-3 grid-cols-1 gap-x-8 gap-y-8 m-auto">
-          {/* <ul className="container sm:w-10/12 w-11/12  gap-2 m-auto"> */}
-          {filteredPosts.map((projects, index) => (
-            <div key={index} className=' overflow-hidden cursor-pointer h-full rounded-lg shadow-lg transition duration-500 ease-in-out transform  hover:shadow-2xl ' >
-            
-            <motion.li className="m-auto "  layout >
+        {filteredPosts.map((projects, index) => (
+          <div key={index} className=' overflow-hidden cursor-pointer h-full rounded-lg shadow-lg transition duration-500 ease-in-out transform  hover:shadow-2xl ' >
 
+            <motion.li className="m-auto " layout >
               <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.5 }}>
                 <Project project={projects} key={index} />
 
               </motion.div>
             </motion.li>
-        </div>
+          </div>
 
-          ))}
+        ))}
 
       </ul>
 
     )
-    // }
-
   }
 }
 

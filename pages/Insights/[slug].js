@@ -45,7 +45,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params: { slug } }) {
   const markdownWithMeta = fs.readFileSync(
-    path.join('projects-2', slug + '.md'),
+    path.join('posts', slug + '.md'),
     'utf-8'
   )
 
