@@ -18,31 +18,31 @@ const Navbar = () => {
                 </button>
             </div>
 
-            <div className="w-full  flex-grow lg:flex lg:items-center cursor-pointer hidden lg:w-auto justify-end">
+            <div className="w-full  flex-grow lg:flex lg:items-center   hidden lg:w-auto justify-end">
                 <Link href="/" passHref   >
-                    <div className="navButtons" >
+                    <a className="navButtons" >
                         Home
-                    </div>
+                    </a>
                 </Link>
                 <Link href="/About" passHref>
-                    <div className="navButtons" >                     
+                    <a className="navButtons" >                     
                        About
-                    </div>
+                    </a>
                 </Link>
                 <Link href="/Projects" passHref   >
-                    <div className="navButtons" >                       
+                    <a className="navButtons" >                       
                      Projects
-                    </div>
+                    </a>
                 </Link>
                 <Link href="/Insights" passHref  >
-                    <div className="navButtons" >                      
+                    <a className="navButtons" >                      
                       Insights
-                    </div>
+                    </a>
                 </Link>
                 <Link href="/Contact" passHref>
-                    <div className="navButtons" >                     
+                    <a className="navButtons" >                     
                        Contact
-                    </div>
+                    </a>
                 </Link>
 
             </div>

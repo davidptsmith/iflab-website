@@ -24,7 +24,7 @@ const Home: NextPage = ({ projects }) => {
     <div>
 
       <Head>
-        <title>Iflab Insights</title>
+        <title>Iflab Projects</title>
         <meta name="description" content="Iflab Insights" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -37,7 +37,7 @@ const Home: NextPage = ({ projects }) => {
         </h2>
 
       </div>
-{/* 
+      {/* 
 
       <div className="flex m-auto content-center justify-items-start ">
 
@@ -59,7 +59,7 @@ const Home: NextPage = ({ projects }) => {
       </div> */}
 
 
-      <div className="md:w-2/3 lg:w-2/3 xl:w-1/3 2xl:w-1/3  w-5/6 relative mb-6 mx-auto mt-4 pt-0 lg:mb-12 flex " >
+      <div className="md:w-2/3 lg:w-2/3 xl:w-1/3 2xl:w-1/3  w-5/6 relative mb-6 mx-auto mt-4  pt-0 lg:mb-12 flex " >
         <button
           className="insightsFilterButton"
           onClick={() => applyFiler(setText, "Architecture")}
@@ -93,8 +93,8 @@ const Home: NextPage = ({ projects }) => {
       </div>
 
 
-      <ul className="container  flex flex-wrap  w-10/12 m-auto">
-      {searchBlog(projects, text)}
+      <ul className="container lg:mt-24  flex flex-wrap  w-10/12 m-auto">
+        {searchBlog(projects, text)}
       </ul>
 
 
@@ -130,35 +130,34 @@ const searchBlog = (projects, text) => {
       </motion.li>
     )
   }
-  if(filteredPosts.length === 1)
-  {
+  if (filteredPosts.length === 1) {
     return filteredPosts.map((projects, index) => (
 
-          <motion.li className="  flex-col flex  m-auto w-2/3 p-4" key={index} layout >
-              
-                  <motion.div initial={{opacity: 0}} animate={{opacity:1}} transition={{delay: 0.1}}>
+      <motion.li className="  flex-col flex  m-auto w-2/3 p-4" key={index} layout >
 
-                  <Project project={projects} key={index} />
+        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.1 }}>
 
-                  {/* <h3>{doc.FullName}</h3>
+          <Project project={projects} key={index} />
+
+          {/* <h3>{doc.FullName}</h3>
                   <img src={doc.primaryImageUrl} alt="If/lab Image"/> */}
-              </motion.div> 
-          </motion.li>
-      ))
+        </motion.div>
+      </motion.li>
+    ))
   }
   else {
     return filteredPosts.map((projects, index) => (
-          // <div key={index} className='  ' >
+      // <div key={index} className='  ' >
 
-            <motion.li  key={index}  className=" flex-grow  m-auto p-4" layout >
-              <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.5 }}>
-                <Project project={projects} key={index} />
+      <motion.li key={index} className=" flex-grow  m-auto p-4" layout >
+        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.5 }}>
+          <Project project={projects} key={index} />
 
-              </motion.div>
-            </motion.li>
-          // </div>
+        </motion.div>
+      </motion.li>
+      // </div>
 
-        )
+    )
 
 
 

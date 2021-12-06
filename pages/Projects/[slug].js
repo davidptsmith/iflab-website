@@ -18,10 +18,10 @@ export default function ProjectPage({
 
   return (
     <>
-      <Link href='/Projects'>
+      {/* <Link href='/Projects'>
         <a className=' font-light'> {"<--"} Go Back</a>
       </Link>
-
+ */}
 
 
 
@@ -63,7 +63,7 @@ export default function ProjectPage({
 
         <div className='text-right   mt-14'>
           <Link href='/Projects'>
-            <a className=' font-light '>  See More Projects {"-->"} </a>
+            <a className=' font-light '>  See More Projects    </a>
           </Link>
         </div>
       </div>

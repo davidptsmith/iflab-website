@@ -39,7 +39,7 @@ const Home: NextPage = ({ posts }) => {
       </div>
 
 
-      <div className="flex m-auto content-center justify-items-start ">
+      <div className="sm:flex m-auto content-center hidden sm:visible justify-items-start ">
 
         <div className="pt-2  md:w-2/3  lg:w-2/3 xl:w-1/3 2xl:w-1/3  w-5/6 relative mx-auto text-gray-600 shadow-md shadow-inner-md ">
           <input className="border-2  font-medium font-mono w-full border-gray-300 bg-white 
@@ -103,7 +103,7 @@ const Home: NextPage = ({ posts }) => {
           onClick={() => applyFiler(setText, "")}
         >
           Reset
-          <div className="absolute right-0 top-0 align-middle mt-3 mr-4">
+          <div className="absolute right-0 top-0  align-middle mt-3 mr-4">
 
             {/* <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" viewBox="0 0 12 12">
                             <path fillRule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
@@ -113,9 +113,11 @@ const Home: NextPage = ({ posts }) => {
       </div>
 
 
+<div className='lg:mt-24 '>
 
       {searchBlog(posts, text)}
 
+</div>
 
 
     </div>

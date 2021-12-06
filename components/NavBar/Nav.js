@@ -6,10 +6,8 @@ import Link from 'next/link';
 function Nav() {
     const [isOpen, setIsOpen] = useState(false);
     return (
-        <div>
-
-
-            <nav className="  lg:pt-2 pt-0 cursor-pointer w-4/5  flex flex-row  justify-between self-center  m-auto lg:border-transparent border-b-2">
+        <div >
+            <nav className="  lg:pt-2 pt-0 cursor-pointer w-4/5  md:mb-24 flex flex-row  justify-between self-center  m-auto  border-b">
 
 
                 <div className="flex-shrink-0 my-auto">
@@ -19,7 +17,7 @@ function Nav() {
 
 
                 {/* <div className="hidden justify-end md:block"> */}
-                <div className="w-full  flex-grow lg:flex lg:items-center cursor-pointer hidden sm:visible md:w-auto justify-end">
+                <div className="w-full  flex-grow lg:flex lg:items-center pt-12 cursor-pointer hidden sm:visible md:w-auto justify-end">
 
 
                     <Link href="/" passHref   >
