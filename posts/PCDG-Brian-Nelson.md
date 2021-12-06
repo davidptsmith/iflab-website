@@ -6,9 +6,7 @@ cover_image: '/images/posts/BLOG_PCDG/1.jpg'
 tags: ["Perth", "perth computational design group", "computational design", "grasshopper", "generative design"]
 ---
 
-## Structural Composites in Art, Architecture and Infrastructure by Brian A Nelson [PCDG #3]
 
-**OCTOBER 01, 2019 IN COMPUTATIONAL DESIGN**
 
 We are happy to announce the third Perth Computational Design Group event, with two excellent speakers doing some amazing things!
 
@@ -22,7 +20,7 @@ https://www.meetup.com/Perth-Computational-Design-Group
 </div>
 
 Meet the speaker..
-CAPITAL HOUSE AUSTRALASIA (CHA) - Brian A Nelson 
+<a href="http://www.capitalhouse.com.au/composites/" target="_blank">CAPITAL HOUSE AUSTRALASIA (CHA)</a> - Brian A Nelson 
 
 Brian Nelson is a founding director of CHA (Consulting Civil & Structural Engineers).
 

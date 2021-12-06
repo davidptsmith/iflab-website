@@ -3,7 +3,7 @@ import Link from 'next/link'
 export default function Post({ post }) {
   return (
     <Link href={`/Insights/${post.slug}`} passHref  >
-      <div className='flex flex-col '>
+      <div className='flex flex-col po '>
 
 
 
