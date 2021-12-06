@@ -2,12 +2,13 @@ import '../styles/globals.css'
 import type { AppProps } from 'next/app'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
+import Nav from '../components/NavBar/Nav'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
 
     <>
-  <Navbar/>
+  <Nav/>
   <Component {...pageProps} />
    <Footer />
   </>

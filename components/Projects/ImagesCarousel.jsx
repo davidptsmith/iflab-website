@@ -52,7 +52,7 @@ class ImagesCarousel extends Component {
   render() {
     return (
 
-        <div className="relative modalheroimage overflow-hidden  mx-auto ">
+        <header className="relative modalheroimage overflow-hidden  mx-auto ">
 
           <AiOutlineLeft
             onClick={this.prevSlide}
@@ -109,7 +109,7 @@ class ImagesCarousel extends Component {
  
             
 
-    </div>
+    </header>
 
     );
   }

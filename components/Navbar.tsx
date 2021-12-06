@@ -5,9 +5,9 @@ import Link from 'next/link';
 const Navbar = () => {
     return (
 
-        <nav className="  lg:pt-4 pt-0 cursor-pointer w-4/5 flex flex-row  justify-between self-center  m-auto lg:border-transparent border-b-2">
+        <nav className="  lg:pt-2 pt-0 cursor-pointer w-4/5 flex flex-row  justify-between self-center  m-auto lg:border-transparent border-b-2">
 
-            <div className="flex items-center mt-8  ">
+            <div className="flex items-center  ">
 
                 <IflabLogoSVG />
 
