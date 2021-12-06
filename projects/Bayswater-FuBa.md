@@ -2,7 +2,7 @@
 title: "Bayswater FuBa" 
 date: 'JUNE 18, 2019'
 excerpt: 'this is more information and things about the project. Look at this test, it is testing the length of the item'
-cover_image: '/images/projects/Anemoi/Snip - 1.jpg'
+cover_image: '/images/projects/Bayswater FuBa/cover_image.png'
 aside_image: '/images/posts/BLOG_DrawingAutomation/1.jpg'
 tags: ["Shop Drawings", "Fabrication", "Cladding", "Automation", "Grasshopper", "Computational Design", "Rhino 3D"]
 tables: {

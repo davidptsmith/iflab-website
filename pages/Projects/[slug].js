@@ -19,7 +19,8 @@ export default function ProjectPage({
       </Link>
 
       {/* image removed? it does look cleaner? */}
-      <img src={cover_image} className="modalheroimage w-full object-cover " alt="This is a project" />
+      <img src={cover_image} className="modalheroimage w-full  object-cover " alt="This is a project" />
+
 
 
       <div className=' prose max-w-none mt-24  mx-auto sm:w-2/3 w-11/12 '>

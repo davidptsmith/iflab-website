@@ -93,8 +93,9 @@ const Home: NextPage = ({ projects }) => {
       </div>
 
 
-
+      <ul className="container  flex flex-wrap  w-10/12 m-auto">
       {searchBlog(projects, text)}
+      </ul>
 
 
 
@@ -130,23 +131,20 @@ const searchBlog = (projects, text) => {
     )
   }
   else {
-    return (
+    return filteredPosts.map((projects, index) => (
+          // <div key={index} className='  ' >
 
-      <ul className="container sm:w-10/12 w-11/12  grid sm:grid-cols-2 xl:grid-cols-3 grid-cols-1 gap-x-8 gap-y-8 m-auto">
-        {filteredPosts.map((projects, index) => (
-          <div key={index} className=' overflow-hidden cursor-pointer h-full rounded-lg shadow-lg transition duration-500 ease-in-out transform  hover:shadow-2xl ' >
-
-            <motion.li className="m-auto " layout >
+            <motion.li  key={index}  className=" flex-grow  m-auto p-4" layout >
               <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.5 }}>
                 <Project project={projects} key={index} />
 
               </motion.div>
             </motion.li>
-          </div>
+          // </div>
 
-        ))}
+        )
 
-      </ul>
+
 
     )
   }
