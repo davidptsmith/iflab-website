@@ -151,6 +151,32 @@ const searchBlog = (posts, text) => {
       </motion.li>
     )
   }
+  if(filteredPosts.length === 1)
+  {
+    return (
+
+      <ul className="container w-1/3   gap-x-8 gap-y-8 m-auto">
+
+
+          {/* <ul className="container sm:w-10/12 w-11/12  gap-2 m-auto"> */}
+          {filteredPosts.map((post, index) => (
+            <div key={index} className=' overflow-hidden cursor-pointer h-full rounded-lg shadow-lg transition duration-500 ease-in-out transform  hover:shadow-2xl ' >
+            
+            <motion.li className="m-auto "  layout >
+
+              <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.1 }}>
+                <Post post={post} key={index} />
+
+              </motion.div>
+            </motion.li>
+        </div>
+
+          ))}
+
+      </ul>
+
+    )
+  }
   else {
     return (
 

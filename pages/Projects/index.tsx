@@ -130,6 +130,22 @@ const searchBlog = (projects, text) => {
       </motion.li>
     )
   }
+  if(filteredPosts.length === 1)
+  {
+    return filteredPosts.map((projects, index) => (
+
+          <motion.li className="  flex-col flex  m-auto w-2/3 p-4" key={index} layout >
+              
+                  <motion.div initial={{opacity: 0}} animate={{opacity:1}} transition={{delay: 0.1}}>
+
+                  <Project project={projects} key={index} />
+
+                  {/* <h3>{doc.FullName}</h3>
+                  <img src={doc.primaryImageUrl} alt="If/lab Image"/> */}
+              </motion.div> 
+          </motion.li>
+      ))
+  }
   else {
     return filteredPosts.map((projects, index) => (
           // <div key={index} className='  ' >
