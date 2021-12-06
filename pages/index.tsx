@@ -12,46 +12,51 @@ import TestimonialPresenter from '../components/home_page/TestimonialPresenter'
 import HeroSection from '../components/home_page/HeroSection'
 import ContactUs from '../components/home_page/ContactUs'
 import FAQ from '../components/home_page/FAQ'
+import Nav from "../components/NavBar/Nav"
 
 
 
 
 const Home: NextPage = () => (
-  <div>
-    <div className=' bg-white w-full z-50 h-36'>
 
-    </div>
+    <div className=' bg-white '>
+  
+  <div className="max-h-screen overflow-y-scroll snap snap-y snap-mandatory ScrollingLayer">
 
-    {/* <div className="max-h-screen overflow-y-scroll snap snap-y snap-mandatory ScrollingLayer"> */}
-      {/* <section className='w-full h-screen snap-start' > */}
+<div className=' bg-white absolute z-50 w-full'>
+  <Nav/>
+</div>
+
+      <section className='w-full h-screen pt-8 snap-mandatory snap-start' >
         <HeroSection />
-      {/* </section> */}
+      </section>
 
-      {/* <section className='w-full h-screen snap-start' > */}
+      <section className='w-full  snap-mandatory snap-start pt-8' >
         <KeyProjectsPresenter />
-      {/* </section>
-      <section className='w-full h-screen bg-blue-100 snap-start' > */}
+      </section>
+      <section className='w-full  bg-blue-100 snap-mandatory snap-start pt-8' >
 
         <TestimonialPresenter />
-      {/* </section>
-      <section className='w-full h-screen snap-start ' > */}
-
-      {/* </section>
-      <section className='w-full h-screen bg-blue-100 snap-start' > */}
+      </section>
+ 
+      <section className='w-full  bg-blue-100 snap-mandatory snap-start pt-8' >
         <FAQ />
-      {/* </section>
-      <section className='w-full h-screen snap-start' > */}
+      </section>
+      <section className='w-full  snap-mandatory snap-start pt-8' >
         <ContactUs />
-      {/* </section>
-      <section className='w-full h-screen bg-blue-100 snap-start' > */}
+      </section>
+      <section className='w-full  bg-blue-100 snap-mandatory snap-start pt-8' >
         <KeyProjectsPresenter />
-      {/* </section> */}
-{/* 
-    </div> */}
+      </section>
 
+      <section className='w-full  bg-blue-100 snap-mandatory snap-end  pt-8' >
+    <h2 className='font-semibold text-xl mt-12'>Contact Us </h2>
 
-
+      <Footer />
+      </section>
   </div>
+  </div>
+
 )
 
 export default Home
