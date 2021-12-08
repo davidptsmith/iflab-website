@@ -23,15 +23,15 @@ const Home: NextPage = () => (
   
   <div className="max-h-screen overflow-y-scroll snap snap-y snap-mandatory ScrollingLayer">
 
-<div className=' bg-white absolute z-50 w-full'>
+{/* <div className=' bg-white absolute z-50 w-full'>
   <Nav/>
-</div>
+</div> */}
 
       <section className='w-full h-screen pt-8 snap-mandatory snap-start' >
         <HeroSection />
       </section>
 
-      <section className='w-full  snap-mandatory snap-start pt-8' >
+      <section className='w-full lg:h-screen  snap-mandatory snap-start pt-8' >
         <KeyProjectsPresenter />
       </section>
       <section className='w-full  bg-blue-100 snap-mandatory snap-start pt-8' >
@@ -52,7 +52,7 @@ const Home: NextPage = () => (
       <section className='w-full  bg-blue-100 snap-mandatory snap-end  pt-8' >
     <h2 className='font-semibold text-xl mt-12'>Contact Us </h2>
 
-      <Footer />
+      {/* <Footer /> */}
       </section>
   </div>
   </div>

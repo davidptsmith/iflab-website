@@ -31,8 +31,8 @@ const Home: NextPage = ({ posts }) => {
 
 
 
-      <div className=" md:w-2/3  lg:w-2/3 xl:w-1/3 2xl:w-1/3  w-5/6 relative my-4 lg:my-0 mx-auto flex flex-row ">
-        <h2 className="text-xl font-medium font-mono   ">
+      <div className=" md:w-2/3  lg:w-2/3 xl:w-1/3 2xl:w-1/3 lg:mt-24  w-5/6 relative my-4 lg:my-0 mx-auto flex flex-row ">
+        <h2 className="text-2xl font-">
           Find Something That Interests You...
         </h2>
 
@@ -102,7 +102,7 @@ const Home: NextPage = ({ posts }) => {
                         "
           onClick={() => applyFiler(setText, "")}
         >
-          Reset
+          All
           <div className="absolute right-0 top-0  align-middle mt-3 mr-4">
 
             {/* <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" viewBox="0 0 12 12">
@@ -182,7 +182,7 @@ const searchBlog = (posts, text) => {
   else {
     return (
 
-      <ul className="container sm:w-10/12 w-11/12  grid sm:grid-cols-2 xl:grid-cols-3 grid-cols-1 gap-x-8 gap-y-8 m-auto">
+      <ul className="container sm:w-10/12 w-10/12  grid sm:grid-cols-2 xl:grid-cols-3 grid-cols-1 gap-x-8 gap-y-8 m-auto">
 
 
           {/* <ul className="container sm:w-10/12 w-11/12  gap-2 m-auto"> */}

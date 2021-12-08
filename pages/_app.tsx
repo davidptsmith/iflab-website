@@ -8,9 +8,9 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
 
     <>
-  {/* <Nav/> */}
+  <Nav/>
   <Component {...pageProps} />
-   {/* <Footer /> */}
+   <Footer />
   </>
   )
 }

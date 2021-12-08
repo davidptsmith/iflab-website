@@ -7,7 +7,7 @@ aside_image: '/images/posts/BLOG_DrawingAutomation/1.jpg'
 tags: ["Architecture", "Fabrication", "Cladding", "Automation", "Grasshopper", "Computational Design", "Rhino 3D"]
 tables: {
   items: [
-    ["People", "Value"],
+    ["People", "This sis the value "],
     ["Project Details", "Value"],
     ["Budget", "Value"],
     ["Location", "Value"],

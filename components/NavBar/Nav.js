@@ -7,7 +7,7 @@ function Nav() {
     const [isOpen, setIsOpen] = useState(false);
     return (
         <div >
-            <nav className="  lg:pt-2 pt-0 cursor-pointer w-4/5  mb-2 flex flex-row  justify-between self-center  m-auto  border-b">
+            <nav className="  lg:pt-2 pt-4 cursor-pointer w-4/5  mb-2 flex flex-row  justify-between self-center  m-auto pb-2 border-b">
 
 
                 <div className="flex-shrink-0 my-auto">

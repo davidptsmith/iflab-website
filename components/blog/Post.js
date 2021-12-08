@@ -7,22 +7,22 @@ export default function Post({ post }) {
 
 
 
-        <img src={post.frontmatter.cover_image} alt='' className=" h-72 min-w-full align-bottom object-cover opacity-90" />
+        <img src={post.frontmatter.cover_image} alt='' className="h-40  md:h-72 min-w-full align-bottom object-cover opacity-90" />
 
         {/* <div className='m-4 text- font-thin'>Posted on {post.frontmatter.date}</div> */}
 
 
-        <h3 className='m-4 font-semibold text-lg '>
+        <h3 className='mx-4 md:pt-4 pt-2 font-semibold md:text-lg '>
           {post.frontmatter.title}
         </h3>
 
 
-        <p className='text-sm  text-gray-600  text-justify font-normal mx-4 '>
+        <p className='md:text-sm  text-xs text-gray-600  text-justify font-normal mx-4 m-2 '>
           {post.frontmatter.excerpt}
         </p>
 
 
-        <div className="sm:block hidden mt-4 p-8">
+        <div className="sm:block hidden md:mt-4 mt-2 p-8">
           <div className="p-2 w-full h-32 md:h-10"></div>
         </div>
 
