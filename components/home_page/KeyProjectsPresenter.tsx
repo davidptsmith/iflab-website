@@ -5,7 +5,7 @@ const KeyProjectsPresenter = () => {
         <div className=" mt-8 py-16">
             {/* key Projects - three cards, link to projects and contact - 2 buttons  */}
             <div className=" mx-auto   w-2/3">
-                <h1 className="text-2xl italic" >
+                <h1 >
                     Key Projects and link
                 </h1>
             </div>

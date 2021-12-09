@@ -16,12 +16,15 @@ import { useState } from 'react'
 import { motion } from 'framer-motion';
 import NoImagesCard from '../../components/NoResultsCard'
 
+import Nav from '../../components/NavBar/Nav'
+
 const Home: NextPage = ({ posts }) => {
 
   const [text, setText] = useState("");
 
   return (
     <div>
+      <Nav/>
 
       <Head>
         <title>Iflab Insights</title>

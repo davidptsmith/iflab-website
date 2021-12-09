@@ -6,6 +6,7 @@ import { marked } from 'marked'
 import Link from 'next/link'
 import ProjectTable from '../../components/Projects/ProjectTable'
 import ImagesCarousel from '../../components/Projects/ImagesCarousel'
+import Nav from '../../components/NavBar/Nav'
 
 export default function ProjectPage({
   frontmatter: { title, date, cover_image, aside_image, tables },
@@ -14,10 +15,11 @@ export default function ProjectPage({
   imagePaths
 }) {
  
-
+console.log(imagePaths)
 
   return (
     <>
+    <Nav />
       {/* <Link href='/Projects'>
         <a className=' font-light'> {"<--"} Go Back</a>
       </Link>
@@ -101,10 +103,8 @@ export async function getStaticProps({ params: { slug } }) {
 
   const { data: frontmatter, content } = matter(markdownWithMeta)
 
-  // console.log()
 
   //create image path
-
   const imagePath =   path.join("public/images/projects/", frontmatter.title,)
 
    //get files from post dir 
@@ -117,7 +117,7 @@ export async function getStaticProps({ params: { slug } }) {
       } 
    )})
 
-console.log(imagePaths)
+
 
   return {
     props: {

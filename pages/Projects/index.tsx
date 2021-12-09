@@ -15,6 +15,7 @@ import { sortByDate } from "../../utils"
 import { useState } from 'react'
 import { motion } from 'framer-motion';
 import NoImagesCard from '../../components/NoResultsCard'
+import Nav from '../../components/NavBar/Nav'
 
 const Home: NextPage = ({ projects }) => {
 
@@ -22,7 +23,7 @@ const Home: NextPage = ({ projects }) => {
 
   return (
     <div>
-
+    <Nav />
       <Head>
         <title>Iflab Projects</title>
         <meta name="description" content="Iflab Insights" />

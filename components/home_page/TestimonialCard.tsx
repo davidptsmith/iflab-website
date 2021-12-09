@@ -40,13 +40,13 @@ import Link from "next/dist/client/link"
 const TestimonialCard = ({ quote, personName, personPosition, companyLogo }) => {
     return (
         <div className="bg-white dark:bg-gray-800 rounded-t-md  shadow-md w-full mx-auto m-2 sm:m-4  p-1">
-            <div className="bg-white rounded-lg p-2 sm:p-6">
+            <div className="bg-white rounded-lg px-2 sm:px-6">
                 <div className="grid grid-cols-1  sm:flex my-auto mb-2 space-x-2 sm:space-x-6 sm:mb-4">
                     <img className=" h-28 w-28  mb-2 justify-self-start self-center   px-2 space-x-2 mb-2 object-scale-down  "
                         src={companyLogo} alt="photo" />
 
                     <div className="justify-self-start self-center ">
-                        <p className="text-xl text-gray-700 font-normal mb-1">{personName}</p>
+                        <p className="text-xl text-gray-700 font-normal ">{personName}</p>
                         <p className="text-base text-blue-400 font-normal">  {personPosition} </p>
                     </div>
                 </div>

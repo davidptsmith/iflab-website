@@ -7,9 +7,9 @@ const FAQ = () => {
       
 <div className=" px-4 w-10/12 m-auto">
     <div className="mx-auto max-w-6xl flex flex-col md:flex-row">
-        <h2 className="mr-8 w-full md:w-1/3 text-3xl font-extrabold leading-9">
+        <h1 className="mr-8 w-full md:w-1/3 text-2xl leading-9">
             Frequently-asked questions
-        </h2>
+        </h1>
         <dl className="w-full md:w-2/3">
             <dt className="mb-4">
                 <h3 className="text-xl font-semibold">

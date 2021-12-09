@@ -14,49 +14,90 @@ import ContactUs from '../components/home_page/ContactUs'
 import FAQ from '../components/home_page/FAQ'
 import Nav from "../components/NavBar/Nav"
 
+// @ts-ignore 
+import fs from 'fs'
+import path from 'path'
+import HeroCarousel from '../components/home_page/HeroCarousel'
 
 
 
-const Home: NextPage = () => (
+const Home: NextPage = ({ imagePaths }) => (
+  <>
+    <div className="max-h-screen snap snap-y snap-start snap-mandatory ScrollingLayer">
 
-    <div className=' bg-white '>
-  
-  <div className="max-h-screen overflow-y-scroll snap snap-y snap-mandatory ScrollingLayer">
+      <header className=' h-screen w-full flex z-50  absolute'>
+        <HeroCarousel CarouselData={imagePaths} />
+      </header>
 
-{/* <div className=' bg-white absolute z-50 w-full'>
-  <Nav/>
-</div> */}
+      <div className='h-screen' />
+    </div>
 
-      <section className='w-full h-screen pt-8 snap-mandatory snap-start' >
-        <HeroSection />
+
+
+
+    <a  id="Home" className="max-h-screen snap-start snap snap-y snap-mandatory relative ScrollingLayer">
+
+      <Nav />
+
+    </a>
+    <div className=' bg-white prose max-w-none '>
+
+
+
+
+
+      {/* <section className='w-full lg:h-screen  snap-mandatory snap-start pt-8' > */}
+      <section id='Key-Projects'>
+        
+      <KeyProjectsPresenter />
       </section>
+      {/* </section> */}
+      {/* <section className='w-full  bg-blue-100 snap-mandatory snap-start pt-8' > */}
 
-      <section className='w-full lg:h-screen  snap-mandatory snap-start pt-8' >
-        <KeyProjectsPresenter />
-      </section>
-      <section className='w-full  bg-blue-100 snap-mandatory snap-start pt-8' >
+      <TestimonialPresenter />
+      {/* </section> */}
 
-        <TestimonialPresenter />
-      </section>
- 
-      <section className='w-full  bg-blue-100 snap-mandatory snap-start pt-8' >
-        <FAQ />
-      </section>
-      <section className='w-full  snap-mandatory snap-start pt-8' >
-        <ContactUs />
-      </section>
-      <section className='w-full  bg-blue-100 snap-mandatory snap-start pt-8' >
-        <KeyProjectsPresenter />
-      </section>
+      {/* <section className='w-full  bg-blue-100 snap-mandatory snap-start pt-8' > */}
+      <FAQ />
+      {/* </section> */}
+      {/* <section className='w-full  snap-mandatory snap-start pt-8' > */}
+      <ContactUs />
+      {/* </section> */}
 
-      <section className='w-full  bg-blue-100 snap-mandatory snap-end  pt-8' >
-    <h2 className='font-semibold text-xl mt-12'>Contact Us </h2>
+
+      {/* <section className='w-full  bg-blue-100 snap-mandatory snap-end  pt-8' > */}
+
 
       {/* <Footer /> */}
-      </section>
-  </div>
-  </div>
+      {/* </section> */}
+      {/* </div> */}
+    </div>
+  </>
+
 
 )
 
 export default Home
+
+
+export async function getStaticProps() {
+
+  // Get the hero image paths 
+  const testFolder = 'public/images/HomeHeroImages';
+
+  const imagePaths = fs.readdirSync(testFolder).map(image => {
+    return (
+      {
+        image: "/images/HomeHeroImages/" + "/" + image
+      }
+    )
+  })
+
+  //pass them as props 
+  return {
+    props: {
+      imagePaths
+    },
+  }
+}
+

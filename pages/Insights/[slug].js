@@ -2,9 +2,10 @@
 import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
-import {marked} from 'marked'
+import { marked } from 'marked'
 import Link from 'next/link'
 import ImagesCarousel from '../../components/Projects/ImagesCarousel'
+import Nav from '../../components/NavBar/Nav'
 
 export default function PostPage({
   frontmatter: { title, date, cover_image },
@@ -12,30 +13,35 @@ export default function PostPage({
   content,
 }) {
   return (
-    <div className='mx-auto sm:w-6/12 w-11/12 prose'>
-      <Link href='/Insights'>
-        <a className=' font-light'> {"<--"} Go Back</a>
-      </Link>
+    <>
+      <Nav />
+
+      <div className='mx-auto sm:w-6/12 w-11/12 prose'>
+
+        <Link href='/Insights'>
+          <a className=' font-light'> {"<--"} Go Back</a>
+        </Link>
 
 
 
-      <br/>
-      <div className='mt-8'>
-        <h1 className='text-xl  '>{title}</h1>
-        <div className='font-light' >Posted on {date}</div>
-        {/* <img src={cover_image} alt={title} /> */}
-       
+        <br />
+        <div className='mt-8'>
+          <h1 className='text-xl  '>{title}</h1>
+          <div className='font-light' >Posted on {date}</div>
+          {/* <img src={cover_image} alt={title} /> */}
+
           <div className='prose prose max-w-none mx-auto' dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
-       
 
-       <br/>
 
-      <Link href='/Insights'>
-        <a className=' font-light mt-8 pt-8 text-right'> See More {"-->"} </a>
-      </Link>
+          <br />
+
+          <Link href='/Insights'>
+            <a className=' font-light mt-8 pt-8 text-right'> See More {"-->"} </a>
+          </Link>
+        </div>
+
       </div>
-
-    </div>
+    </>
   )
 }
 

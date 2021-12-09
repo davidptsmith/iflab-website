@@ -40,11 +40,14 @@
 
 
 .modalheroimage{
-    height: calc(100vh - 200px);
+    height: calc(100vh - 81px);
    
   }
 
-
+  .modalheroimage_md{
+    height: calc(100vh - 103px);
+   
+  }
 
 
 .presenter_small{

@@ -2,7 +2,7 @@
 
 const Values = () => {
     return (
-        <div className="pt-24">
+        <div className=" pt-36 md:pt-44 ">
 
       
 <div className="  m-auto">
