@@ -54,9 +54,9 @@ const TestimonialPresenter = () => {
                     <h1 className="font-bold text-3xl md:text-4xl lg:text-5xl font-heading text-gray-900 pb-2">
                         Testimonials & Collaborators 
                     </h1>
-                    <p className="text-gray-400 font-normal text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p className="text-gray-400 font-normal  text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
-                <div className="w-full grid grid-cols-1 lg:grid-cols-2  gap-2 sm:gap-6">
+                <div className="w-full grid grid-cols-1 lg:grid-cols-3  gap-2 sm:gap-6">
 
 
 
@@ -78,12 +78,12 @@ const TestimonialPresenter = () => {
                         personPosition={"Director, Peter Hobbs Architects (PHA)"}
                         companyLogo={"data:image/jpeg;base64,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"}
                     />
-                    <TestimonialCard
+                    {/* <TestimonialCard
                         quote={"IfLAB have provided a huge amount of value to both our projects and day to day operations. Their design capabilities and incredible understanding of digital tools have enabled us to find efficiencies throughout our projects, including minimising material wastages and optimising tooling paths for our CNC machines."}
                         personName={"Oran Fitzsimons"}
                         personPosition={"Construction Manager, Kilmore Group"}
                         companyLogo={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXPaCUQ6F9FGbXQllLkj-eqUllG1J0cOyUpbjqkqsjMjAt_zCEKUE5kWWtD8ixnhzduD4&usqp=CAU"}
-                    />
+                    /> */}
 
 
 

@@ -22,57 +22,89 @@ import HeroCarousel from '../components/home_page/HeroCarousel'
 
 
 const Home: NextPage = ({ imagePaths }) => (
-  <>
-    <div className="max-h-screen snap snap-y snap-start snap-mandatory ScrollingLayer">
+
+  <main className="max-h-screen overflow-y-scroll snap snap-y snap-mandatory ScrollingLayer">
+    <div className="absolute w-screen pb-1 pr-8 ">
+      <div className=' bg-white'>
+
+      <Nav />
+      </div>
+    </div>
+    <section className=" h-screen snap snap-y snap-start  snap-mandatory relative  ">
 
       <header className=' h-screen w-full flex z-50  absolute'>
         <HeroCarousel CarouselData={imagePaths} />
       </header>
 
       <div className='h-screen' />
+    </section>
+
+
+
+
+
+    <div className=" snap snap-y snap-start  h-full snap-mandatory " />
+
+    <div id="Home" className=" snap snap-y snap-start  h-full snap-mandatory ">
+
+      {/* 
+      <Nav /> */}
+
+
+
+      <div className=' bg-white prose max-w-none pt-24 '>
+
+
+        <div className='grid grid-cols-1 md:grid-cols-2 md:gap-8 mx-auto w-10/12  lg:px-4 lg:h-screen py-12'>
+          <div>
+
+            <h1>
+              Some Big Lofty Statement about if/lab
+            </h1>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore aliquid debitis, maxime alias in esse similique itaque? Nobis corrupti blanditiis sequi neque. Cumque itaque porro cum cupiditate quibusdam natus. Rem perspiciatis ut illo placeat nostrum, aliquid amet quisquam voluptate tempora, ad ab fuga obcaecati iste eveniet dolor rerum? Asperiores, illo.
+            </p>
+          </div>
+          <div className='h-full object-cover'>
+            <img className='h-full w-full' alt='Precinct Computational Art Project' src=".\images\HomePageImages\06.jpg" />
+          </div>
+        </div>
+
+
+        {/* <section className='w-full lg:h-screen  snap-mandatory snap-start pt-8' > */}
+        <section id='Key-Projects'>
+
+          <KeyProjectsPresenter />
+        </section>
+        {/* </section> */}
+        {/* <section className='w-full  bg-blue-100 snap-mandatory snap-start pt-8' > */}
+
+        <TestimonialPresenter />
+        {/* </section> */}
+
+        {/* <section className='w-full  bg-blue-100 snap-mandatory snap-start pt-8' > */}
+        <FAQ />
+        {/* </section> */}
+        {/* <section className='w-full  snap-mandatory snap-start pt-8' > */}
+        <ContactUs />
+        {/* </section> */}
+
+
+        {/* <section className='w-full  bg-blue-100 snap-mandatory snap-end  pt-8' > */}
+
+
+        {/* <Footer /> */}
+        {/* </section> */}
+        {/* </div> */}
+      </div>
+
+      <div className="snap-end">
+        <Footer />
+      </div>
     </div>
 
+  </main>
 
-
-
-    <a  id="Home" className="max-h-screen snap-start snap snap-y snap-mandatory relative ScrollingLayer">
-
-      <Nav />
-
-    </a>
-    <div className=' bg-white prose max-w-none '>
-
-
-
-
-
-      {/* <section className='w-full lg:h-screen  snap-mandatory snap-start pt-8' > */}
-      <section id='Key-Projects'>
-        
-      <KeyProjectsPresenter />
-      </section>
-      {/* </section> */}
-      {/* <section className='w-full  bg-blue-100 snap-mandatory snap-start pt-8' > */}
-
-      <TestimonialPresenter />
-      {/* </section> */}
-
-      {/* <section className='w-full  bg-blue-100 snap-mandatory snap-start pt-8' > */}
-      <FAQ />
-      {/* </section> */}
-      {/* <section className='w-full  snap-mandatory snap-start pt-8' > */}
-      <ContactUs />
-      {/* </section> */}
-
-
-      {/* <section className='w-full  bg-blue-100 snap-mandatory snap-end  pt-8' > */}
-
-
-      {/* <Footer /> */}
-      {/* </section> */}
-      {/* </div> */}
-    </div>
-  </>
 
 
 )

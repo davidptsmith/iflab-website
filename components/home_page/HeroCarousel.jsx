@@ -53,7 +53,7 @@ class HeroCarousel extends Component {
   render() {
     return (
 
-      <header className="absolute w-full h-screen overflow-hidden  ">
+      <header className="absolute w-full h-screen overflow-hidden z-50">
 
 
 
@@ -67,9 +67,6 @@ class HeroCarousel extends Component {
               <IflabLogo_SVG  />
             </div>
 
-            {/* <h1 className="text-white   text-7xl font-semibold pb-12  z-50 text-center">
-              Intensive Fields Lab
-            </h1> */}
 
 
 
@@ -80,9 +77,9 @@ class HeroCarousel extends Component {
               <button className=" bg-white bg-opacity-50 border-2 px-8 py-2 rounded-md text-white " > Contact Us </button>
             </div> */}
 
-            <div className="flex pt-8 mb-4 justify-center   border-b">
+            <div className="flex pt-12 mb-4 justify-center   border-b">
 
-              <p className="flex pt-8 mb-4 justify-center font-thin text-2xl" >We Solve Complex Problems</p>
+              <p className="flex  mb-4 justify-center font-thin text-2xl" >We Solve Complex Problems</p>
             </div>
             <div className="flex pt-2 justify-center   ">
               <a href="#Home">

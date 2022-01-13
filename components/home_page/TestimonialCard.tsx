@@ -57,7 +57,7 @@ const TestimonialCard = ({ quote, personName, personPosition, companyLogo }) => 
                         {/* <p className="font-bold mr-1 text-4xl text-blue-400">
                                 “
                             </p> */}
-                        <p className="text-gray-400 leading-snug font-normal sm:text-base  text-justify text-xs">
+                        <p className="text-gray-400 leading-tight font-normal sm:text-base  text-justify text-xs">
 
                             {quote}
                         </p>

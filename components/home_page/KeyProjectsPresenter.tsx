@@ -2,7 +2,7 @@ import Link from "next/dist/client/link"
 import KeyProjectsCard from "./KeyProjectsCard"
 const KeyProjectsPresenter = () => {
     return (
-        <div className=" mt-8 py-16">
+        <div className=" mt-8 py-16 h-screen">
             {/* key Projects - three cards, link to projects and contact - 2 buttons  */}
             <div className=" mx-auto   w-2/3">
                 <h1 >
