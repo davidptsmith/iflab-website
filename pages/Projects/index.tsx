@@ -99,7 +99,9 @@ const Home: NextPage = ({ projects }) => {
       </ul>
 
 
-
+      <div className="snap-end">
+        <Footer />
+      </div>
     </div>
   )
 }

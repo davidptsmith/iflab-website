@@ -155,3 +155,44 @@
     margin-right: auto;
     width: 50%;
   }
+
+
+  .duration-5000{
+    transition-duration: 5000ms;
+  }
+
+  .hover-in{
+    transition-duration: 7000ms;
+    will-change: transform 450ms;
+  }
+
+  .hover-out:hover {
+    transition: transform 125ms;
+    transform: translateY(-10px);
+  }
+
+
+  .custom-img {
+    background-image: url('../../iflab-website-v2/public/images/HomePageImages/02.jpg');
+  }
+  .custom-img2 {
+    background-image: url('../../iflab-website-v2/public/images/HomePageImages/04.jpg');
+  }
+  .custom-img3 {
+    background-image: url('../../iflab-website-v2/public/images/HomePageImages/01.jpg');
+  }
+  .custom-img4 {
+    background-image: url('../../iflab-website-v2/public/images/HomePageImages/12.jpg');
+  }
+
+
+  .ParallaxImageHeigh{
+    min-height: calc(100vh - 200px);
+    
+  
+  }
+
+
+
+  .ParallaxImage{
+    @apply  w-screen   ParallaxImageHeigh flex items-center justify-center  m-auto bg-fixed bg-center bg-cover }

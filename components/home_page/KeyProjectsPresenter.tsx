@@ -2,41 +2,47 @@ import Link from "next/dist/client/link"
 import KeyProjectsCard from "./KeyProjectsCard"
 const KeyProjectsPresenter = () => {
     return (
-        <div className=" mt-8 py-16 h-screen">
+        <div  id="KeyProjects" className="py-16 md:h-screen   mx-auto mb-24 md:mb-24">
             {/* key Projects - three cards, link to projects and contact - 2 buttons  */}
-            <div className=" mx-auto   w-2/3">
+            <div className=" m-auto w-10/12 pt-14 ">
                 <h1 >
-                    Key Projects and link
+                    Key Projects 
                 </h1>
             </div>
 
-            <div className="grid lg:grid-cols-3 w-10/12 2xl:gap-0 2xl:space-x-8 gap-4 mx-auto  mt-4 ">
+            <div className="grid h-3/4  lg:grid-cols-3  w-10/12  2xl:space-x-8 gap-8 mx-auto pt-4">
 
+          
 
                 <KeyProjectsCard
-                    projectName={"Barangaroo"}
+                    projectName={"Public Art: Esplanade"}
                     projectType={"Concept Design"}
                     projectDescription={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, fugiat."}
-                    imageUrl={"https://firebasestorage.googleapis.com/v0/b/iflab-website-test1.appspot.com/o/Barangaroo%2FRender01.png?alt=media&token=356438b5-0da2-49de-9483-706e60a072da"}
-                />
+                    imageUrl={"/images/projects/Esplanade/cover_image.jpg"}
+                    link_path={"no_path"}
+                    />
 
                 <KeyProjectsCard
-                    projectName={"The Crest "}
+                    projectName={"Teaching & Fabrication: Curtin Student Pavilions"}
                     projectType={"Public Art"}
                     projectDescription={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, fugiat."}
-                    imageUrl={"https://firebasestorage.googleapis.com/v0/b/iflab-website-test1.appspot.com/o/Crest%2FDJI_0073-firstpass.jpg?alt=media&token=5e8091e2-8e86-4ce8-98fc-44bcf33b371a"}
-                />
+                    imageUrl={"/images/projects/Curtin Timber Pavilions/cover_image.jpg"}
+                    link_path={"no_path"}
+                    />
 
                 <KeyProjectsCard
-                    projectName={"Yanchep"}
+                    projectName={"Public Art: Yanchep"}
                     projectType={"Public Art"}
                     projectDescription={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, fugiat."}
-                    imageUrl={"https://firebasestorage.googleapis.com/v0/b/iflab-website-test1.appspot.com/o/Yanchep%2FYanchep.jpg?alt=media&token=6a2fb95e-799c-4334-be44-4192d7437312"}
+                    imageUrl={"/images/HomeHeroImages/12.jpg"}
+                    link_path={"no_path"}
                 />
 
             </div>
+        
+       </div>
 
-        </div>
+    
 
 
     )

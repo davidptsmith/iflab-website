@@ -83,7 +83,7 @@ class HeroCarousel extends Component {
             </div>
             <div className="flex pt-2 justify-center   ">
               <a href="#Home">
-              <AiOutlineArrowDown className=" bg-opacity-20  z-50 bg-black  text-4xl rounded-md border-2  text-white cursor-pointer" />
+              <AiOutlineArrowDown className=" bg-opacity-20 motion-safe:animate-bounce z-50 bg-black  text-4xl rounded-md border-2  text-white cursor-pointer" />
               </a>
             </div>
           </div>

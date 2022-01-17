@@ -122,7 +122,9 @@ const Home: NextPage = ({ posts }) => {
 
 </div>
 
-
+<div className="snap-end">
+        <Footer />
+      </div>
     </div>
   )
 }

@@ -39,25 +39,25 @@ import Link from "next/dist/client/link"
 
 const TestimonialCard = ({ quote, personName, personPosition, companyLogo }) => {
     return (
-        <div className="bg-white dark:bg-gray-800 rounded-t-md  shadow-md w-full mx-auto m-2 sm:m-4  p-1">
+        <div className="bg-white  rounded-t-md  shadow-md w-full  mx-auto m-2 sm:m-4  p-1">
             <div className="bg-white rounded-lg px-2 sm:px-6">
                 <div className="grid grid-cols-1  sm:flex my-auto mb-2 space-x-2 sm:space-x-6 sm:mb-4">
-                    <img className=" h-28 w-28  mb-2 justify-self-start self-center   px-2 space-x-2 mb-2 object-scale-down  "
+                    <img className=" h-28 w-28   justify-self-start self-center   px-2 space-x-2  object-scale-down  "
                         src={companyLogo} alt="photo" />
 
                     <div className="justify-self-start self-center ">
-                        <p className="text-xl text-gray-700 font-normal ">{personName}</p>
-                        <p className="text-base text-blue-400 font-normal">  {personPosition} </p>
+                        <p className="text-xl text-gray-700 -mt-4 md:mt-0 font-normal ">{personName}</p>
+                        <p className="text-base text-blue-400 -mt-4 md:mt-0 font-normal">  {personPosition} </p>
                     </div>
                 </div>
 
                 <div>
 
-                    <div className="  sm:grid-cols-2 items-center  space-x-2 px-2 md:px-6 sm:space-x-2 sm:mb-2">
+                    <div className="  sm:grid-cols-2 items-center  space-x-2 px-2 md:px-6 sm:space-x-2 ">
                         {/* <p className="font-bold mr-1 text-4xl text-blue-400">
                                 “
                             </p> */}
-                        <p className="text-gray-400 leading-tight font-normal sm:text-base  text-justify text-xs">
+                        <p className="text-gray-400 leading-tight -mt-4 md:mt-0 font-normal sm:text-base  text-justify text-sm">
 
                             {quote}
                         </p>

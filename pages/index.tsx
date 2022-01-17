@@ -11,25 +11,28 @@ import KeyProjectsPresenter from '../components/home_page/KeyProjectsPresenter'
 import TestimonialPresenter from '../components/home_page/TestimonialPresenter'
 import HeroSection from '../components/home_page/HeroSection'
 import ContactUs from '../components/home_page/ContactUs'
-import FAQ from '../components/home_page/FAQ'
+import Services from '../components/home_page/Services'
 import Nav from "../components/NavBar/Nav"
 
 // @ts-ignore 
 import fs from 'fs'
 import path from 'path'
 import HeroCarousel from '../components/home_page/HeroCarousel'
+import ParallaxImageBreak from '../components/home_page/ParallaxImageBreak'
+import ValueStatement from '../components/home_page/ValueStatement'
 
 
 
 const Home: NextPage = ({ imagePaths }) => (
 
   <main className="max-h-screen overflow-y-scroll snap snap-y snap-mandatory ScrollingLayer">
-    <div className="absolute w-screen pb-1 pr-8 ">
+    <div className="absolute w-screen pb-1  pr-4 ">
       <div className=' bg-white'>
-
-      <Nav />
+        <Nav />
       </div>
     </div>
+
+
     <section className=" h-screen snap snap-y snap-start  snap-mandatory relative  ">
 
       <header className=' h-screen w-full flex z-50  absolute'>
@@ -41,68 +44,54 @@ const Home: NextPage = ({ imagePaths }) => (
 
 
 
+    <div className=" snap snap-y snap-start  h-full snap-mandatory w-full" />
 
-
-    <div className=" snap snap-y snap-start  h-full snap-mandatory " />
-
-    <div id="Home" className=" snap snap-y snap-start  h-full snap-mandatory ">
-
-      {/* 
-      <Nav /> */}
+    <div id="Home" className=" snap snap-y snap-start w-full h-full snap-mandatory ">
 
 
 
-      <div className=' bg-white prose max-w-none pt-24 '>
+      <div className=' bg-white prose full max-w-none pt-24  '>
+        <ValueStatement />
 
 
-        <div className='grid grid-cols-1 md:grid-cols-2 md:gap-8 mx-auto w-10/12  lg:px-4 lg:h-screen py-12'>
-          <div>
+        <ParallaxImageBreak imageNumber={3} />
 
-            <h1>
-              Some Big Lofty Statement about if/lab
-            </h1>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore aliquid debitis, maxime alias in esse similique itaque? Nobis corrupti blanditiis sequi neque. Cumque itaque porro cum cupiditate quibusdam natus. Rem perspiciatis ut illo placeat nostrum, aliquid amet quisquam voluptate tempora, ad ab fuga obcaecati iste eveniet dolor rerum? Asperiores, illo.
-            </p>
-          </div>
-          <div className='h-full object-cover'>
-            <img className='h-full w-full' alt='Precinct Computational Art Project' src=".\images\HomePageImages\06.jpg" />
-          </div>
-        </div>
-
-
-        {/* <section className='w-full lg:h-screen  snap-mandatory snap-start pt-8' > */}
-        <section id='Key-Projects'>
-
-          <KeyProjectsPresenter />
-        </section>
+        {/* <section className='w-full h-full snap-mandatory snap-start ' > */}
+        <KeyProjectsPresenter />
         {/* </section> */}
-        {/* <section className='w-full  bg-blue-100 snap-mandatory snap-start pt-8' > */}
 
+        <ParallaxImageBreak imageNumber={4} />
+
+        {/* <section className='w-full h-full snap-mandatory snap-start ' > */}
         <TestimonialPresenter />
         {/* </section> */}
 
-        {/* <section className='w-full  bg-blue-100 snap-mandatory snap-start pt-8' > */}
-        <FAQ />
+
+        <ParallaxImageBreak imageNumber={1} />
+
+
+        {/* <section className='w-full h-full snap-mandatory snap-start ' > */}
+        <Services />
         {/* </section> */}
-        {/* <section className='w-full  snap-mandatory snap-start pt-8' > */}
+
+        <ParallaxImageBreak imageNumber={2} />
+
+        {/* <section className='w-full h-full snap-mandatory snap-start ' > */}
         <ContactUs />
         {/* </section> */}
 
 
-        {/* <section className='w-full  bg-blue-100 snap-mandatory snap-end  pt-8' > */}
+      </div>
+      <section className='snap-end' >
+      <Footer />
+      </section>
 
-
-        {/* <Footer /> */}
-        {/* </section> */}
-        {/* </div> */}
       </div>
 
-      <div className="snap-end">
-        <Footer />
-      </div>
-    </div>
+    
 
+
+   
   </main>
 
 

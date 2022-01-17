@@ -1,6 +1,9 @@
 module.exports = {
-  purge: [],
-  darkMode: false, // or 'media' or 'class'
+  content: [
+       // Example content paths...
+       './pages/**/*.{tsx,ts,jsx,js}',
+    './components/**/*.{tsx,ts,jsx,js}',
+  ],
   theme: {
     extend: {},
   },

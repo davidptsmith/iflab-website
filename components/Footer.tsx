@@ -1,11 +1,11 @@
 import Link from "next/dist/client/link"
 const Footer = () => {
     return (
-        <div>
-            <div className="h-1  mt-40 border-t border-gray-200 "/>  
+        <div className="pt-32">
+            <div className="h-1  border-t border-gray-200 "/>  
 
 
-            <footer className="bg-white dark:bg-gray-800 w-full py-8">
+            <footer className="bg-white  w-full py-8">
     <div className="max-w-screen-xl mx-auto px-4">
         <ul className="max-w-screen-md mx-auto text-lg font-light flex flex-wrap justify-between">
             <li className="my-2">

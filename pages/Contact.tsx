@@ -11,12 +11,14 @@ import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
   return (
-<div>
+    <div>
 
-<Nav/>
-   <ContactForm/>
-   
-</div>
+      <Nav />
+      <ContactForm />
+      <div className="snap-end">
+        <Footer />
+      </div>
+    </div>
   )
 }
 
