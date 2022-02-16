@@ -52,7 +52,7 @@ class ImagesCarousel extends Component {
   render() {
     return (
 
-        <header className="relative modalheroimage overflow-hidden  mx-auto ">
+        <header className="relative  overflow-hidden  mx-auto ">
 
           <AiOutlineLeft
             onClick={this.prevSlide}
@@ -69,7 +69,7 @@ class ImagesCarousel extends Component {
                    
                     className={
                         index === this.state.currentSlide
-                        ? " mx-auto object-cover modalheroimage  w-full  "
+                        ? " mx-auto object-cover md:h-[800px] w-full  "
                         : "hidden"
                         }
                         onMouseEnter={() => {

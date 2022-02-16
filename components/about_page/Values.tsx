@@ -2,7 +2,8 @@
 
 const Values = () => {
     return (
-        <div className=" pt-36 md:pt-44 ">
+        <div className='w-4/6 md:w-2/3 lg:mt-14 mt-8  mx-auto'> 
+        <div className=" pt-14 md:pt-44 ">
 
       
 <div className="  m-auto">
@@ -43,6 +44,7 @@ const Values = () => {
             </dd>
         </dl>
     </div>
+</div> 
 </div> 
  </div>
 

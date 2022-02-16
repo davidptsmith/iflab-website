@@ -4,7 +4,7 @@ date: 'JUNE 18, 2019'
 excerpt: 'this is more information and things about the project. Look at this test, it is testing the length of the item'
 cover_image: '/images/projects/Velocity Apartments/cover_image.jpg'
 aside_image: '/images/posts/BLOG_DrawingAutomation/1.jpg'
-tags: ["Shop Drawings", "Fabrication", "Cladding", "Automation", "Grasshopper", "Computational Design", "Rhino 3D"]
+tags: ["Shop Drawings", "Fabrication", "Public Art", "Cladding", "Automation", "Grasshopper", "Computational Design", "Rhino 3D"]
 tables: {
   items: [
     ["People", "Value"],

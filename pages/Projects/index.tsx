@@ -23,7 +23,10 @@ const Home: NextPage = ({ projects }) => {
 
   return (
     <div>
-    <Nav />
+       <div className='sticky  top-0 w-full bg-white z-50'>
+           <Nav />
+      </div>
+      
       <Head>
         <title>Iflab Projects</title>
         <meta name="description" content="Iflab Insights" />

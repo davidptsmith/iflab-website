@@ -1,6 +1,6 @@
 const AboutSection = () => {
     return (
-
+<div className='w-4/6 md:w-2/3 lg:mt-14 mt-8  mx-auto'> 
   <div className='prose max-w-none '>
 
 
@@ -58,6 +58,43 @@ const AboutSection = () => {
 
             </div>
 
+
+
+
+                <h1 className="font-semibold text-black  text-left pt-24 ">Our Team</h1>
+
+                <div className="  grid grid-cols-1 lg:grid-cols-4 lg:gap-4   lg:mt-8 h-72">
+
+
+                    <div className="bg-blue-300 flex flex-col">
+                        <div className="bg-white flex-grow">
+
+                        </div>
+                        <div className="">
+                            <p className="prose pl-4">
+                                This is a Test name
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className="bg-blue-300 ">
+
+                    </div>
+
+                    <div className="bg-blue-300 ">
+
+                    </div>
+
+<div className="bg-blue-300 ">
+
+</div>
+
+
+
+</div>
+
+
+                </div>
                 </div>
             )
 }

@@ -10,7 +10,7 @@ function Nav() {
             <nav className=" lg:pt-2 pt-4 z-30 cursor-pointer w-11/12   flex flex-row  justify-between self-center  m-auto pb-4  border-b">
 
 
-                <div className="flex-shrink-0 my-auto  pt-4 md:pt-2  w-12  md:w-32  items-center h-14 text-gray-600">
+                <div className="flex-shrink-0 my-auto  pt-4 md:pt-2    md:w-32 w-24  items-center h-14 text-gray-600">
                     <IflabLogoSVG />
                 </div>
 
@@ -52,17 +52,18 @@ function Nav() {
                 </div>
 
 
+<div className="grid grid-cols-2 lg:hidden ">
 
 
                     {/* icon */}
-                    <div className="-mr-8 flex lg:hidden">
+                    <div className="-mr-8 flex ">
                         <button
                             onClick={() => setIsOpen(!isOpen)}
                             type="button"
-                            className="bg-white h-10 mr-8 w-10 inline-flex items-center my-auto justify-center p-2 rounded-md text-gray-400 hover:text-gray-600  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-600 focus:ring-white"
+                            className="bg-white h-10 mr-2 w-10 inline-flex items-center my-auto justify-center p-2 rounded-md text-gray-400 hover:text-gray-600  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-600 focus:ring-white"
                             aria-controls="mobile-menu"
                             aria-expanded="false"
-                        >
+                            >
                             <span className="sr-only">Open main menu</span>
                             {!isOpen ? (
                                 <svg
@@ -82,7 +83,7 @@ function Nav() {
                                 </svg>
                             ) : (
                                 <svg
-                                    className="block h-6 w-6"
+                                    className="block h-6 w-6 "
                                     xmlns="http://www.w3.org/2000/svg"
                                     fill="none"
                                     viewBox="0 0 24 24"
@@ -148,7 +149,7 @@ function Nav() {
                             </div>
                         )}
                     </Transition>
-           
+                    </div>
             </nav>
 
 

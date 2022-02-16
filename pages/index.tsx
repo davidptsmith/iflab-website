@@ -7,12 +7,14 @@ import styles from '../styles/Home.module.css'
 import { motion } from 'framer-motion';
 import Footer from '../components/Footer'
 import ProjectPresenter from '../components/ProjectPresenter'
-import KeyProjectsPresenter from '../components/home_page/KeyProjectsPresenter'
+import PublicArtPresenter from '../components/home_page/PublicArtPresenter'
+import ResearchPresenter from '../components/home_page/ResearchPresenter'
 import TestimonialPresenter from '../components/home_page/TestimonialPresenter'
 import HeroSection from '../components/home_page/HeroSection'
 import ContactUs from '../components/home_page/ContactUs'
 import Services from '../components/home_page/Services'
 import Nav from "../components/NavBar/Nav"
+import Mission from "../components/about_page/Mission"
 
 // @ts-ignore 
 import fs from 'fs'
@@ -25,8 +27,8 @@ import ValueStatement from '../components/home_page/ValueStatement'
 
 const Home: NextPage = ({ imagePaths }) => (
 
-  <main className="max-h-screen overflow-y-scroll snap snap-y snap-mandatory ScrollingLayer">
-    <div className="absolute w-screen pb-1  pr-4 ">
+  <main className="max-h-screen overflow-y-scroll snap snap-y snap-mandatory ScrollingLayer ">
+    <div className="absolute z-50 w-screen pb-1  pr-4 ">
       <div className=' bg-white'>
         <Nav />
       </div>
@@ -44,7 +46,7 @@ const Home: NextPage = ({ imagePaths }) => (
 
 
 
-    <div className=" snap snap-y snap-start  h-full snap-mandatory w-full" />
+    <div className=" snap snap-y snap-start  h-full snap-mandatory w-full relative" />
 
     <div id="Home" className=" snap snap-y snap-start w-full h-full snap-mandatory ">
 
@@ -53,31 +55,43 @@ const Home: NextPage = ({ imagePaths }) => (
       <div className=' bg-white prose full max-w-none pt-24  '>
         <ValueStatement />
 
+<div className='bg-slate-100 h-full w-screen'>
 
-        <ParallaxImageBreak imageNumber={3} />
+        <Mission/>
+
+</div>
+        {/* <ParallaxImageBreak imageNumber={3} /> */}
 
         {/* <section className='w-full h-full snap-mandatory snap-start ' > */}
-        <KeyProjectsPresenter />
+        <PublicArtPresenter />
         {/* </section> */}
 
-        <ParallaxImageBreak imageNumber={4} />
+        {/* <ParallaxImageBreak imageNumber={4} /> */}
 
         {/* <section className='w-full h-full snap-mandatory snap-start ' > */}
-        <TestimonialPresenter />
+        {/* <TestimonialPresenter /> */}
         {/* </section> */}
 
 
-        <ParallaxImageBreak imageNumber={1} />
+        {/* <ParallaxImageBreak imageNumber={1} /> */}
 
 
         {/* <section className='w-full h-full snap-mandatory snap-start ' > */}
+        
+<div className='bg-slate-100 h-full w-screen'>
         <Services />
+</div>
+
+<ResearchPresenter/>
         {/* </section> */}
 
-        <ParallaxImageBreak imageNumber={2} />
+        {/* <ParallaxImageBreak imageNumber={2} /> */}
 
         {/* <section className='w-full h-full snap-mandatory snap-start ' > */}
+        <div className='bg-slate-100 h-full w-screen'>
+
         <ContactUs />
+        </div>
         {/* </section> */}
 
 

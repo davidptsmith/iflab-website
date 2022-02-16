@@ -1,9 +1,11 @@
 import Link from "next/dist/client/link"
-import { AiOutlineRight } from "react-icons/ai"
+import { AiOutlineDoubleRight, AiOutlineRight } from "react-icons/ai"
+import NavigationText from "../Utilities/NavigationText"
+
 const ContactUs = () => {
     return (
 
-        <div className=" md:h-screen lg:px-4 md:w-11/12 w-10/12 pt-24 mx-auto z-10 grid grid-cols-1 md:gap-4 md:grid-cols-2">
+        <div className=" md:h-screen min-h-[800px] lg:px-4 md:w-11/12 w-10/12  md:pt-24 mx-auto z-10 grid grid-cols-1 md:gap-4 md:grid-cols-2">
 
 
             <div className="w-full md:h-full overflow-hidden m-auto">
@@ -19,14 +21,12 @@ const ContactUs = () => {
             
             <div className="flex items-baseline  ">
               {/* ////////////////////  update the link to contact page /////////////////// */}
-                <Link href="/Contact" passHref >    
+      
+            <h1 className="font-semibold text-black bottom-0 h-full  cursor-pointer text-left ">
+                Contact Us<br/> About Your Project  
 
-            <h1 className="font-semibold text-black bottom-0 h-full  cursor-pointer text-left ">Contact Us<br/> About Your Project  
-            <AiOutlineRight
-            className=" ml-2  bg-opacity-20 inline-flex text-3xl text-black "
-            />
             </h1> 
-            </Link>
+
             </div>
                 <div className=" lg:text-justify md:text-justify text-left  ">
 
@@ -36,6 +36,22 @@ const ContactUs = () => {
                     <br className='hidden lg:visible' />
 
                 </div>
+
+                <Link href={"./Contact"} passHref={true}>
+                <div className="border-t-2 cursor-pointer">
+                    <h3>
+                        We are always happy to assist <br/> 
+                        others solver their problems.
+                        <br/>
+                        Reach us here
+                        <AiOutlineDoubleRight
+                            className="  p-1 text-2xl text-gray-600 inline-block cursor-pointer"
+                        />
+                    </h3>
+                </div>
+            </Link>
+
+
             </div>
 
 

@@ -1,6 +1,6 @@
 // @ts-ignore
 import Image from 'next/image'
-import KeyProjectsPresenter from './home_page/KeyProjectsPresenter'
+import PublicArtPresenter from './home_page/PublicArtPresenter'
 import TestimonialPresenter from './home_page/TestimonialPresenter'
 
 const ProjectPresenter = () => {
@@ -84,7 +84,7 @@ const ProjectPresenter = () => {
  </div> */}
 
 
-            <KeyProjectsPresenter />
+            <PublicArtPresenter />
 
             <TestimonialPresenter />
 

@@ -25,7 +25,7 @@ function ContactForm() {
         // don't mind this ugly form :P
         <div >
 
-            <form className="w-full justify-items-center mx-auto mt-10 max-w-lg">
+            <form className="w-full pt-24  justify-items-center mx-auto mt-10 max-w-lg">
             <div className="flex flex-wrap -mx-3 mb-6">
                 <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                 <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="grid-first-name">

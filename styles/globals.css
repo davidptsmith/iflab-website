@@ -188,11 +188,20 @@
 
   .ParallaxImageHeigh{
     min-height: calc(100vh - 200px);
-    
-  
   }
 
 
 
   .ParallaxImage{
     @apply  w-screen   ParallaxImageHeigh flex items-center justify-center  m-auto bg-fixed bg-center bg-cover }
+
+
+    .Accordion {
+      
+      @apply   text-3xl font-bold text-gray-800 border-b mb-4 p-2 rounded-md   
+      
+    
+    }
+ 
+  
+  

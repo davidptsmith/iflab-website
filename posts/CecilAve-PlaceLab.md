@@ -16,7 +16,7 @@ The masterplan proposal includes a unique and eloquent paving pattern that spans
 
 We were provided with the overall surface pattern masterplan, a paving sample drawing and pattern details that identified the paving mixes for each zone. 
 
-
+<img src="/images/posts/BLOG_CECIL/1.png">
 
 
 By using computational design tools such as Grasshopper, we were able to extrapolate the information provided to visualise the paving pattern across the entire masterplan. This enabled the designers at PLACE Laboratory to tweak the patterns, by moving the curves that define each of the paving ‘zones’. In addition to refining the overall paving pattern across the site, the custom tool allowed for fine tuning of the paving distributions, with a live feed of quantities for each paving type.

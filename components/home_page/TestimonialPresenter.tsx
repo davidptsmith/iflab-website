@@ -4,7 +4,7 @@ import TestimonialCard from "./TestimonialCard"
 
 const TestimonialPresenter = () => {
     return (
-        <div  id="Testimonials" className="h-full  min-h-full flex ">
+        <div  id="Testimonials" className="md:h-screen min-h-[800px] flex ">
             <div className="m-auto w-10/12">
 
             <section className=" my-auto   h-full  lg:px-4 ">

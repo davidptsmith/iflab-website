@@ -13,17 +13,24 @@ import styles from '../styles/Home.module.css'
 const Home: NextPage = () => {
   return (
     <div>
-      <Nav />
-      <div className='w-4/6 md:w-2/3 lg:mt-14 mt-8  mx-auto'>
+          <div className='sticky  top-0 w-full bg-white z-50'>
+           <Nav />
+      </div>
+      
+      {/* <div className='w-4/6 md:w-2/3 lg:mt-14 mt-8  mx-auto'> */}
 
         <AboutSection />
 
+        {/* <Mission /> */}
+
+<div className='bg-slate-100 w-screen mx-auto'>
+
         <Values />
 
-        <Mission />
+</div>
+      
 
-
-      </div>
+      {/* </div> */}
       <div className="snap-end">
         <Footer />
       </div>

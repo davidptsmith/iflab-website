@@ -2,11 +2,11 @@
 
 const Services = () => {
     return (
-        <div  id="Services" className=" h-screen flex ">
+        <div  id="Services" className=" md:h-screen min-h-[800px] flex ">
 
       <div className="m-auto">
 
-<div className=" px-4 w-10/12 m-auto h-full ">
+<div className=" px-4 w-10/12 pt-14 m-auto h-full ">
     <div className="mx-auto max-w-6xl flex flex-col md:flex-row   my-auto h-full">
         <h1 className="mr-8 w-full md:w-1/3 leading-9">
             if/Lab Services
