@@ -1,4 +1,14 @@
 /** @type {import('next').NextConfig} */
+
+
+const withOptimizedImages = require('next-optimized-images')
+
+module.exports = withOptimizedImages({
+  handleImages: ['jpeg', 'png', 'svg'],
+})
+
+module.exports = { assetPrefix: './' }; // enforces relative paths
+
 module.exports = {
   reactStrictMode: true,
   images: {

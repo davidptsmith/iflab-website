@@ -3,7 +3,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import Navbar from '../components/Navbar'
-import styles from '../styles/Home.module.css'
+
 import { motion } from 'framer-motion';
 import Footer from '../components/Footer'
 import ProjectPresenter from '../components/ProjectPresenter'
@@ -52,7 +52,7 @@ const Home: NextPage = ({ imagePaths }) => (
 
 
 
-      <div className=' bg-white prose full max-w-none pt-24  '>
+      <div className=' bg-white prose full max-w-none pt-24 md:pb-12  '>
         <ValueStatement />
 
 <div className='bg-slate-100 h-full w-screen'>
@@ -69,18 +69,18 @@ const Home: NextPage = ({ imagePaths }) => (
         {/* <ParallaxImageBreak imageNumber={4} /> */}
 
         {/* <section className='w-full h-full snap-mandatory snap-start ' > */}
-        {/* <TestimonialPresenter /> */}
-        {/* </section> */}
+        <div className='bg-slate-100'>
 
+        <TestimonialPresenter />
+        </div>
+
+        {/* </section> */}
 
         {/* <ParallaxImageBreak imageNumber={1} /> */}
 
 
         {/* <section className='w-full h-full snap-mandatory snap-start ' > */}
         
-<div className='bg-slate-100 h-full w-screen'>
-        <Services />
-</div>
 
 <ResearchPresenter/>
         {/* </section> */}
@@ -88,11 +88,22 @@ const Home: NextPage = ({ imagePaths }) => (
         {/* <ParallaxImageBreak imageNumber={2} /> */}
 
         {/* <section className='w-full h-full snap-mandatory snap-start ' > */}
+
         <div className='bg-slate-100 h-full w-screen'>
 
-        <ContactUs />
+          <Services />
         </div>
+
+        <ResearchPresenter/>
+
+
+        
+        <div className='bg-slate-100 py-12 h-full w-screen'>
+
+
+        <ContactUs />
         {/* </section> */}
+        </div>
 
 
       </div>

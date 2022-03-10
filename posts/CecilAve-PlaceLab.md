@@ -2,7 +2,7 @@
 title: "Cecil Avenue Masterplan Paving Pattern: Design Assist with PLACE Laboratory"
 date: 'SEPTEMBER 25, 2019'
 excerpt: 'If/LAB were engaged by PLACE Laboratory in a Design Assist role to develop up and detail paving patterns for their Cecil Avenue Masterplan.'
-cover_image: '/images/posts/BLOG_CECIL/4.png'
+cover_image: '/images/posts/BLOG_CECIL/4.jpg'
 tags: ["Design To Production", "Landscape Architecture", "Grasshopper", "Design Tool", "Visualisation", "Design Assist"]
 ---
 
@@ -16,7 +16,7 @@ The masterplan proposal includes a unique and eloquent paving pattern that spans
 
 We were provided with the overall surface pattern masterplan, a paving sample drawing and pattern details that identified the paving mixes for each zone. 
 
-<img src="/images/posts/BLOG_CECIL/1.png">
+<img src="/images/posts/BLOG_CECIL/1.jpg">
 
 
 By using computational design tools such as Grasshopper, we were able to extrapolate the information provided to visualise the paving pattern across the entire masterplan. This enabled the designers at PLACE Laboratory to tweak the patterns, by moving the curves that define each of the paving ‘zones’. In addition to refining the overall paving pattern across the site, the custom tool allowed for fine tuning of the paving distributions, with a live feed of quantities for each paving type.

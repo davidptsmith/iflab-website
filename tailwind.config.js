@@ -1,18 +1,22 @@
 module.exports = {
   content: [
-       // Example content paths...
-       './pages/**/*.{tsx,ts,jsx,js}',
-    './components/**/*.{tsx,ts,jsx,js}',
+    './pages/index.tsx',
+    './pages_app.tsx',
+    './components/**/*.{html,js,jsx,tsx}',
+    './pages/**/*.{html,js,jsx,tsx}',
+    './pages/index.tsx', 
+    './pages/_app.tsx',
+    './index.html',
+    './**/*.{html,jsx,tsx}',
+    './styles/globals.css',
+    './styles/Home.module.css'
+
+
   ],
   theme: {
     extend: {},
   },
-  variants: {
-    extend: {},
-  },
   plugins: [
-  require('@tailwindcss/typography'), 
-  require('@tailwindcss/aspect-ratio'), 
-],
-
+    require('@tailwindcss/typography')
+  ],
 }

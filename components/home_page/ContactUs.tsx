@@ -5,7 +5,7 @@ import NavigationText from "../Utilities/NavigationText"
 const ContactUs = () => {
     return (
 
-        <div className=" md:h-screen min-h-[800px] lg:px-4 md:w-11/12 w-10/12  md:pt-24 mx-auto z-10 grid grid-cols-1 md:gap-4 md:grid-cols-2">
+        <div className="  min-h-[600px] lg:px-4 md:w-11/12 w-10/12   mx-auto z-10 grid grid-cols-1 md:gap-4 md:grid-cols-2">
 
 
             <div className="w-full md:h-full overflow-hidden m-auto">
@@ -16,7 +16,7 @@ const ContactUs = () => {
 
 
             
-            <div className="md:w-2/3 md:my-auto pt-8 md:ml-16">
+            <div className="md:w-2/3 md:my-auto  md:ml-16">
 
             
             <div className="flex items-baseline  ">

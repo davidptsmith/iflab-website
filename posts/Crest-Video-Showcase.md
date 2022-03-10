@@ -2,7 +2,7 @@
 title: 'The Crest Apartments Showcase Video'
 date: 'March 12, 2021'
 excerpt: 'Video showcase of the Crest Apartments Public Artwork Facade.'
-cover_image: '/images/posts/Crest/1.png'
+cover_image: '/images/posts/Crest/1.jpg'
 tags: ["Public Art" , "Video Showcase"]
 ---
 

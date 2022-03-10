@@ -1,71 +1,45 @@
 import Link from "next/dist/client/link"
-// const TestimonialCard = ({ quote, personName, personPosition , companyLogo}) => {
-//     return (
-//         <div className="bg-white dark:bg-gray-800 rounded-t-md shadow-md w-full mx-auto m-8 p-8">
-//             <div className="flex items-center md:items-start flex-col md:flex-row justify-center">
 
-//                 <img alt="Company Logo" src={companyLogo}
-//                     className="m-auto  block relative  w-1/3" />
-
-//                 <div className="w-full md:w-2/3">
-//                     <p className="text-gray-600 dark:text-white w-full md:w-5/6 m-auto italic md:text-justify text-left text-lg lg:text-xl">
-//                         <span className="font-bold mr-1 text-4xl text-blue-400">
-//                             “
-//                         </span>
-//                         {quote}
-//                         <span className="font-bold ml-1 text-4xl text-blue-400">
-//                             ”
-//                         </span>
-//                     </p>
-//                     <div className="flex mt-8 items-center justify-left">
-//                         <span className="font-semibold text-blue-400 mr-2 text-lg">
-//                             {personName}
-//                         </span>
-//                         <span className="text-gray-400 text-xl font-light">
-//                             /
-//                         </span>
-//                         <span className="text-gray-400 text-md ml-2">
-//                             {personPosition}
-//                         </span>
-//                     </div>
-//                 </div>
-//             </div>
-//         </div>
-//     )
-// }
-
-// export default TestimonialCard
-
+//To Do
+//create grid to control the location of the card elements 
+// align the text to the bottom of the element 
 
 const TestimonialCard = ({ quote, personName, personPosition, companyLogo }) => {
     return (
         <div className="bg-white  rounded-t-md  shadow-md w-full  mx-auto m-2 sm:m-4  p-1">
-            <div className="bg-white rounded-lg px-2 sm:px-6">
-                <div className="grid grid-cols-1  sm:flex my-auto mb-2 space-x-2 sm:space-x-6 sm:mb-4">
-                    <img className=" h-28 w-28   justify-self-start self-center   px-2 space-x-2  object-scale-down  "
-                        src={companyLogo} alt="photo" />
 
-                    <div className="justify-self-start self-center ">
-                        <p className="text-xl text-gray-700 -mt-4 md:mt-0 font-normal ">{personName}</p>
+            <div className="bg-white rounded-lg px-2 sm:px-6 h-full  grid-row-2 grid">
+
+                <div className="grid grid-cols-2 sm:flex   top-0 mb-2  sm:mb-4">
+
+                    <div className="w-full h-full  mt-2 over-hidden">
+
+                        <img className=" h-28 w-full  object-cover   "
+                            src={companyLogo} alt="photo" />
+                    </div>
+
+                    <div className=" ">
+                        <p className="text-xl text-gray-700 -mt-4 md:mt-4 font-normal ">{personName}</p>
                         <p className="text-base text-blue-400 -mt-4 md:mt-0 font-normal">  {personPosition} </p>
                     </div>
                 </div>
 
-                <div>
 
-                    <div className="  sm:grid-cols-2 items-center  space-x-2 px-2 md:px-6 sm:space-x-2 ">
-                        {/* <p className="font-bold mr-1 text-4xl text-blue-400">
+
+                <div className="   bg-black  px-2 md:px-6 h-full inline-block ">
+                    {/* <p className="font-bold mr-1 text-4xl text-blue-400">
                                 “
                             </p> */}
-                        <p className="text-gray-400 leading-tight -mt-4 md:mt-0 font-normal sm:text-base  text-justify text-sm">
+                    <p className="text-gray-400 leading-tight align-text-top
+                        font-normal sm:text-base  h-full text-justify text-sm">
 
-                            {quote}
-                        </p>
-                        {/* <p className="font-bold ml-1 text-4xl   text-blue-400  ">
+                        {quote}
+                    </p>
+                    {/* <p className="font-bold ml-1 text-4xl   text-blue-400  ">
                                 ”
                             </p> */}
 
-                    </div>
+
                 </div>
             </div>
 

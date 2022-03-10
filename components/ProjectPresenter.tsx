@@ -104,7 +104,7 @@ const ProjectPresenter = () => {
                 <div className="w-2/3">
 
                     <img className=" object-cover  inset-y-0 right-0 "
-                        src="https://firebasestorage.googleapis.com/v0/b/iflab-website-test1.appspot.com/o/Redcliffe%2F2021-03-29%2015_21_13-200322%20Key%20Stakeholder%20Meeting%203%20Presentation_Final%20Draft.pdf%20-%20Adobe%20Acrobat%20Pr.png?alt=media&token=43f32fe4-2c07-469f-b0d5-10527f99e6ec"
+                        src="https://firebasestorage.googleapis.com/v0/b/iflab-website-test1.appspot.com/o/Redcliffe%2F2021-03-29%2015_21_13-200322%20Key%20Stakeholder%20Meeting%203%20Presentation_Final%20Draft.pdf%20-%20Adobe%20Acrobat%20Pr.jpg?alt=media&token=43f32fe4-2c07-469f-b0d5-10527f99e6ec"
                         alt="Redecliffe" />
 
                 </div>

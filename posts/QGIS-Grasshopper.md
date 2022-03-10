@@ -2,7 +2,7 @@
 title: 'GIS meets Architecture – why?'
 date: 'AUGUST 13, 2019'
 excerpt: 'Using GIS to reveal the ‘bigger picture’ by presenting data connected to its geographical context'
-cover_image: '/images/posts/BLOG_GIS_Post_1/1.png'
+cover_image: '/images/posts/BLOG_GIS_Post_1/1.jpg'
 tags: ["Rhino 3d", "Grasshopper", "GIS", "Automation", "Modelling"]
 ---
 

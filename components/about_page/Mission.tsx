@@ -2,13 +2,13 @@
 
 const Mission = () => {
     return (
-       <div className="   prose  lg:py-32 py-12 w-10/12  m-auto">
+       <div className="   prose  lg:py-24 py-12 w-10/12  m-auto">
 
             <div className="  container h-full  my-auto m-auto">
                 <div className="m-auto h-full my-auto ">
 
 
-                <h1 className="text-center  my-20">if/Lab's Mission</h1>
+                <h1 className="text-center  ">if/Lab's Mission</h1>
 
                 <p className=" lg:text-justify md:text-justify text-justify leading-tight  ">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus unde voluptate saepe dicta debitis aliquam error, itaque maiores quod hic doloremque tenetur pariatur? Aliquam quibusdam odio non corporis facilis iste.

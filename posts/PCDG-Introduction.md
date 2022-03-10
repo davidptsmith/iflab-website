@@ -2,7 +2,7 @@
 title: 'PCDG#1: Perth Computational Design Group Meetups - Introduction'
 date: 'JULY 31, 2019'
 excerpt: 'if/LAB recently introduced the Perth chapter of the Computational Design Group.'
-cover_image: '/images/posts/BLOG_PCDG/3.png'
+cover_image: '/images/posts/BLOG_PCDG/3.jpg'
 tags: ["Perth", "Perth Computational Design Group", "Computational Design", "Grasshopper", "Generative Design"]
 ---
 

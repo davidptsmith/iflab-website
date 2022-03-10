@@ -3,7 +3,7 @@ import KeyProjectsCard from "./KeyProjectsCard"
 import NavigationText from "../Utilities/NavigationText"
 const PublicArtPresenter = () => {
     return (
-        <div  id="KeyProjects" className="py-16 lg:h-screen min-h-[800px] mx-auto mb-24 md:mb-24">
+        <div  id="KeyProjects" className="  min-h-[600px] mx-auto my-12 ">
             {/* key Projects - three cards, link to projects and contact - 2 buttons  */}
             {/* <div className=" m-auto w-10/12 pt-14 ">
                 <h1 >
@@ -17,9 +17,9 @@ const PublicArtPresenter = () => {
                 <NavigationText text={""} url={""}/>
             </div> */}
 
-            <div className="grid  lg:grid-cols-3  w-10/12  2xl:space-x-8 gap-8 mx-auto pt-4">
+            <div className="grid  lg:grid-cols-3  w-10/12  2xl:space-x-8 gap-8 mx-auto ">
 
-            <div className=" m-auto w-10/12 pt-14 ">
+            <div className=" m-auto w-10/12 pt-12 ">
                 <h1 >
                     Key Projects:
                     <br/>
