@@ -15,17 +15,18 @@ const ValueStatement = () => {
                 <p className='text-justify'>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore aliquid debitis, maxime alias in esse similique itaque? Nobis corrupti blanditiis sequi neque. Cumque itaque porro cum cupiditate quibusdam natus. Rem perspiciatis ut illo placeat nostrum, aliquid amet quisquam voluptate tempora, ad ab fuga obcaecati iste eveniet dolor rerum? Asperiores, illo.
                 </p>
-
-                <div className="border-t-2 cursor-pointer">
-                    <h3>
-                        Want us to solve your problems?
-                        <br />
-                        Get in contact here
-                        <AiOutlineDoubleRight
-                            className="  p-1 text-2xl text-gray-600 inline-block cursor-pointer"
-                        />
-                    </h3>
-                </div>
+                <Link href={"./Contact"} passHref={true}>
+                    <div className="border-t-2 cursor-pointer">
+                        <h3>
+                            Want us to solve your problems?
+                            <br />
+                            Get in contact here
+                            <AiOutlineDoubleRight
+                                className="  p-1 text-2xl text-gray-600 inline-block cursor-pointer"
+                            />
+                        </h3>
+                    </div>
+                </Link>
             </div>
             <div className='h-full overflow-hidden '>
                 <img className='h-full object-cover' alt='Precinct Computational Art Project' src=".\images\HomePageImages\06.jpg" />

@@ -9,10 +9,10 @@ const TestimonialCard = ({ quote, personName, personPosition, companyLogo }) => 
 
         <div className="relative md:p-8 p-4 text-gray-800 bg-white rounded-lg shadow-md min-h-[350px]">
             <div className="mb-2">
-                <p className="lg:mb-24 md:text-justify  leading-10 text-gray-600 ">
-                    <b className="text-3xl font-semibold italic align-text-middle">"</b>
+                <p className="lg:mb-24   text-normal leading-loose text-gray-600 ">
+                    <b className="text-3xl text-blue-400 font-serif font-semibold italic align-text-middle">"</b>
                     {quote}
-                    <b className="text-3xl font-semibold italic align-text-middle">"</b>
+                    <b className="text-3xl text-blue-400 font-semibold font-serif italic align-text-middle">"</b>
                 </p>
                 <div className="flex flex-col items-end  bottom-0  h-full w-full  ">
                     {/* <div className="w-12 h-12 overflow-hidden bg-gray-100 border-2 border-indigo-100 ">

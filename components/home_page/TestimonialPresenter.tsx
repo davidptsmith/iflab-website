@@ -29,13 +29,13 @@ const TestimonialPresenter = () => {
 
 
                     <TestimonialCard
-                        quote={"IfLAB have provided a huge amount of value to both our projects and day to day operations. Their design capabilities and incredible understanding of digital tools have enabled us to find efficiencies throughout our projects, including minimising material wastages and optimising tooling paths for our CNC machines."}
+                        quote={"if/LAB have provided a huge amount of value to both our projects and day to day operations. Their design capabilities and incredible understanding of digital tools have enabled us to find efficiencies throughout our projects, including minimising material wastages and optimising tooling paths for our CNC machines."}
                         personName={"Oran Fitzsimons"}
                         personPosition={"Construction Manager, Kilmore Group"}
                         companyLogo={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXPaCUQ6F9FGbXQllLkj-eqUllG1J0cOyUpbjqkqsjMjAt_zCEKUE5kWWtD8ixnhzduD4&usqp=CAU"}
                     />
                     <TestimonialCard
-                        quote={"ifLAB have been assisting Timberbuilt in the development of design-to-fabrication workflows for our prefabricated timber manufacturing processes. Their use of parametric design and overall understanding of digital technologies has made their involvement within our company invaluable."}
+                        quote={"if/LAB have been assisting Timberbuilt in the development of design-to-fabrication workflows for our prefabricated timber manufacturing processes. Their use of parametric design and overall understanding of digital technologies has made their involvement within our company invaluable."}
                         personName={"John O’Donnell"}
                         personPosition={"Business Manager, Timberbuilt Australia"}
                         companyLogo={"https://timberbuilt.com.au/wp-content/uploads/2015/11/logo.jpg"}
