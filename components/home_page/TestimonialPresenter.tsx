@@ -4,7 +4,8 @@ import TestimonialCard from "./TestimonialCard"
 
 const TestimonialPresenter = () => {
     return (
-        <div  id="Testimonials" className="md:h-screen min-h-[800px] flex py-12">
+        // <div  id="Testimonials" className="md:h-screen min-h-[800px] flex py-12">
+        <div  id="Testimonials" className="SectionStyle">
             <div className="m-auto w-10/12">
 
             <section className=" my-auto   h-full  lg:px-4 ">
@@ -23,7 +24,7 @@ const TestimonialPresenter = () => {
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     </p> */}
                 </div>
-                <div className="w-full h-full grid grid-cols-1  lg:grid-cols-3  gap-2 sm:gap-6">
+                <div className="w-full h-full grid grid-cols-1  xl:grid-cols-3  gap-2 sm:gap-6">
 
 
 

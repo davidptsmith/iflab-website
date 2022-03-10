@@ -69,7 +69,7 @@ const Home: NextPage = ({ imagePaths }) => (
         {/* <ParallaxImageBreak imageNumber={4} /> */}
 
         {/* <section className='w-full h-full snap-mandatory snap-start ' > */}
-        <div className='bg-slate-100'>
+        <div className='bg-slate-100 h-full'>
 
         <TestimonialPresenter />
         </div>

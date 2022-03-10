@@ -6,7 +6,7 @@ import { AiOutlineLeft, AiOutlineRight, AiOutlineDoubleRight } from "react-icons
 
 const ValueStatement = () => {
     return (
-        <div className='grid grid-cols-1 md:grid-cols-2 md:gap-8 min-h-[800px] mx-auto w-10/12  lg:px-4 h-full md:h-screen pt-8 pb-24 md:pb-36'>
+        <div className='grid grid-cols-1 md:grid-cols-2 md:gap-8 min-h-[800px] mx-auto w-10/12  lg:px-4 h-full pt-8 pb-24 md:pb-36'>
             <div className='m-auto sm:w-2/3 '>
 
                 <h1 className='2xl:w-4/5'>

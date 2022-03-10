@@ -3,7 +3,8 @@ import KeyProjectsCard from "./KeyProjectsCard"
 import NavigationText from "../Utilities/NavigationText"
 const PublicArtPresenter = () => {
     return (
-        <div  id="KeyProjects" className="  min-h-[600px] mx-auto my-12 ">
+        <div  id="KeyProjects" className="SectionStyle">
+        {/* <div  id="KeyProjects" className="  min-h-[600px] mx-auto my-12 "> */}
             {/* key Projects - three cards, link to projects and contact - 2 buttons  */}
             {/* <div className=" m-auto w-10/12 pt-14 ">
                 <h1 >

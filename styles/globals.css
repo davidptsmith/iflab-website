@@ -204,5 +204,9 @@
     
     }
  
-  
+    .SectionStyle{
+      @apply md:min-h-[800px] py-24 md:p-0 md:py-12 lg:px-4 md:w-11/12 w-11/12 my-auto h-full place-items-center grid  mx-auto
+       ;
+  }
+
   

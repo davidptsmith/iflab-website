@@ -57,11 +57,13 @@ export default function ProjectPage({
             {/* Images referenced in the text will not be visible on the larger screens. These however will be filtered throughout on small screens to break up the post */}
             <div className=' hidden  md:inline '>
 
-            <div className='prose  text-justify mt-24 prose-img:md:inline prose-img:hidden 
+            {/* Project text */}
+            {/* <div className='prose  text-justify mt-24 prose-img:md:inline prose-img:hidden 
             prose-h2:text-3xl 
             prose-h2:border-b
             prose-h2:py-2
-            prose-h2:Accordion' dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
+            prose-h2:Accordion' dangerouslySetInnerHTML={{ __html: marked(content) }}></div> */}
+
           </div>
 
             </div>
@@ -78,7 +80,7 @@ export default function ProjectPage({
 
       <div className='text-right m-24 sm:w-2/3 w-11/12 mx-auto  mt-14'>
         <Link href='/Projects'>
-          <a className=' font-light '>  See More Projects  --  </a>
+          <a className=' font-light underline'>  See More Projects  </a>
         </Link>
       </div>
 </div>

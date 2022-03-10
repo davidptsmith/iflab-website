@@ -3,7 +3,8 @@ import KeyProjectsCard from "./KeyProjectsCard"
 import NavigationText from "../Utilities/NavigationText"
 const ResearchPresenter  = () => {
     return (
-        <div  id="KeyProjects" className="md:py-16 pt-8 md:h-screen min-h-[800px] mx-auto h-full my-12">
+        // <div  id="KeyProjects" className="md:py-16 pt-8 md:h-screen min-h-[800px] mx-auto h-full my-12">
+        <div  id="KeyProjects" className="SectionStyle">
             {/* key Projects - three cards, link to projects and contact - 2 buttons  */}
             {/* <div className=" m-auto w-10/12 pt-14 ">
                 <h1 >
