@@ -5,7 +5,7 @@ import NavigationText from "../Utilities/NavigationText"
 const ContactUs = () => {
     return (
 
-        <div className="  min-h-[600px] lg:px-4 md:w-11/12 w-10/12   mx-auto z-10 grid grid-cols-1 md:gap-4 md:grid-cols-2">
+        <div className="  min-h-[640px] lg:px-4 md:w-11/12 w-10/12   mx-auto z-10 grid grid-cols-1 md:gap-4 md:grid-cols-2">
 
 
             <div className="w-full md:h-full overflow-hidden m-auto">
@@ -31,7 +31,16 @@ const ContactUs = () => {
                 <div className=" lg:text-justify md:text-justify text-left  ">
 
                     <p className=" lg:text-justify md:text-justify text-left  ">
-                        If/LAB is a multidisciplinary design and consultancy company with a focus on the use of software for the purposes of design, manufacture and building. if/LAB currently focuses on art and architecture, and aim to continually be at the forefront of innovation.
+                        if/LAB is a transdisciplinary design and technology studio based in Perth, Western Australia.
+                    </p>
+                    <p className=" lg:text-justify md:text-justify text-left  ">
+                        We leverage innovation in design, technology, and manufacturing to enable equitable access to better design for all.
+                    </p>
+                    <p className=" lg:text-justify md:text-justify text-left  ">
+                        By asking "what if?" we unlock new avenues for design and delivery across sectors and scales.
+                    </p>
+                    <p className=" lg:text-justify md:text-justify text-left  ">
+                        Our team of architects, designers, computational experts, and software developers are ready to change the future by changing building, today.
                     </p>
                     <br className='hidden lg:visible' />
 

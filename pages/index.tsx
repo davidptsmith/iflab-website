@@ -22,6 +22,7 @@ import path from 'path'
 import HeroCarousel from '../components/home_page/HeroCarousel'
 import ParallaxImageBreak from '../components/home_page/ParallaxImageBreak'
 import ValueStatement from '../components/home_page/ValueStatement'
+import WhatWeDoPresenter from '../components/home_page/WhatWeDoPresenter';
 
 
 
@@ -55,11 +56,14 @@ const Home: NextPage = ({ imagePaths }) => (
       <div className=' bg-white prose full max-w-none pt-24 md:pb-12  '>
         <ValueStatement />
 
-<div className='bg-slate-100 h-full w-screen'>
 
-        <Mission/>
 
-</div>
+        <div className='bg-slate-100 h-full w-screen'>
+
+        <WhatWeDoPresenter/>
+          {/* <Mission /> */}
+
+        </div>
         {/* <ParallaxImageBreak imageNumber={3} /> */}
 
         {/* <section className='w-full h-full snap-mandatory snap-start ' > */}
@@ -71,7 +75,7 @@ const Home: NextPage = ({ imagePaths }) => (
         {/* <section className='w-full h-full snap-mandatory snap-start ' > */}
         <div className='bg-slate-100 h-full'>
 
-        <TestimonialPresenter />
+          <TestimonialPresenter />
         </div>
 
         {/* </section> */}
@@ -80,9 +84,9 @@ const Home: NextPage = ({ imagePaths }) => (
 
 
         {/* <section className='w-full h-full snap-mandatory snap-start ' > */}
-        
 
-<ResearchPresenter/>
+
+        <ResearchPresenter />
         {/* </section> */}
 
         {/* <ParallaxImageBreak imageNumber={2} /> */}
@@ -94,29 +98,29 @@ const Home: NextPage = ({ imagePaths }) => (
           <Services />
         </div>
 
-        <ResearchPresenter/>
+        <ResearchPresenter />
 
 
-        
+
         <div className='bg-slate-100 py-12 h-full w-screen'>
 
 
-        <ContactUs />
-        {/* </section> */}
+          <ContactUs />
+          {/* </section> */}
         </div>
 
 
       </div>
       <section className='snap-end' >
-      <Footer />
+        <Footer />
       </section>
 
-      </div>
-
-    
+    </div>
 
 
-   
+
+
+
   </main>
 
 
@@ -134,7 +138,7 @@ export async function getStaticProps() {
   const imagePaths = fs.readdirSync(testFolder).map(image => {
     return (
       {
-        image: "/images/HomeHeroImages/" + "/" + image
+        image: "/images/HomeHeroImages" + "/" + image
       }
     )
   })

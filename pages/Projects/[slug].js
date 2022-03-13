@@ -17,6 +17,9 @@ export default function ProjectPage({
   imagePaths
 }) {
 
+
+const coverObj = {cover_image}
+
   return (
     <>
       <div className='sticky  top-0 w-full bg-white z-50'>
@@ -31,7 +34,7 @@ export default function ProjectPage({
 <div>
 
 
-      <div className=' prose max-w-none  mx-auto md:w-10/12 w-11/12 '>
+      <div className=' prose max-w-none lg:mt-12 mx-auto md:w-10/12 w-11/12 '>
 
         <div className=' flex flex-col-reverse md:grid md:grid-cols-5 mt-14 gap-8'>
 
@@ -58,11 +61,11 @@ export default function ProjectPage({
             <div className=' hidden  md:inline '>
 
             {/* Project text */}
-            {/* <div className='prose  text-justify mt-24 prose-img:md:inline prose-img:hidden 
+            <div className='prose  text-justify mt-24 prose-img:md:inline prose-img:hidden 
             prose-h2:text-3xl 
             prose-h2:border-b
             prose-h2:py-2
-            prose-h2:Accordion' dangerouslySetInnerHTML={{ __html: marked(content) }}></div> */}
+            prose-h2:Accordion' dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
 
           </div>
 
@@ -93,23 +96,25 @@ export default function ProjectPage({
 
 
 const imageGrid = (imagePaths) => {
-  
-  
-  return imagePaths.map((images, index) => (
-    // <div key={index} className='  ' >
-    
-    
-    <motion.div key={index} className='w-full overflow-hidden m-auto ' initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.5 }}>
-
-      <img alt="iflab Project Image" className="object-cover   md:w-full opacity-90" src={images.image} />
 
 
-    </motion.div>
-
-    // </div>
-
-  )
-
+  return new Array(
+    imagePaths.filter(
+      images => images.image.includes("cover_image.jpg")
+    ).map((images, index) => (
+      <motion.div key={index} className='w-full overflow-hidden m-auto ' initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.5 }}>
+        <img alt="iflab Project Image" className="object-cover   md:w-full opacity-90" src={images.image} />
+      </motion.div>
+    )
+    ),
+    imagePaths.filter(
+      images => !images.image.includes("cover_image.jpg")
+    ).map((images, index) => (
+      <motion.div key={index} className='w-full overflow-hidden m-auto ' initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.5 }}>
+        <img alt="iflab Project Image" className="object-cover   md:w-full opacity-90" src={images.image} />
+      </motion.div>
+    )
+    )
 
 
   )
