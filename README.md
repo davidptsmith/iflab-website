@@ -32,7 +32,7 @@ It takes images and markdown for projects and posts and automatically generates 
  <br/>
 
  ## About 
- <img src="_WIP_Images/About.png" alt="" width="100%"/>
+ <img src="_WIP_Images/About_1.png" alt="" width="100%"/>
 
  
  <br/>
