@@ -1,34 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# if/Lab Website Development 
 
-## Getting Started
+***This Project Is Still A Work In Progress***
 
-First, run the development server:
+This website development project is to create a custom designed website that displays our work in a clear manner with the ability to filter projects based on type and search through out blog posts. 
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+It takes images and markdown for projects and posts and automatically generates a pages and routing for a static site to be hosted on an S3 bucket. 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+# Images of the project 
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+ ## Home Page
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+ *Image Carousel: Cycle through key project images*
 
-## Learn More
+ <img src="_WIP_Images/-2022-03-16 11_39_44.png" alt="" width="100%"/>
+ <br/>
+ <img src="_WIP_Images/-2022-03-16 11_07_22.png" alt="" width="100%"/>
+ <img src="_WIP_Images/1.png" alt="" width="100%"/>
+ <img src="_WIP_Images/2.png" alt="" width="100%"/>
+ <img src="_WIP_Images/3.png" alt="" width="100%"/>
+ <img src="_WIP_Images/4.png" alt="" width="100%"/>
+ <img src="_WIP_Images/5.png" alt="" width="100%"/>
+ <img src="_WIP_Images/6.png" alt="" width="100%"/>
+ <img src="_WIP_Images/7.png" alt="" width="100%"/>
+ <img src="_WIP_Images/8.png" alt="" width="100%"/>
+ <img src="_WIP_Images/9.png" alt="" width="100%"/>
+ <img src="_WIP_Images/10.png" alt="" width="100%"/>
+ <img src="_WIP_Images/11.png" alt="" width="100%"/>
+ 
+ <br/>
+ <br/>
 
-To learn more about Next.js, take a look at the following resources:
+ ## About 
+ <img src="_WIP_Images/About.png" alt="" width="100%"/>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+ 
+ <br/>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+ ## Projects  
+ <img src="_WIP_Images/Projects_1.png" alt="" width="100%"/>
 
-## Deploy on Vercel
+<br/>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+ ## Project Page  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+ <img src="_WIP_Images/screencapture-localhost-3000-Projects-Anemoi-2022-03-16-11_32_32.png" alt="" width="100%"/>
+
+ <br/>
+
+ ## Insights  
+ <img src="_WIP_Images/screencapture-localhost-3000-Insights-2022-03-16-11_34_04.png" alt="" width="100%"/>
+
+ <br/>
+
+ ## Projects  
+ <img src="_WIP_Images/screencapture-localhost-3000-Contact-2022-03-16-11_34_23.png" alt="" width="100%"/>
+
+<br/>
