@@ -64,18 +64,18 @@ class HeroCarousel extends Component {
           {/* <div className="bg-white m-auto h-72 w-72"> */}
           <div className="text-white">
 
-            <div className="text-white  m-auto pb-8 z-50   w-72  md:w-[480px]  ">
+            <div className="text-white  m-auto pb-12 z-50   w-72  md:w-[480px]  ">
  
               <IflabLogo_SVG  />
             </div>
 
-            <div className="flex pt-14 mb-4 justify-center   border-b">
+            {/* <div className="flex pt-14 mb-4 justify-center   border-b"> */}
 
-              <p className="flex  mb-4 justify-center  text-2xl" >WE ASK WHAT IF?</p>
+              {/* <p className="flex  mb-4 justify-center  text-2xl" >WE ASK WHAT IF?</p> */}
               {/* <p className="flex  mb-4 justify-center font-light text-2xl" >We Solve Complex Problems</p> */}
-            </div>
-            <div className="flex pt-2 justify-center   ">
-              <a href="#Home">
+            {/* </div> */}
+            <div className="flex pt-2 justify-center border-t   ">
+              <a href="#Home" className="pt-12">
               <AiOutlineArrowDown className=" bg-opacity-20 motion-safe:animate-bounce z-50 bg-black  text-4xl rounded-md border-2  text-white cursor-pointer" />
               </a>
             </div>

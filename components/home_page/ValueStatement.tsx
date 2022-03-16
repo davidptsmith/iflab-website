@@ -6,21 +6,33 @@ import { AiOutlineLeft, AiOutlineRight, AiOutlineDoubleRight } from "react-icons
 
 const ValueStatement = () => {
     return (
-        <div className='grid grid-cols-1 md:grid-cols-2 md:gap-8 min-h-[800px] mx-auto w-10/12  lg:px-4 h-full pt-8 pb-24 md:pb-36'>
+        <div className='grid grid-cols-1 md:grid-cols-2 md:gap-8 min-h-[800px] mx-auto w-10/12  lg:px-4 h-full md:pt-24 pt-8 pb-24 md:pb-36'>
             <div className='m-auto sm:w-2/3 '>
 
                 <h1 className='2xl:w-4/5'>
-                    if/Lab Leverages Computational Processes to Create Value
+                    We ask "What if?" we could change future by changing building.
                 </h1>
-                <p className='text-justify'>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore aliquid debitis, maxime alias in esse similique itaque? Nobis corrupti blanditiis sequi neque. Cumque itaque porro cum cupiditate quibusdam natus. Rem perspiciatis ut illo placeat nostrum, aliquid amet quisquam voluptate tempora, ad ab fuga obcaecati iste eveniet dolor rerum? Asperiores, illo.
+                <div className=" text-lg font-light">
+
+                <p>
+                   <span className="text-2xl font-semibold" >  We are <b>IMPACTFUL.</b> </span> <br/>
+                    -      Acknowledging the potential for positive change through design
                 </p>
+                <p>
+                <span className="text-2xl font-semibold" >We are <b>ETHICAL.</b> </span> <br/>
+                    - Design for good and access for all
+                </p>
+                <p>
+                <span className="text-2xl font-semibold" >We are <b>DEFIANT.</b> </span> <br/>
+                    - Challenging the status quo and always searching for a better process and outcome
+                </p>
+                </div>
                 <Link href={"./Contact"} passHref={true}>
                     <div className="border-t-2 cursor-pointer">
                         <h3>
-                            Want us to solve your problems?
+                            Want us to help you change the way you build? 
                             <br />
-                            Get in contact here
+                            Contact us here
                             <AiOutlineDoubleRight
                                 className="  p-1 text-2xl text-gray-600 inline-block cursor-pointer"
                             />

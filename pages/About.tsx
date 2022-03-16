@@ -22,13 +22,13 @@ const Home: NextPage = () => {
         <AboutSection />
 
         {/* <Mission /> */}
-
+{/* 
 <div className='bg-slate-100 w-screen mx-auto'>
 
         <Values />
 
 </div>
-      
+       */}
 
       {/* </div> */}
       <div className="snap-end">

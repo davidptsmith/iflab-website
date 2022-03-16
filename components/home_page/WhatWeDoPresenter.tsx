@@ -3,7 +3,7 @@ import KeyProjectsCard from "./KeyProjectsCard"
 import NavigationText from "../Utilities/NavigationText"
 const WhatWeDoPresenter = () => {
     return (
-        <div  id="KeyProjects" className="SectionStyle">
+        <div  id="KeyProjects" className=" md:min-h-[800px] py-24 md:p-0 md:py-12 lg:px-4 md:w-11/12 w-11/12 my-auto h-full place-items-center grid  mx-auto">
         {/* <div  id="KeyProjects" className="  min-h-[600px] mx-auto my-12 "> */}
             {/* key Projects - three cards, link to projects and contact - 2 buttons  */}
             {/* <div className=" m-auto w-10/12 pt-14 ">
@@ -17,14 +17,17 @@ const WhatWeDoPresenter = () => {
                 </p>
                 <NavigationText text={""} url={""}/>
             </div> */}
-            <div className="w-10/12 ">
+            <div className=" ">
 
-            <h1>
+            <h1 className="w-10/12 pb-12 ">
                 What We Do. 
             </h1>
+            {/* <p className="prose light">
+            We are experts in data, design, technology, research, strategy, sustainability, and modern methods of construction utilising prefabrication and advanced manufacturing.
+            </p> */}
 
-            </div>
-            <div className="grid  lg:grid-cols-3  w-10/12 h-full  2xl:space-x-8 gap-8 mx-auto ">
+          
+            <div className="grid  lg:grid-cols-3  w-full h-full md:min-h-[600px]  2xl:space-x-8 gap-8 mx-auto ">
 
                 <KeyProjectsCard
                     projectName={"Precinct"}
@@ -51,7 +54,7 @@ const WhatWeDoPresenter = () => {
                 />
 
             </div>
-        
+            </div>
        </div>
 
     

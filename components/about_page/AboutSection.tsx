@@ -1,41 +1,38 @@
+import ValueStatement from "../home_page/ValueStatement"
+
 const AboutSection = () => {
     return (
-<div className='w-4/6 md:w-2/3 lg:mt-14 mt-8  mx-auto'> 
-  <div className='prose max-w-none '>
+        <div className='prose max-w-none '>
+        <div className='w-4/6 md:w-2/3 lg:mt-14 mt-8  mx-auto'>
+                <div>
+                    <div className="  grid grid-cols-1 md:mt-12 lg:grid-cols-2 lg:gap-12   lg:mt-8 ">
+
+                        <div className=" md:grid md:pt-12 lg:text-justify md:text-justify text-left  ">
+
+                            <h1 className="text-left ">About if/Lab</h1>
+
+                            <p className=" lg:text-justify md:text-justify text-left  ">
+                                if/LAB is a Perth-based design studio of transdisciplinary architects, designers, technologists, software developers, computational experts, and radical thinkers.  We recognise the urgency of adapting the way we work to enable accelerated industry transformation that can deliver better, cheaper, and faster design and technology enabled solutions for the built environment.                    </p>
+                            <br className='hidden lg:visible' />
+                            <p>
+                                We employ a creative, transdisciplinary, and data-informed approach so that we can help to design a better future for all.  We believe in learning through exploring, creative solutions to complex problems, partnering with experts across domains, and using technology to provide end-to-end value through the delivery of highly robust processes and better end-products.
+                            </p>
+                            <br className='hidden lg:visible' />
+                            <p>
+
+                                We are experts in data, design, technology, research, strategy, sustainability, and modern methods of construction utilising prefabrication and advanced manufacturing.
+                            </p>
+                        </div>
+                        <div className="overflow-hidden   w-full h-full">
+
+                            <img alt="" className='h-full object-cover' src="\images\projects\Ravensthorpe\cover_image.jpg" />
+
+                        </div>
+                    </div>
 
 
-            <h1 className="font-semibold text-black  text-left ">About if/Lab</h1>
-
-            <div className="  grid grid-cols-1 lg:grid-cols-2 lg:gap-12   lg:mt-8 ">
-
-                <div className=" lg:text-justify md:text-justify text-left  ">
-
-                    <p className=" lg:text-justify md:text-justify text-left  ">
-                        If/LAB is a multidisciplinary design and consultancy company with a focus on the use of software for the purposes of design, manufacture and building. if/LAB currently focuses on art and architecture, and aim to continually be at the forefront of innovation.
-                    </p>
-                    <br className='hidden lg:visible' />
-                    <p>
-                        We see artwork as an opportunity to develop our computational design and digital fabrication research practices. Public artworks are an ideal scale for research and development.
-                    </p>
-                    <br className='hidden lg:visible' />
-                    <p>
-                        If/LAB’s goals are to work across project types of all scales to create innovative spaces that transform experience. Our core values reflect a strong commitment to innovation and collaboration.
-                    </p>
-                    <p className=" lg:text-justify md:text-justify text-left  ">
-                        We are a young, innovative office intent on creating transformative spaces, whilst being committed towards sustainable development, and always seeking to improve the working and living conditions of people with our design solutions.
-                    </p>
-                    <br className='hidden lg:visible' />
-
-                </div>
-                <div className="overflow-hidden   w-full h-full">
-
-                    <img alt="" className='h-full object-cover' src="\images\projects\Anemoi\cover_image.jpg" />
-
-                </div>
-            </div>
-
-            <h1 className="font-semibold text-black  text-left pt-24 ">Our Approach</h1>
-
+                    {/* <h1 className="font-semibold text-black  text-left pt-24 ">Our Approach</h1> */}
+                    {/* 
             <div className="  grid grid-cols-1 lg:grid-cols-2 lg:gap-12   lg:mt-8 ">
                 
                 <div>
@@ -56,12 +53,12 @@ const AboutSection = () => {
 
                 <img alt="" className='h-full object-cover' src="\images\projects\Ravensthorpe\cover_image.jpg" />
 
-            </div>
+            </div> */}
 
 
 
 
-                <h1 className="font-semibold text-black  text-left pt-24 ">Our Team</h1>
+                    {/* <h1 className="font-semibold text-black  text-left pt-24 ">Our Team</h1>
 
                 <div className="  grid grid-cols-1 lg:grid-cols-4 lg:gap-4   lg:mt-8 h-72">
 
@@ -85,17 +82,22 @@ const AboutSection = () => {
 
                     </div>
 
-<div className="bg-blue-300 ">
+                    <div className="bg-blue-300 ">
 
-</div>
+                    </div>
 
 
 
-</div>
+                </div> */}
 
 
                 </div>
-                </div>
-            )
+            </div>
+
+            {/* <ValueStatement /> */}
+  
+
+        </div>
+    )
 }
-            export default AboutSection
+export default AboutSection
