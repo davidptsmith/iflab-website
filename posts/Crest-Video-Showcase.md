@@ -6,9 +6,12 @@ cover_image: '/images/posts/Crest/1.jpg'
 tags: ["Public Art" , "Video Showcase"]
 ---
 
+
+
 <div class="aspect-w-16 aspect-h-9">
-<iframe width="1280" height="719" src="https://www.youtube.com/embed/lJ_CpyqE6Dk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="750" height="422" src="https://www.youtube.com/embed/lJ_CpyqE6Dk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
 
 To find out more about the project visit the link here
 
