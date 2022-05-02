@@ -34,7 +34,7 @@ const PublicArtPresenter = () => {
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, fugiat."
           }
           imageUrl={"/images/HomeHeroImages/01.jpg"}
-          link_path={"no_path"}
+          link_path={"/Projects/Anemoi"}
         />
 
         <KeyProjectsCard
@@ -44,7 +44,7 @@ const PublicArtPresenter = () => {
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, fugiat."
           }
           imageUrl={"/images/HomeHeroImages/12.jpg"}
-          link_path={"no_path"}
+          link_path={"/Projects/Yanchep-Stage-1"}
         />
       </div>
     </div>
