@@ -24,8 +24,9 @@ import ValueStatement from "../components/home_page/ValueStatement";
 import WhatWeDoPresenter from "../components/home_page/WhatWeDoPresenter";
 
 const Home: NextPage = ({ imagePaths }) => (
-  <main className="max-h-screen overflow-y-scroll snap snap-y snap-mandatory ScrollingLayer ">
-    <div className="absolute z-50 w-screen pb-1  pr-4 ">
+  <main className="max-h-screen  overflow-y-scroll snap snap-y snap-mandatory ScrollingLayer overflow-hidden md:overflow-visible">
+  {/* <main className="max-h-screen  overflow-y-scroll snap snap-y snap-mandatory ScrollingLayer overflow-hidden md:overflow-visible"> */}
+    <div className="absolute z-50 w-screen pb-1  md:pr-4 ">
       <div className=" bg-white">
         <Nav />
       </div>

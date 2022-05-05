@@ -55,35 +55,29 @@ class ContactCarousel extends Component {
         <div className="h-full w-full absolute grid place-items-center  z-20 ">
           {/* <div className="bg-white m-auto h-72 w-72"> */}
           <div className="text-white">
-            <div className="text-white  m-auto pb-12   w-72   ">
+            <div className="text-white  m-auto pb-12   w-72 sm:w-48 lg:w-[480px]  ">
               <IflabLogo_SVG />
             </div>
-            {/* review if we want this  */}
-            {/* <div className="flex pt-14 mb-4 justify-center   border-b"> */}
-            {/* <p className="flex  mb-4 justify-center  text-2xl" >WE ASK WHAT IF?</p> */}
-            {/* <p className="flex  mb-4 justify-center font-light text-2xl" >We Solve Complex Problems</p> */}
-            {/* </div> */}
-            {/* <div className="flex pt-2 justify-center border-t   ">
-              <a href="#Home" className="pt-12">
-                <AiOutlineArrowDown className=" bg-opacity-20 motion-safe:animate-bounce bg-black  text-4xl rounded-md border-2  text-white cursor-pointer" />
-              </a>
-            </div> */}
+           
           </div>
         </div>
 
         <Swipe onSwipeLeft={this.nextSlide} onSwipeRight={this.prevSlide}>
           {this.props.CarouselData.map((slide, index) => {
             return (
+              <div className="h-full w-full object-cover  min-w-full overflow-clip">
+
               <img
                 key={index}
                 src={slide.image}
                 alt="This is a carousel slide"
                 className={
                   index === this.state.currentSlide
-                    ? " mx-auto object-cover h-screen  opacity-100 w-full z-0  filter brightness-75"
-                    : "hidden"
+                  ? " mx-auto object-cover h-92    opacity-100 w-full z-0  filter brightness-75"
+                  : "hidden"
                 }
-              />
+                />
+                </div>
             );
           })}
         </Swipe>

@@ -4,7 +4,7 @@ const AboutSection = () => {
   return (
     <>
       <div className="    mx-auto prose max-w-none w-11/12 md:w-10/12   my-12  ">
-        <div className="  mx-auto md:grid md:grid-cols-3 md:gap-12 flex-col-reverse flex     ">
+        <div className="  mx-auto md:grid md:grid-cols-3 md:gap-12 2xl:gap-28 flex-col-reverse flex     ">
           {/* <div className="  mx-auto sm:grid sm:grid-cols-1 lg:grid-cols-3 md:gap-12 order-last flex   "> */}
 
           <div className="h-full w-full  object-cover  col-span-2 ">
@@ -24,6 +24,8 @@ const AboutSection = () => {
           /> */}
 
           <div className="my-auto mt-12 ">
+            <div>
+          
             <h1 className="text-left ">About if/Lab</h1>
 
             <p className=" lg:text-justify md:text-justify text-left  ">
@@ -52,7 +54,8 @@ const AboutSection = () => {
             <br className="hidden lg:visible" />
           </div>
         </div>
-      </div>
+      </div>    
+            </div>
 
       {/* 
 
