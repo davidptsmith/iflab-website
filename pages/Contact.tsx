@@ -18,7 +18,7 @@ const Home: NextPage  = ({ imagePaths }) => {
         <Nav />
       </div>
 
-      <div className="    mx-auto prose max-w-none w-11/12 md:w-11/12   my-12  ">
+      <div className="    mx-auto prose max-w-none w-11/12 md:w-10/12   my-12  ">
         <div className="  mx-auto md:grid md:grid-cols-3 md:gap-12 flex-col-reverse flex     ">
         {/* <div className="  mx-auto sm:grid sm:grid-cols-1 lg:grid-cols-3 md:gap-12 order-last flex   "> */}
 
