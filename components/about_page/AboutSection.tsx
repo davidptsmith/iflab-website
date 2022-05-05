@@ -2,24 +2,20 @@ import ValueStatement from "../home_page/ValueStatement";
 
 const AboutSection = () => {
   return (
-
-<>
-
-
-<div className="    mx-auto prose max-w-none w-11/12 md:w-10/12   my-12  ">
+    <>
+      <div className="    mx-auto prose max-w-none w-11/12 md:w-10/12   my-12  ">
         <div className="  mx-auto md:grid md:grid-cols-3 md:gap-12 flex-col-reverse flex     ">
-        {/* <div className="  mx-auto sm:grid sm:grid-cols-1 lg:grid-cols-3 md:gap-12 order-last flex   "> */}
+          {/* <div className="  mx-auto sm:grid sm:grid-cols-1 lg:grid-cols-3 md:gap-12 order-last flex   "> */}
 
-        <div className="h-full w-full  object-cover  col-span-2 ">
-
-        <div className="overflow-hidden   w-full h-full">
+          <div className="h-full w-full  object-cover  col-span-2 ">
+            <div className="overflow-hidden  w-full h-full">
               <img
                 alt=""
                 className="h-full object-cover"
                 src="\images\projects\Ravensthorpe\cover_image.jpg"
               />
             </div>
-          {/* <ContactCarousel CarouselData={imagePaths}/> */}
+            {/* <ContactCarousel CarouselData={imagePaths}/> */}
           </div>
           {/* <img
             alt=""
@@ -27,51 +23,38 @@ const AboutSection = () => {
             src="\images\HomeHeroImages\08.jpg"
           /> */}
 
-          <div className="my-auto mt-12">
-          <h1 className="text-left ">About if/Lab</h1>
+          <div className="my-auto mt-12 ">
+            <h1 className="text-left ">About if/Lab</h1>
 
-<p className=" lg:text-justify md:text-justify text-left  ">
-  if/LAB is a Perth-based design studio of transdisciplinary
-  architects, designers, technologists, software developers,
-  computational experts, and radical thinkers. We recognise the
-  urgency of adapting the way we work to enable accelerated
-  industry transformation that can deliver better, cheaper, and
-  faster design and technology enabled solutions for the built
-  environment.
-</p>
-<br className="hidden lg:visible" />
-<p>
-  We employ a creative, transdisciplinary, and data-informed
-  approach so that we can help to design a better future for all.
-  We believe in learning through exploring, creative solutions to
-  complex problems, partnering with experts across domains, and
-  using technology to provide end-to-end value through the
-  delivery of highly robust processes and better end-products.
-</p>
-<br className="hidden lg:visible" />
-<p>
-  We are experts in data, design, technology, research, strategy,
-  sustainability, and modern methods of construction utilising
-  prefabrication and advanced manufacturing.
-</p>
-<br className="hidden lg:visible" />
+            <p className=" lg:text-justify md:text-justify text-left  ">
+              if/LAB is a Perth-based design studio of transdisciplinary
+              architects, designers, technologists, software developers,
+              computational experts, and radical thinkers. We recognise the
+              urgency of adapting the way we work to enable accelerated industry
+              transformation that can deliver better, cheaper, and faster design
+              and technology enabled solutions for the built environment.
+            </p>
+            <br className="hidden lg:visible" />
+            <p>
+              We employ a creative, transdisciplinary, and data-informed
+              approach so that we can help to design a better future for all. We
+              believe in learning through exploring, creative solutions to
+              complex problems, partnering with experts across domains, and
+              using technology to provide end-to-end value through the delivery
+              of highly robust processes and better end-products.
+            </p>
+            <br className="hidden lg:visible" />
+            <p>
+              We are experts in data, design, technology, research, strategy,
+              sustainability, and modern methods of construction utilising
+              prefabrication and advanced manufacturing.
+            </p>
+            <br className="hidden lg:visible" />
           </div>
         </div>
       </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-{/* 
+      {/* 
 
     <div className="prose max-w-none ">
       <div className="w-4/6 md:w-2/3 lg:mt-14 mt-8  mx-auto">
@@ -123,18 +106,7 @@ const AboutSection = () => {
       </div>
  */}
 
-
-
-
-
-
-
-
-
-
-
-
-{/* 
+      {/* 
 
 
 
@@ -179,12 +151,7 @@ const AboutSection = () => {
     </div>
  */}
 
-
-
-
-
-
-{/* 
+      {/* 
 
               <div className=" text-lg font-light">
                 <p>
@@ -209,8 +176,8 @@ const AboutSection = () => {
                   better process and outcome.
                 </p>
               </div> */}
-              <br className="hidden lg:visible" />
-              {/* 
+      <br className="hidden lg:visible" />
+      {/* 
               <p className=" lg:text-justify md:text-justify text-left  ">
                 if/LAB is a Perth-based design studio of transdisciplinary
                 architects, designers, technologists, software developers,
@@ -235,8 +202,6 @@ const AboutSection = () => {
                 sustainability, and modern methods of construction utilising
                 prefabrication and advanced manufacturing.
               </p> */}
-
-   
     </>
   );
 };

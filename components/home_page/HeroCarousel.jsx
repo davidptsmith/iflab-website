@@ -50,8 +50,6 @@ class HeroCarousel extends Component {
   };
 
   render() {
-    console.log(this.props);
-
     return (
       <header className="absolute w-full h-screen overflow-hidden z-50">
         <div className="h-full w-full grid place-items-center absolute z-20 ">

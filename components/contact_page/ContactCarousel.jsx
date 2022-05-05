@@ -50,8 +50,6 @@ class ContactCarousel extends Component {
   };
 
   render() {
-    console.log(this.props);
-
     return (
       <header className="h-ful w-full relative    overflow-hidden ">
         <div className="h-full w-full absolute grid place-items-center  z-20 ">
