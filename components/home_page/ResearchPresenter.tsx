@@ -43,7 +43,7 @@ const ResearchPresenter = () => {
           </p>
           <NavigationText
             text={"See a selection of our project insights"}
-            url={"/Projects"}
+            url={"/Insights"}
           />
         </div>
       </div>
