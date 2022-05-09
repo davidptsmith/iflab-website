@@ -75,6 +75,7 @@ export async function getStaticProps() {
   // Get the hero image paths
   const testFolder = "public/images/HomeHeroImages";
 
+
   const imagePaths = fs.readdirSync(testFolder).map((image) => {
     return {
       image: "/images/HomeHeroImages" + "/" + image,
