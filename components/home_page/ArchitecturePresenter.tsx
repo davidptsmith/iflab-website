@@ -1,25 +1,20 @@
 import Link from "next/dist/client/link";
 import KeyProjectsCard from "./KeyProjectsCard";
 import NavigationText from "../Utilities/NavigationText";
-const PublicArtPresenter = () => {
+const ArchitecturePresenter = () => {
   return (
     <div id="KeyProjects" className="SectionStyle">
-      <div className="grid  lg:grid-cols-3  w-10/12 md:py-24 2xl:space-x-8 gap-8 mx-auto ">
+      <div className="grid  lg:grid-cols-3  w-10/12 md:py-24  2xl:space-x-8 gap-8 mx-auto ">
         <div className=" m-auto w-10/12 pt-12 ">
           <h1>
             Key Projects:
             <br />
-            Public Art
+            Architecture 
           </h1>
           <p className="">
-            We use public art as a way of giving back to the community and a
-            testing bed for innovation. We work alongside architects,
-            fabricators, and clients to ensure that the solutions we provide are
-            fit for purpose add value.
+            Here we should write some text about how we do architectural projects and challenge the status quo. Here we should write some text about how we do architectural projects and challenge the status quo.
             <br />
-            Our projects work with new fabrication techniques to realise complex
-            geometry and ensure that we minimize the wastage of our designs to
-            ensure they align with our core sustainability goals.
+            Something more about architecture, usually two paragraphs will look nice. Something more about architecture, usually two paragraphs will look nice. 
           </p>
           <NavigationText
             text={"See our other projects here"}
@@ -28,22 +23,23 @@ const PublicArtPresenter = () => {
         </div>
 
         <KeyProjectsCard
-          projectName={"Anemoi"}
-          projectType={"Public Art"}
+          projectName={"Ravensthorpe"}
+          projectType={"Architecture"}
           projectDescription={
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, fugiat."
           }
-          imageUrl={"/images/HomeHeroImages/01.jpg"}
+          
+          imageUrl={"/images/projects/Ravensthorpe/cover_image.jpg"}
           link_path={"/Projects/Anemoi"}
         />
 
         <KeyProjectsCard
-          projectName={"Yanchep SHS"}
-          projectType={"Public Art"}
+          projectName={"Timberbuilt Cabins"}
+          projectType={"Architecture"}
           projectDescription={
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, fugiat."
           }
-          imageUrl={"/images/HomeHeroImages/12.jpg"}
+          imageUrl={"/images/HomeHeroImages/10.jpg"}
           link_path={"/Projects/Yanchep-Stage-1"}
         />
       </div>
@@ -51,4 +47,4 @@ const PublicArtPresenter = () => {
   );
 };
 
-export default PublicArtPresenter;
+export default ArchitecturePresenter;

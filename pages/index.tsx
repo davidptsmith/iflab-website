@@ -22,9 +22,10 @@ import HeroCarousel from "../components/home_page/HeroCarousel";
 import ParallaxImageBreak from "../components/home_page/ParallaxImageBreak";
 import ValueStatement from "../components/home_page/ValueStatement";
 import WhatWeDoPresenter from "../components/home_page/WhatWeDoPresenter";
+import ArchitecturePresenter from "../components/home_page/ArchitecturePresenter";
 
 const Home: NextPage = ({ imagePaths }) => (
-  <main className="max-h-screen  overflow-y-scroll snap snap-y snap-mandatory ScrollingLayer ">
+  <main className="max-h-screen everything  overflow-hidden  snap snap-y snap-mandatory ScrollingLayer   ">
   {/* <main className="max-h-screen  overflow-y-scroll snap snap-y snap-mandatory ScrollingLayer overflow-hidden md:overflow-visible"> */}
     <div className="absolute z-50 w-screen pb-1  md:pr-4 ">
       <div className=" bg-white">
@@ -33,7 +34,7 @@ const Home: NextPage = ({ imagePaths }) => (
     </div>
 
     <section className=" h-screen snap snap-y snap-start  snap-mandatory relative  ">
-      <header className=" h-screen w-full flex z-50  absolute">
+      <header className=" h-screen w-full flex z-50   absolute">
         <HeroCarousel CarouselData={imagePaths} />
       </header>
 
@@ -44,27 +45,32 @@ const Home: NextPage = ({ imagePaths }) => (
 
     <div
       id="Home"
-      className=" snap snap-y snap-start w-full h-full snap-mandatory "
+      className=" snap snap-y snap-start w-full h-full snap-mandatory  "
     >
-      <div className=" bg-white prose full max-w-none pt-24 md:pb-12  ">
+      <div className=" bg-white prose full max-w-none pt-24   ">
         <ValueStatement />
 
-        <div className="bg-slate-100 h-full w-screen">
+        <div className="bg-slate-100 h-full w-screen ">
           <WhatWeDoPresenter />
           {/* <Mission /> */}
         </div>
         {/* <ParallaxImageBreak imageNumber={3} /> */}
 
         {/* <section className='w-full h-full snap-mandatory snap-start ' > */}
+        <ArchitecturePresenter />
+        <div className="bg-slate-100 py-12 h-full w-screen">
+        <ResearchPresenter />
+        </div>
         <PublicArtPresenter />
         {/* </section> */}
 
         {/* <ParallaxImageBreak imageNumber={4} /> */}
 
         {/* <section className='w-full h-full snap-mandatory snap-start ' > */}
-        <div className="bg-slate-100 h-full">
+
+        {/* <div className="bg-slate-100 h-full">
           <TestimonialPresenter />
-        </div>
+        </div> */}
 
         {/* </section> */}
 
@@ -72,20 +78,19 @@ const Home: NextPage = ({ imagePaths }) => (
 
         {/* <section className='w-full h-full snap-mandatory snap-start ' > */}
 
-        <ResearchPresenter />
         {/* </section> */}
 
         {/* <ParallaxImageBreak imageNumber={2} /> */}
 
         {/* <section className='w-full h-full snap-mandatory snap-start ' > */}
 
-        <div className="bg-slate-100 h-full w-screen">
+        {/* <div className="bg-slate-100 h-full w-screen">
           <Services />
-        </div>
+        </div> */}
 
-        <ResearchPresenter />
+        {/* <ResearchPresenter /> */}
 
-        <div className="bg-slate-100 py-12 h-full w-screen">
+        <div className="bg-slate-100 py-12 h-full w-screen md:pb-24">
           <ContactUs />
           {/* </section> */}
         </div>

@@ -5,10 +5,10 @@ const WhatWeDoPresenter = () => {
   return (
     <div
       id="KeyProjects"
-      className=" md:min-h-[800px] py-24 md:p-0 md:py-12 lg:px-4 md:w-11/12 w-11/12 my-auto h-full place-items-center grid  mx-auto"
+      className=" md:min-h-[800px] py-24 md:p-0 md:py-36 lg:px-4 md:w-4/5 w-11/12 my-auto h-full place-items-center grid  mx-auto"
     >
       <div className=" ">
-        <h1 className="w-10/12 pb-12 ">What We Do.</h1>
+        <h1 className="w-10/12 pb-2 ">What We Do.</h1>
 
         <div className="grid  lg:grid-cols-3  w-full h-full md:min-h-[600px]  2xl:space-x-8 gap-8 mx-auto ">
           <KeyProjectsCard

@@ -6,6 +6,10 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+/* div {
+  outline: 2px solid #f00 !important;
+} */
+
 .backdrop{
     position: fixed; 
     top:0; 
@@ -129,8 +133,10 @@
     }
   }
 
+ 
   .ScrollingLayer{
       scroll-behavior: smooth;
+      
   }
   
   .navButtons{

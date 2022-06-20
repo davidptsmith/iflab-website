@@ -37,20 +37,20 @@ const Home: NextPage  = ({ imagePaths }) => {
             <h1 className="font-semibold text-black  text-left ">
               Contact Us
             </h1>
-            <dl className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-1 sm:gap-y-16 lg:gap-x-8">
-              <div className="border-t border-gray-200 pt-2">
+            <dl className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-1 sm:gap-y-8 lg:gap-x-8">
+              <div className="border-t my-auto   border-gray-200 pt-2">
                 <dt className="font-medium text-gray-900">Phone</dt>
                 <dd className="mt-2 text-sm text-gray-500">0412345678</dd>
               </div>
 
-              <div className="border-t border-gray-200 pt-2">
+              <div className="border-t my-auto  border-gray-200 pt-2">
                 <dt className="font-medium text-gray-900">Email</dt>
                 <dd className="mt-2 text-sm text-gray-500">
                   office@intensivefield.com
                 </dd>
               </div>
 
-              <div className="border-t border-gray-200 pt-2">
+              <div className="border-t  my-auto border-gray-200 pt-2">
                 <dt className="font-medium text-gray-900">Address </dt>
                 <dd className="mt-2 text-sm text-gray-500">
                   17/210 Bagot Rd, Subiaco, Perth, Western Australia{" "}

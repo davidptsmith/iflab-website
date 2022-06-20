@@ -4,7 +4,7 @@ import NavigationText from "../Utilities/NavigationText";
 
 const ContactUs = () => {
   return (
-    <div className="  min-h-[640px] lg:px-4 md:w-11/12 w-10/12   mx-auto z-10 grid grid-cols-1 md:gap-4 md:grid-cols-2">
+    <div className="  min-h-[640px] lg:px-4 md:w-4/5 w-10/12   mx-auto z-10 grid grid-cols-1 md:gap-4 md:grid-cols-2">
       <div className="w-full md:h-full overflow-hidden m-auto">
         <img
           className="object-cover md:h-full w-full"

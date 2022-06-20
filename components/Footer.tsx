@@ -1,7 +1,7 @@
 import Link from "next/dist/client/link";
 const Footer = () => {
   return (
-    <div className="md:pt-32">
+    <div className="">
       <div className="h-1 w-full   border-t border-gray-200 " />
 
       <footer className="bg-white  w-full py-12">
