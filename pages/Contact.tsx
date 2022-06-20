@@ -38,15 +38,15 @@ const Home: NextPage  = ({ imagePaths }) => {
               Contact Us
             </h1>
             <dl className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-1 sm:gap-y-8 lg:gap-x-8">
-              <div className="border-t my-auto   border-gray-200 pt-2">
+              {/* <div className="border-t my-auto   border-gray-200 pt-2">
                 <dt className="font-medium text-gray-900">Phone</dt>
                 <dd className="mt-2 text-sm text-gray-500">0412345678</dd>
-              </div>
+              </div> */}
 
               <div className="border-t my-auto  border-gray-200 pt-2">
                 <dt className="font-medium text-gray-900">Email</dt>
                 <dd className="mt-2 text-sm text-gray-500">
-                  office@intensivefield.com
+                  office@intensivefieldslab.com
                 </dd>
               </div>
 

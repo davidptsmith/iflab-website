@@ -131,7 +131,7 @@ const searchBlog = (projects, text) => {
     return filteredPosts.map((projects, index) => (
       // <div key={index} className='  ' >
 
-      <motion.li key={index} className=" flex-grow  m-auto p-2 md:p-4" layout>
+      <motion.li key={index} className=" flex-grow  m-auto p-2 md:p-2" layout>
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}

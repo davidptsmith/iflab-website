@@ -5,12 +5,18 @@ const WhatWeDoPresenter = () => {
   return (
     <div
       id="KeyProjects"
-      className=" md:min-h-[800px] py-24 md:p-0 md:py-36 lg:px-4 md:w-4/5 w-11/12 my-auto h-full place-items-center grid  mx-auto"
-    >
-      <div className=" ">
-        <h1 className="w-10/12 pb-2 ">What We Do.</h1>
-
-        <div className="grid  lg:grid-cols-3  w-full h-full md:min-h-[600px]  2xl:space-x-8 gap-8 mx-auto ">
+      className=" relative mx-auto  h-full "
+      // className=" md:min-h-[800px] py-24 md:p-0 md:py-36 lg:px-4 md:w-4/5 w-11/12 my-auto h-full place-items-center grid  mx-auto"
+    > 
+    <div className="absolute w-full pt-8 pl-24 ">
+        <h1 className=" w-10/12 pt-8 mx-auto underline">What We Do.</h1>
+    </div>
+      {/* <div className=" "> */}
+      <div className=" m-auto place-items-center grid  ">
+         <img src="./images/diagrams/Iflab Network Diagram-01.png" className=" h-[1000px]"></img>
+         
+          </div>
+        {/* <div className="grid  lg:grid-cols-3  w-full h-full md:min-h-[600px]  2xl:space-x-8 gap-8 mx-auto ">
           <KeyProjectsCard
             projectName={"Precinct"}
             projectType={"Concept Design"}
@@ -40,8 +46,11 @@ const WhatWeDoPresenter = () => {
             imageUrl={"/images/HomeHeroImages/12.jpg"}
             link_path={"Projects/Yanchep-Stage-1"}
           />
-        </div>
-      </div>
+        </div> */}
+
+
+
+      {/* </div> */}
     </div>
   );
 };

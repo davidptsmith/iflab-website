@@ -38,12 +38,32 @@ const ProjectTable = ({ items }) => {
           </dd>
         </div>
 
-        <div className="border-t border-gray-200 pt-4">
+        {/* <div className="border-t border-gray-200 pt-4">
           <dt className="font-medium text-gray-900">{items[5][0]}</dt>
           <dd className="mt-2 text-sm -mb-4 md:-mb-8  text-gray-500">
             {items[5][1]}
           </dd>
+        </div> */}
+
+{/* add dynamic rendering to these elements if index exists */}
+{/* 
+        <div className="border-t border-gray-200 pt-4">
+          <dt className="font-medium text-gray-900">{items[6][0]}</dt>
+          <dd className="mt-2 text-sm -mb-4 md:-mb-8  text-gray-500">
+            {items[6][1]}
+          </dd>
         </div>
+
+
+        <div className="border-t border-gray-200 pt-4">
+          <dt className="font-medium text-gray-900">{items[7][0]}</dt>
+          <dd className="mt-2 text-sm -mb-4 md:-mb-8  text-gray-500">
+            {items[7][1]}
+          </dd>
+        </div> */}
+
+
+
       </dl>
     </div>
   );

@@ -3,10 +3,10 @@ import Link from "next/link";
 export default function Project({ project }) {
   return (
       <Link href={`/Projects/${project.slug}`} passHref>
-    <div className="  overflow-hidden  rounded-lg shadow-sm cursor-pointer hover:shadow-xl transition duration-500 ease-in-out transform group  ">
+    <div className="  overflow-hidden  rounded-md shadow-sm cursor-pointer hover:shadow-xl transition duration-500 ease-in-out transform group  ">
         <img
           alt="iflab Project Image"
-          className="max-h-full h-32 md:h-72    min-w-full align-bottom object-cover opacity-90"
+          className="max-h-full h-32 md:h-72   max-w-[400px] min-w-full align-bottom object-cover opacity-90"
           src={project.frontmatter.cover_image}
         />
 

@@ -4,37 +4,29 @@ date: 'JUNE 18, 2019'
 excerpt: 'this is more information and things about the project. Look at this test, it is testing the length of the item'
 cover_image: '/images/projects/AGWA/cover_image.jpg'
 aside_image: '/images/posts/BLOG_DrawingAutomation/1.jpg'
-tags: ["Architecture",  "Cladding", "Automation", "Grasshopper", "Computational Design", "Rhino 3D"]
+tags: ["Architecture",  "Cladding", "Automation", "Grasshopper", "Computational Design", "Rhino 3D", "Design Assist", ]
 tables: {
   items: [
-    ["Heading 1", "Value 1"],
-    ["Heading 2", "Value 2"],
-    ["Heading 3", "Value 3"],
-    ["Heading 4", "Value 4"],
-    ["Heading 5", "Value 5"],
-    ["Heading 6", "Value 6"],
+    ["Project Team", "Daniel Giuffre, David Smith, Patrick Bendall"],
+    ["Project Details", "Canopy and Lift"],
+    ["Location", "AWGA - Northbridge Cultural Centre"],
+    ["Completion Date", "2019"],
+    ["Size", "450 sqm"],
+    ["Client", "FJMT and TAG Architects - "],
   ]
 }
 ---
 
+## DESIGN ASSIST
 
-## Concept 
+**PROJECT:** AUSTRALIAN GALLERY OF WESTERN AUSTRALIA
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum amet quiss atque a enim odit eligendi dolor iusto minima quaerat. Eveniet nesciunt, nemo quos, asperiores molestiae quisquam deserunt dicta iste necessitatibus labore ut animi suscipit illo maxime quis nulla natus sint quidem et recusandae odit aut a corporis quam! Suscipit explicabo quasi doloribus, consequuntur inventore qui rerum atque voluptatibus officia unde, quisquam quaerat consectetur est, numquam ducimus cum aliquam dicta ullam harum corrupti quos error?
+**ARCHITECT:**  FJMT AND TAG ARCHITECTS
 
-
-## Design 
-  
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum amet quiss atque a enim odit eligendi dolor iusto minima quaerat. Eveniet nesciunt, nemo quos, asperiores molestiae quisquam deserunt dicta iste necessitatibus labore ut animi suscipit illo maxime quis nulla natus sint quidem et recusandae odit aut a corporis quam! Suscipit explicabo quasi doloribus, consequuntur inventore qui rerum atque voluptatibus officia unde, quisquam quaerat consectetur est, numquam ducimus cum aliquam dicta ullam harum corrupti quos error?
-
-## Other Things 
-  
-*consectetur est, numquam ducimus cum aliquam dicta ullam harum corrupti quos error?*
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum amet quiss atque a enim odit eligendi dolor iusto minima quaerat. Eveniet nesciunt, nemo quos, asperiores molestiae quisquam deserunt dicta iste necessitatibus labore ut animi suscipit illo maxime quis nulla natus sint quidem et recusandae odit aut a corporis quam! Suscipit explicabo quasi doloribus, consequuntur inventore qui rerum atque voluptatibus officia unde, quisquam quaerat consectetur est, numquam ducimus cum aliquam dicta ullam harum corrupti quos error?
-
->consectetur est, numquam ducimus cum aliquam dicta ullam harum corrupti quos error?
-
-*image collection thing
+**PROJECT TEAM:**  DANIEL GIUFFRE, DAVID SMITH, PATRICK BENDALL
 
 
+The AGWA roof canopy was a design concept by Sydney firm FJMT and Perth local practice, TAG architects for the Art Gallery of Western Australia (AGWA).
+if/LAB were engaged in an ECI (Early Contractor Involvement) agreement by the architects and BMW to refine and develop the design in preparation for fabrication.
+
+Our scope included: rationalising the complex geometry for fabrication, create a flexible computational design model, produce a comprehensive schedule of quantities/material takeoffs, preparation of shop drawings for fabrication.
