@@ -179,7 +179,7 @@ const searchBlog = (posts, text) => {
             key={index}
             className=" overflow-hidden cursor-pointer h-full rounded-lg shadow-lg transition duration-500 ease-in-out transform  hover:shadow-2xl "
           >
-            <motion.li className="m-auto " layout>
+            <motion.li className="m-auto "  transition={{delay:0.2 , duration: 0.5 }} layout>
               <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
