@@ -26,7 +26,7 @@ class HeroCarousel extends Component {
             : this.state.currentSlide + 1;
         this.setState({ currentSlide: newSlide });
       }
-    }, 5000);
+    }, 3000);
   }
 
   nextSlide = () => {
