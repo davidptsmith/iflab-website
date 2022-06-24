@@ -35,7 +35,7 @@ export default function ProjectPage({
             <div className="h-full md:col-span-3 overflow-hidden md:pr-4">
               <img
                 className="w-full object-cover hidden md:visible "
-                src={aside_image}
+                src={cover_image}
               />
 
               {/* <ImagesCarousel CarouselData={imagePaths} /> */}
@@ -48,7 +48,7 @@ export default function ProjectPage({
               <div className="-mt-20 mx-auto mb-12 h-96 visible md:hidden ">
                 <img
                   className="  mx-auto object-cover  h-full visible md:hidden "
-                  src={aside_image}
+                  src={cover_image}
                 />
               </div>
               <h1>{title}</h1>
