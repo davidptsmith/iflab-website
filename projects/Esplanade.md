@@ -7,12 +7,12 @@ aside_image: '/images/posts/BLOG_DrawingAutomation/1.jpg'
 tags: ["Shop Drawings", "Fabrication", "Public Art", "Automation", "Grasshopper", "Computational Design", "Rhino 3D"]
 tables: {
   items: [
-    ["Project Team", "if/LAB, [Rick Vermey](https://www.rickvermey.com/)", "[Shane Hansen](https://japingkaaboriginalart.com/collections/yondee-shane-hansen/)", "[Karla Hart](https://karlahartproductions.com/)", Melinda Eades (Dancer), Uncle Farley Garlett (Cultural Advisor) ],
+    ["Project Team", "if/LAB, [Rick Vermey] (https://www.rickvermey.com/), [Shane Hansen] (https://japingkaaboriginalart.com/collections/yondee-shane-hansen/), [Karla Hart] (https://karlahartproductions.com/), Melinda Eades (Dancer), Uncle Farley Garlett (Cultural Advisor) "],
     ["Project Details", "Percent for Art: Sculpture"],
     ["Location", "Elizabeth Quay"],
     ["Completion Date", "EOI Shortlist, 2021"],
-    ["Client", "[Brookfield Properties](https://www.brookfieldproperties.com/en.html)"],
-    ["Architect", "[Hassell](https://www.hassellstudio.com/)"],
+    ["Client", "[Brookfield Properties] (https://www.brookfieldproperties.com/en.html)"],
+    ["Architect", "[Hassell] (https://www.hassellstudio.com/)"],
 
   ]
 }
@@ -48,9 +48,9 @@ Aunty Fanny Balbok Yondeel was one strong Noongar woman who made her presence fe
 The artist team engaged with Karla Hart and Melinda Eades who lead the narratives, stories, songs and choreography relating to the Derbal Yerrigan. Karla's focus was to pay respects and tribute to the strong female elders in her community.
 We filmed Melinda dancing along the river, and used computer vision to track her movements and translate dance traditional dance and choreography into a digital space. This was an interative process whereby we could test and explore many outcomes based on what 'nodes' and sequences we pushed through the algorithm. By tracking movements, we generated a series of 'dancing gesture lines' which was basically a wireframe network that we then added volume to it to create the sculpture. 
 
-<span style="colour:blue">“ Click [here](https://youtu.be/SfVSOS5ZnLU) to view the video</span>.
-
-
+<div >
+<iframe class="VideoMD"  src="https://www.youtube.com/embed/SfVSOS5ZnLU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## Collaborators 
 **Yondee Shane Hansen** *painter*

@@ -26,7 +26,11 @@ Framing this threshold is a bold sweeping gestural surface, articulated as a CHS
 
 ## Project Concept
 
-The HOTA Gold Coast precinct masterplan was designed by ARM Architects and includes an Outdoor Stage, Bridge and Gallery Building. The entire precinct is structured and designed around the 'Voronoi', an organic cellular structure. Given that Grasshopper has a built in component to generate a voronoi, and David Rutten's hidden joke within the software on the over use of the [*voronoi pattern*]('/images/projects/Goldcoast Greenbridge/voronoi warning.jpg'), we decided to find a way to still fit within the theme, but to move away from the Voronoi.
+The HOTA Gold Coast precinct masterplan was designed by ARM Architects and includes an Outdoor Stage, Bridge and Gallery Building. The entire precinct is structured and designed around the 'Voronoi', an organic cellular structure. Given that Grasshopper has a built in component to generate a voronoi, and David Rutten's hidden joke within the software on the over use of the, we decided to find a way to still fit within the theme, but to move away from the Voronoi.
+
+<a href="https://i.redd.it/e5229q6ewwf01.jpg" target=”_blank”>
+  <img   style="width:100%;"  src="/images/diagrams/voronoi warning.jpg"> </img> 
+</a>
 
 The obvious leap here was to play around with Delayney triangulation as the point set **P** in general position correspondes to the dual graph of the Voronoi diagram for **P**. The circumcenters of Delaunay triangles are the vertices of the Voronoi diagram.
 
