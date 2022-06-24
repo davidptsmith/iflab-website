@@ -1,39 +1,36 @@
 ---
 title: "Goldcoast Greenbridge" 
-date: 'JUNE 18, 2019'
+date: '10'
 excerpt: 'this is more information and things about the project. Look at this test, it is testing the length of the item'
 cover_image: '/images/projects/Goldcoast Greenbridge/cover_image.jpg'
 aside_image: '/images/posts/BLOG_DrawingAutomation/1.jpg'
 tags: ["Shop Drawings", "Fabrication", "Public Art", "Automation", "Grasshopper", "Computational Design", "Rhino 3D"]
 tables: {
   items: [
-    ["People", "Value"],
-    ["Project Details", "Value"],
-    ["Budget", "Value"],
-    ["Location", "Value"],
-    ["Material", "Value"],
-    ["Processes", "Value"],
+    ["Project Team", "if/LAB, [Rick Vermey] (https://www.rickvermey.com/)"],
+    ["Project Details", "Percent for Art: Bridge Link"],
+    ["Location", "Gold Coast, HOTA"],
+    ["Completion Date", "Shortlisted EOI, 2018"],
   ]
 }
 ---
 
-## Concept
+## Contextural Connection to to Gold Coast and HOTA
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum amet quiss atque a enim odit eligendi dolor iusto minima quaerat. Eveniet nesciunt, nemo quos, asperiores molestiae quisquam deserunt dicta iste necessitatibus labore ut animi suscipit illo maxime quis nulla natus sint quidem et recusandae odit aut a corporis quam! Suscipit explicabo quasi doloribus, consequuntur inventore qui rerum atque voluptatibus officia unde, quisquam quaerat consectetur est, numquam ducimus cum aliquam dicta ullam harum corrupti quos error?
+*“Home Of The Arts is the home for all things creative. A home that brings people together, where ideas are transformed into real life experiences.”*
+
+Our concept design for the Gateway Welcome experience at the southern landing of the Greenbridge is a vision for a distinctive and engaging space of transition, expressing vitality, creativity and a spirit of connection. Your journey over the Nerang River from Chevron Island to HOTA culminates in an embrace of innovation and contemporary artistic expression, as you approach an elevated outlook over the lake across of the Gold Coast Cultural Precinct. The artwork represents a symbolic and conceptual transition from daily life across the river, into the voronoi filled wonder of the HOTA landscape, through a differentiated delaunay triangulated passage way around the j-curve of the southern landing. The delaunay triangle is derived directly from voronoi pattern geometry.
+
+Framing this threshold is a bold sweeping gestural surface, articulated as a CHS tubular aluminium structural frame, partially infilled with gold anodized aluminium cladding panels. The sculptural form this artwork is inspired by the undulating serpentine qualities of the Gold Coast estuarine environment.
 
 
-## Project
+## Project Concept
 
-**consectetur est, numquam ducimus cum aliquam dicta ullam harum corrupti quos error?**
+The HOTA Gold Coast precinct masterplan was designed by ARM Architects and includes an Outdoor Stage, Bridge and Gallery Building. The entire precinct is structured and designed around the 'Voronoi', an organic cellular structure. Given that Grasshopper has a built in component to generate a voronoi, and David Rutten's hidden joke within the software on the over use of the [*voronoi pattern*]('/images/projects/Goldcoast Greenbridge/voronoi warning.jpg'), we decided to find a way to still fit within the theme, but to move away from the Voronoi.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum amet quiss atque a enim odit eligendi dolor iusto minima quaerat. Eveniet nesciunt, nemo quos, asperiores molestiae quisquam deserunt dicta iste necessitatibus labore ut animi suscipit illo maxime quis nulla natus sint quidem et recusandae odit aut a corporis quam! Suscipit explicabo quasi doloribus, consequuntur inventore qui rerum atque voluptatibus officia unde, quisquam quaerat consectetur est, numquam ducimus cum aliquam dicta ullam harum corrupti quos error?
+The obvious leap here was to play around with Delayney triangulation as the point set **P** in general position correspondes to the dual graph of the Voronoi diagram for **P**. The circumcenters of Delaunay triangles are the vertices of the Voronoi diagram.
 
-## Other Things 
+The thematic approach to the artwork was to explore the relationships of water and the built environment. The artwork site was the bridge abutment on the Chevron Island side which curves out over the Evandale Lake. We explored the interplay between water and light, and how the caustic reflections have a similar appearance to that of the Voronoi pattern. 
 
-*consectetur est, numquam ducimus cum aliquam dicta ullam harum corrupti quos error?*
+This is the inspiration for having sensors that trigger dynamic lighting influenced by the users of the bridges. Much like the way light and water react, we envisage out artwork to react to the surroundings and context of the southern landing.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum amet quiss atque a enim odit eligendi dolor iusto minima quaerat. Eveniet nesciunt, nemo quos, asperiores molestiae quisquam deserunt dicta iste necessitatibus labore ut animi suscipit illo maxime quis nulla natus sint quidem et recusandae odit aut a corporis quam! Suscipit explicabo quasi doloribus, consequuntur inventore qui rerum atque voluptatibus officia unde, quisquam quaerat consectetur est, numquam ducimus cum aliquam dicta ullam harum corrupti quos error?
-
->consectetur est, numquam ducimus cum aliquam dicta ullam harum corrupti quos error?
-
-*image collection thing

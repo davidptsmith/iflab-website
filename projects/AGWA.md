@@ -1,14 +1,14 @@
 ---
 title: "AGWA" 
-date: 'JUNE 18, 2019'
+date: '10'
 excerpt: 'this is more information and things about the project. Look at this test, it is testing the length of the item'
 cover_image: '/images/projects/AGWA/cover_image.jpg'
 aside_image: '/images/posts/BLOG_DrawingAutomation/1.jpg'
 tags: ["Architecture",  "Cladding", "Automation", "Grasshopper", "Computational Design", "Rhino 3D", "Design Assist", ]
 tables: {
   items: [
-    ["Project Team", "Daniel Giuffre, David Smith, Patrick Bendall"],
-    ["Project Details", "Canopy and Lift"],
+    ["Project Team", "if/LAB, [FJMT](https://https://fjmtstudio.com/), [TAG] (http://tagarchitects.com.au/)"],
+    ["Project Details", "Canopy and Lift Geometry Optimisation"],
     ["Location", "AWGA - Northbridge Cultural Centre"],
     ["Completion Date", "2019"],
     ["Size", "450 sqm"],
@@ -22,8 +22,6 @@ tables: {
 **PROJECT:** AUSTRALIAN GALLERY OF WESTERN AUSTRALIA
 
 **ARCHITECT:**  FJMT AND TAG ARCHITECTS
-
-**PROJECT TEAM:**  DANIEL GIUFFRE, DAVID SMITH, PATRICK BENDALL
 
 
 The AGWA roof canopy was a design concept by Sydney firm FJMT and Perth local practice, TAG architects for the Art Gallery of Western Australia (AGWA).

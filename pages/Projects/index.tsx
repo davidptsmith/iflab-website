@@ -19,7 +19,6 @@ import Nav from "../../components/NavBar/Nav";
 
 const Home: NextPage = ({ projects }) => {
   const [text, setText] = useState("");
-
   return (
     <div>
       <div className="sticky  top-0 w-full bg-white z-50">
@@ -128,6 +127,9 @@ const searchBlog = (projects, text) => {
       </motion.li>
     ));
   } else {
+
+    filteredPosts.sort(compareStrings)
+
     return filteredPosts.map((projects, index) => (
       // <div key={index} className='  ' >
 
@@ -150,6 +152,10 @@ function applyFiler(setText, text) {
   setText(text);
 }
 
+
+
+
+
 export async function getStaticProps() {
   //get files from post dir
   const files = fs.readdirSync(path.join("projects"));
@@ -171,10 +177,21 @@ export async function getStaticProps() {
       frontmatter,
     };
   });
-
+  
   return {
     props: {
-      projects: projects.sort(sortByDate),
+      // projects: projects 
+      projects: projects.sort(),
     },
   };
+}
+
+function compareStrings( a, b ) {
+  if ( a.frontmatter.date < b.frontmatter.date ){
+    return -1;
+  }
+  if ( a.frontmatter.date > b.frontmatter.date ){
+    return 1;
+  }
+  return 0;
 }

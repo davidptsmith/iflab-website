@@ -1,20 +1,20 @@
 ---
 title: "Anemoi" 
-date: 'JUNE 18, 2019'
+date: '5'
 excerpt: 'this is more information and things about the project. Look at this test, it is testing the length of the item'
 cover_image: '/images/projects/Anemoi/cover_image.jpg'
 aside_image: '/images/posts/BLOG_DrawingAutomation/1.jpg'
 tags: ["Shop Drawings", "Fabrication", "Public Art", "Automation", "Grasshopper", "Computational Design", "Rhino 3D"]
 tables: {
   items: [
-    ["Project Team", "Daniel Giuffre, Rick Vermey"],
-    ["Project Details", "Artwork Soffit"],
+    ["Project Team", "if/LAB, [Rick Vermey] (https://www.rickvermey.com/)"],
+    ["Project Details", "Percent for Art: Soffit"],
     ["Budget", "$500,000"],
     ["Location", "Fremantle"],
     ["Completion Date", "2019"],
     ["Size", "200 sqm"],
-    ["Client", "Defence Housing Australia"],
-    ["Fabricator", "Denmac"],
+    ["Client", "[Defence Housing Australia] (https://www.dha.gov.au/)"],
+    ["Fabricator", "[Denmac](https://www.denmac.net.au/)"],
   ]
 }
 ---
@@ -29,7 +29,6 @@ The materials, texture, colours and appearance conceptually reflect its surround
 
 
 ## Project
-
 
 
 The artwork was highly integrated into the fabric of the building and the artist team worked closely with the architectural team, the contractors and the fabricators to ensure a seamless installation.

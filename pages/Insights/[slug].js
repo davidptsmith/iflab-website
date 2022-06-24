@@ -17,14 +17,14 @@ export default function PostPage({
       <Nav />
 
       <div className="mx-auto sm:w-6/12 w-11/12 prose">
-        <Link href="/Insights">
+        {/* <Link href="/Insights">
           <a className=" font-light"> {"<--"} Go Back</a>
-        </Link>
+        </Link> */}
 
         <br />
         <div className="mt-8">
           <h1 className="text-xl  ">{title}</h1>
-          <div className="font-light">Posted on {date}</div>
+          {/* <div className="font-light">Posted on {date}</div> */}
           {/* <img src={cover_image} alt={title} /> */}
 
           <div

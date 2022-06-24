@@ -1,18 +1,20 @@
 ---
 title: "Broome Tafe" 
-date: 'JUNE 18, 2019'
+date: '3'
 excerpt: 'this is more information and things about the project. Look at this test, it is testing the length of the item'
 cover_image: '/images/projects/Broome Tafe/cover_image.jpg'
-aside_image: '/images/posts/BLOG_DrawingAutomation/1.jpg'
+aside_image: '/images/projects/Broome Tafe/cover_image.jpg'
 tags: ["Shop Drawings", "Fabrication", "Public Art", "Automation", "Grasshopper", "Computational Design", "Rhino 3D"]
 tables: {
   items: [
-    ["People", "Value"],
-    ["Project Details", "Value"],
-    ["Budget", "Value"],
-    ["Location", "Value"],
-    ["Material", "Value"],
-    ["Processes", "Value"],
+    ["Project Team", "if/LAB, [Jacky Cheng]] (https://jackycheng.com.au/)"],
+    ["Project Details", "Percent for Art: Canopy Facade"],
+    ["Budget", "$500,000"],
+    ["Location", "Fremantle"],
+    ["Completion Date", "In Construction"],
+    ["Size", "385 sqm"],
+    ["Client", "Department of Finance"],
+    ["Fabricator", "[Kilmore Group](https://kilmoregroup.com.au/)"],
   ]
 }
 ---
