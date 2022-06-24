@@ -6,6 +6,7 @@ import Head from "next/head";
 import Image from "next/image";
 
 import Project from "../../components/Projects/Project";
+import FilterButtons from "../../components/Projects/FilterButtons";
 
 import path from "path";
 import fs from "fs";
@@ -32,11 +33,12 @@ const Home: NextPage = ({ projects }) => {
       </Head>
 
       <div className=" md:w-2/3  lg:w-2/3 xl:w-1/3 2xl:w-1/3 lg:mt-24  w-5/6 relative my-4 lg:my-0 mx-auto flex flex-row ">
-        <h2 className="text-2xl ">Find Something That Interests You...</h2>
+        <h2 className="text-3xl mb-4 w-full mx-auto text-center">if/Lab Projects</h2>
       </div>
     
-      <div className="md:w-2/3 lg:w-2/3 xl:w-1/3 2xl:w-1/3  w-5/6 relative mb-6 mx-auto mt-4  pt-0 lg:mb-12 flex ">
-        <button
+      <div className="md:w-2/3 lg:w-2/3 xl:w-1/3 2xl:w-1/3 w-5/6 relative mb-6 mx-auto mt-4  pt-0 lg:mb-12 h-full">
+          <FilterButtons/>
+        {/* <button
           className="insightsFilterButton"
           onClick={() => applyFiler(setText, "Architecture")}
         >
@@ -54,6 +56,7 @@ const Home: NextPage = ({ projects }) => {
         >
           Fabrication
         </button>
+        
         <button
           className="insightsFilterButton"
           onClick={() => applyFiler(setText, "")}
@@ -61,7 +64,7 @@ const Home: NextPage = ({ projects }) => {
           All
           <div className="absolute right-0 top-0 align-middle mt-3 mr-4">
           </div>
-        </button>
+        </button> */}
       </div>
 
       <ul className="container lg:mt-24   flex flex-wrap  w-10/12 m-auto">
@@ -127,23 +130,16 @@ const searchBlog = (projects, text) => {
       </motion.li>
     ));
   } else {
-
-    filteredPosts.sort(compareStrings)
-
-    return filteredPosts.map((projects, index) => (
-      // <div key={index} className='  ' >
-
-      <motion.li key={index} className=" flex-grow  m-auto p-2 md:p-2" layout  transition={{delay:0.2 , duration: 0.5 }}>
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1}}
-          transition={{ delay: 0.5 }}
-        >
-          <Project project={projects} key={index} />
-        </motion.div>
-      </motion.li>
-      // </div>
-    ));
+    filteredPosts.sort(compareStrings);
+    return (
+      <motion.div
+        className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  m-auto w-full gap-2  md:gap-2"
+        // layout
+        // transition={{ delay: 0.1, duration: 0.5 }}
+      >
+        {returnCards(filteredPosts)}
+      </motion.div>
+    );
   }
 };
 
@@ -152,7 +148,21 @@ function applyFiler(setText, text) {
   setText(text);
 }
 
+function returnCards(filteredPosts) {
+  return filteredPosts.map((projects, index) => (
+    // <div key={index} className='  ' >
+    <motion.div
+      key={index} 
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ delay: 0.5 }}
+    >
+      <Project project={projects} key={index} />
+    </motion.div>
 
+    // </div>
+  ));
+}
 
 
 
