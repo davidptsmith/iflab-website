@@ -15,8 +15,8 @@ Please RSVP via the meetups page to stay up to date with future events.
 https://www.meetup.com/Perth-Computational-Design-Group
 
 
-<div class="aspect-w-16 aspect-h-9">
-<iframe width="750" height="422" src="https://www.youtube.com/embed/IS8hHBQHwdM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div >
+<iframe class="VideoMD" src="https://www.youtube.com/embed/IS8hHBQHwdM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 Meet the speaker..

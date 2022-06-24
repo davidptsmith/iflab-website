@@ -6,8 +6,8 @@ cover_image: '/images/posts/BLOG_Grasshopper K Factor/1.jpg'
 tags: ["Shop Drawings", "Fabrication", "Cladding", "Sheet Metal", "Grasshopper", "Computational Design", "Rhino 3D"]
 ---
 
-<div class="aspect-w-16 aspect-h-9">
-<iframe width="1904" height="711" src="https://www.youtube.com/embed/qbtK5vVbkjo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div >
+<iframe class="VideoMD"  src="https://www.youtube.com/embed/qbtK5vVbkjo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 In exploration of sheet metal workflow solutions with Denmac, if/LAB developed a script that takes mechanical engineering calculations and applies them through Rhino’s visual scripting plugin, Grasshopper. This process extends the capabilities of Rhino and factors in material elasticity for the calculation of bend allowances and deductions to produce accurate unroll patterns for fabrication. 

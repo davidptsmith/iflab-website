@@ -10,14 +10,14 @@ tags: ["Perth", "Perth Computational Design Group", "Computational Design", "Gra
 We were fortunate to have two great speakers, Ross Donaldson and Tristan Morgan, who set the scene for future speakers.
 <img src="/images">
 See the talks here. (Apologies in advance for the poor recording, I’ts my first time)
-<div class="aspect-w-16 aspect-h-9">
-<iframe width="750" height="422" src="https://www.youtube.com/embed/zLI3B4w0BNw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div >
+<iframe class="VideoMD"  src="https://www.youtube.com/embed/zLI3B4w0BNw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <br></br>
 
-<div class="aspect-w-16 aspect-h-9">
-<iframe width="750" height="422" src="https://www.youtube.com/embed/4N4y_paWVUc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>As we all 
+<div >
+<iframe class="VideoMD"  src="https://www.youtube.com/embed/4N4y_paWVUc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>As we all 
 </div>
 
 

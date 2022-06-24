@@ -10,8 +10,8 @@ tags: ["Design To Production", "Landscape Architecture", "Grasshopper", "Design 
 
 The masterplan proposal includes a unique and eloquent paving pattern that spans approximately 380m along Cecil Ave, from Albany Hwy to beyond Pattie Street. The design intent by PLACE Laboratory was to emulate the effect of water or tides, similar to the way the ocean’s tides interacts with the shore. 
 
-<div class="aspect-w-16 aspect-h-9">
-<iframe width="750" height="422" src="https://www.youtube.com/embed/-K3XEQgmyYc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div >
+<iframe class="VideoMD" src="https://www.youtube.com/embed/-K3XEQgmyYc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 We were provided with the overall surface pattern masterplan, a paving sample drawing and pattern details that identified the paving mixes for each zone. 

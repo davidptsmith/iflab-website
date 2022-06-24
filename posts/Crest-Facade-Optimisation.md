@@ -6,8 +6,8 @@ cover_image: '/images/posts/Crest/1.jpg'
 tags: ["Grasshopper", "Rhino 3D", "Pattern", "Panelisation", "Optimisation"]
 ---
 
-<div class="aspect-w-16 aspect-h-9">
-<iframe width="1280" height="719" src="https://www.youtube.com/embed/SeHavkdDbNY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div >
+<iframe class="VideoMD"  src="https://www.youtube.com/embed/SeHavkdDbNY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 

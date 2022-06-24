@@ -28,7 +28,7 @@ export default function PostPage({
           {/* <img src={cover_image} alt={title} /> */}
 
           <div
-            className="prose prose max-w-none mx-auto "
+            className="prose max-w-none mx-auto "
             dangerouslySetInnerHTML={{ __html: marked(content) }}
           ></div>
 

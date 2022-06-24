@@ -5,9 +5,8 @@ excerpt: 'Workflow to facilitate the production of required fabrication document
 cover_image: '/images/posts/BLOG_InventorScriptBlog/2.jpg'
 tags: ["Rhino 3d", "Autodesk Inventor", "Api", "Automation", "Sheet Metal", "Fabrication", "Grasshopper", "Coding"]
 ---
-
-<div class="aspect-w-16 aspect-h-9">
-<iframe width="1280" height="719" src="https://www.youtube.com/embed/lJ_CpyqE6Dk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div >
+<iframe class="VideoMD" src="https://www.youtube.com/embed/lJ_CpyqE6Dk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 Interoperability between design modelling platforms is a significant challenge for most practitioners operating at the cutting edge of the AEC industry.  No single software is able to cover the increasing breadth of fields and sectors that designers must traverse in their day-to-day practice.  It is imperative, therefore, that seamless workflows between software platforms are developed in order to maximise efficiency and productivity,  whilst minimising time wasted with manual conversion or data clean-up processes.  With optimal interoperability workflows, we can ensure that we use the right tools for the right job at all times.

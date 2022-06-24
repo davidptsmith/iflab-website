@@ -9,8 +9,8 @@ tags: ["Perth", "Perth Computational Design Group", "Computational Design", "Gra
 
 ## Charlie Boman - Roland Snooks Studio 
 
-<div class="aspect-w-16 aspect-h-9">
-<iframe width="750" height="422" src="https://www.youtube.com/embed/9ZPYwEEeB1I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div >
+<iframe class="VideoMD"  src="https://www.youtube.com/embed/9ZPYwEEeB1I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 Charlie Boman is graduate architect at Roland Snooks Studios and a research assistant and sessional tutor at RMIT.

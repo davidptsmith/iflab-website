@@ -9,9 +9,8 @@ tags: ["Shop Drawings", "Fabrication", "Cladding", "Automation", "Grasshopper", 
 At if/Lab, digital workflows underpin our daily practice. Our continuing research in the development of digital workflows enables us to expand both in iteration within design processes and file to fabrication opportunities in the construction of architecture. “The inclusive nature of workflows means they can accommodate the personalised design processes of architects as well as integrated engineering strategies and collaborative ideas about building delivery”
 
 
-
-<div class="aspect-w-16 aspect-h-9">
-<iframe width="750" height="422" src="https://www.youtube.com/embed/L4VbZB5OTSw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div >
+<iframe class="VideoMD" src="https://www.youtube.com/embed/L4VbZB5OTSw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 We are continually looking to develop our tools which include optimising information from digital design models to speed up traditional shop drawing processes and achieve new levels of efficiency and accuracy in the digital design workflow that support the complexities of construction.
