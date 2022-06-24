@@ -1,6 +1,6 @@
 ---
 title: "Precinct" 
-date: 'JUNE 18, 2004'
+date: '2'
 excerpt: 'this is more information and things about the project. Look at this test, it is testing the length of the item'
 cover_image: '/images/HomeHeroImages/02.jpg'
 aside_image: '/images/HomeHeroImages/02.jpg'

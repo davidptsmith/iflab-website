@@ -187,10 +187,10 @@ export async function getStaticProps() {
 }
 
 function compareStrings( a, b ) {
-  if ( a.frontmatter.date < b.frontmatter.date ){
+  if ( a.frontmatter.date.padStart(2, "0") < b.frontmatter.date.padStart(2, "0") ){
     return -1;
   }
-  if ( a.frontmatter.date > b.frontmatter.date ){
+  if ( a.frontmatter.date.padStart(2, "0") > b.frontmatter.date.padStart(2, "0") ){
     return 1;
   }
   return 0;
