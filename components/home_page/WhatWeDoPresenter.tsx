@@ -4,13 +4,13 @@ import NavigationText from "../Utilities/NavigationText";
 const WhatWeDoPresenter = () => {
   return (
     <div id="KeyProjects" className=" relative mx-auto  h-full ">
-      <div className="absolute w-full pt-8 pl-24 ">
-        <h1 className=" w-10/12 pt-8 mx-auto underline">What We Do.</h1>
+      <div className="lg:absolute w-full pt-8 lg:pl-24 ">
+        <h1 className=" w-10/12 -mb-4  text-center lg:text-left pt-8 mx-auto ">What We Do.</h1>
       </div>
-      <div className=" m-auto place-items-center grid  ">
+      <div className=" mx-auto place-items-center grid  ">
         <img
           src="./images/diagrams/Iflab Network Diagram-01.png"
-          className=" h-[1000px]"
+          className=" w-11/12 xl:w-2/3 lg:pt-4"
         ></img>
       </div>
     </div>
