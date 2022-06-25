@@ -62,52 +62,8 @@ const Home: NextPage = ({ posts }) => {
         </div>
       </div>
 
-      <div className="md:w-2/3 lg:w-2/3 xl:w-1/3 2xl:w-1/3  w-5/6 relative mb-6 mx-auto mt-4 pt-0 lg:mb-12 flex ">
-        <button
-          className="mx-auto text-center font-light 
-                       text-xs  md:text-sm lg:text-sm xl:text-sm 2xl:text-sm
-                       p-2 w-1/4  text-gray-600 
-                       shadow-md 
-                       hover:text-blue-300  transition duration-200 ease-in-out hover:border-blue-200  hover:scale-105
-                       "
-          onClick={() => applyFiler(setText, "Architecture")}
-        >
-          Architecture
-        </button>
-        <button
-          className="mx-auto text-center font-light 
-                        text-xs  md:text-sm lg:text-sm xl:text-sm 2xl:text-sm
-                        p-2 w-1/4  text-gray-600 
-                        shadow-md 
-                        hover:text-blue-300  transition duration-200 ease-in-out hover:border-blue-200  hover:scale-105
-                        "
-          onClick={() => applyFiler(setText, "Public Art")}
-        >
-          Public Art
-        </button>
-        <button
-          className="mx-auto text-center font-light 
-                        text-xs  md:text-sm lg:text-sm xl:text-sm 2xl:text-sm
-                        p-2 w-1/4  text-gray-600 
-                        shadow-md shadow-inner-md 
-                        hover:text-blue-300  transition duration-200 ease-in-out hover:border-blue-200  hover:scale-105
-                        "
-          onClick={() => applyFiler(setText, "Fabrication")}
-        >
-          Fabrication
-        </button>
-        <button
-          className="mx-auto text-center font-light 
-                        text-xs  md:text-sm lg:text-sm xl:text-sm 2xl:text-sm
-                        p-2 w-1/4  text-gray-600 
-                        shadow-md shadow-inner-md 
-                        hover:text-blue-300  transition duration-200 ease-in-out hover:border-blue-200  hover:scale-105
-                        "
-          onClick={() => applyFiler(setText, "")}
-        >
-          All
-          <div className="absolute right-0 top-0  align-middle mt-3 mr-4"></div>
-        </button>
+      <div className="md:w-2/3 lg:w-2/3 xl:w-1/3 2xl:w-1/3 w-5/6 relative mb-6 mx-auto mt-4 pt-0 lg:mb-12 flex ">
+      {FilterButtons(setText)}
       </div>
 
       <div className="lg:mt-24 ">{searchBlog(posts, text)}</div>
@@ -196,10 +152,7 @@ const searchBlog = (posts, text) => {
   }
 };
 
-function applyFiler(setText, text) {
-  setText("");
-  setText(text);
-}
+ 
 
 export async function getStaticProps() {
   //get files from post dir
@@ -228,4 +181,55 @@ export async function getStaticProps() {
       posts: posts.sort(sortByDate),
     },
   };
+}
+
+
+const tags = [
+  "Architecture",
+  "Public Art",
+  "Fabrication",
+  "Computational Design",
+  "Urban Design",
+  "Grasshopper",
+];
+
+function FilterButtons(setText) {
+  return <div className="flex flex-wrap  ">{returnButtons(setText)}</div>;
+}
+
+function returnButtons(setText) {
+  let arr = [];
+  for (let index = 0; index < tags.length; index++) {
+    const tag = tags[index];
+    arr.push(
+      <button
+        key={index}
+        className="insightsFilterButton"
+        onClick={() => applyFiler(setText, tag)}
+      >
+        {tag}
+      </button>
+    );
+  }
+  arr.push(
+    <button
+      className="insightsFilterButton grow "
+      key={999}
+      onClick={() => applyFiler(setText, "All")}
+    >
+      All Projects
+    </button>
+  );
+
+  arr.push(<div key={9999} className="grow lg:grow-0 lg:hidden" />);
+  return arr;
+}
+
+function applyFiler(setText, text) {
+  setText("");
+  if (text == "All") {
+    setText("");
+  } else {
+    setText(text);
+  }
 }
