@@ -6,7 +6,7 @@ import Head from "next/head";
 import Image from "next/image";
 
 import Project from "../../components/Projects/Project";
-import FilterButtons from "../../components/Projects/FilterButtons";
+
 
 import path from "path";
 import fs from "fs";
@@ -20,6 +20,7 @@ import Nav from "../../components/NavBar/Nav";
 
 const Home: NextPage = ({ projects }) => {
   const [text, setText] = useState("");
+
   return (
     <div>
       <div className="sticky  top-0 w-full bg-white z-50">
@@ -37,34 +38,7 @@ const Home: NextPage = ({ projects }) => {
       </div>
     
       <div className="md:w-2/3 lg:w-2/3 xl:w-1/3 2xl:w-1/3 w-5/6 relative mb-6 mx-auto mt-4  pt-0 lg:mb-12 h-full">
-          <FilterButtons/>
-        {/* <button
-          className="insightsFilterButton"
-          onClick={() => applyFiler(setText, "Architecture")}
-        >
-          Architecture
-        </button>
-        <button
-          className="insightsFilterButton"
-          onClick={() => applyFiler(setText, "Public Art")}
-        >
-          Public Art
-        </button>
-        <button
-          className="insightsFilterButton"
-          onClick={() => applyFiler(setText, "Fabrication")}
-        >
-          Fabrication
-        </button>
-        
-        <button
-          className="insightsFilterButton"
-          onClick={() => applyFiler(setText, "")}
-        >
-          All
-          <div className="absolute right-0 top-0 align-middle mt-3 mr-4">
-          </div>
-        </button> */}
+          {FilterButtons(setText)}
       </div>
 
       <ul className="container lg:mt-24   flex flex-wrap  w-10/12 m-auto">
@@ -79,6 +53,23 @@ const Home: NextPage = ({ projects }) => {
 };
 
 export default Home;
+
+
+function returnCards(filteredPosts) {
+  return filteredPosts.map((projects, index) => (
+    // <div key={index} className='  ' >
+    <motion.div
+      key={index} 
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ delay: 0.5 }}
+    >
+      <Project project={projects} key={index} />
+    </motion.div>
+
+    // </div>
+  ));
+}
 
 const searchBlog = (projects, text) => {
   //filter projects by title, then by tags, then by description
@@ -143,28 +134,6 @@ const searchBlog = (projects, text) => {
   }
 };
 
-function applyFiler(setText, text) {
-  setText("");
-  setText(text);
-}
-
-function returnCards(filteredPosts) {
-  return filteredPosts.map((projects, index) => (
-    // <div key={index} className='  ' >
-    <motion.div
-      key={index} 
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ delay: 0.5 }}
-    >
-      <Project project={projects} key={index} />
-    </motion.div>
-
-    // </div>
-  ));
-}
-
-
 
 export async function getStaticProps() {
   //get files from post dir
@@ -204,4 +173,53 @@ function compareStrings( a, b ) {
     return 1;
   }
   return 0;
+}
+
+const tags = [
+  "Architecture",
+  "Public Art",
+  "Fabrication",
+  "Computational Design",
+  "Urban Design",
+];
+
+function FilterButtons(setText) {
+  return <div className="flex flex-wrap  ">{returnButtons(setText)}</div>;
+}
+
+function returnButtons(setText) {
+  let arr = [];
+  for (let index = 0; index < tags.length; index++) {
+    const tag = tags[index];
+    arr.push(
+      <button
+        key={index}
+        className="insightsFilterButton"
+        onClick={() => applyFiler(setText, tag)}
+      >
+        {tag}
+      </button>
+    );
+  }
+  arr.push(
+    <button
+      className="insightsFilterButton grow "
+      key={999}
+      onClick={() => applyFiler(setText, "All")}
+    >
+      All Projects
+    </button>
+  );
+
+  arr.push(<div key={9999} className="grow lg:grow-0 lg:hidden" />);
+  return arr;
+}
+
+function applyFiler(setText, text) {
+  setText("");
+  if (text == "All") {
+    setText("");
+  } else {
+    setText(text);
+  }
 }
