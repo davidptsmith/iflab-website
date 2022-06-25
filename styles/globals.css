@@ -107,11 +107,16 @@
 
   .insightsFilterButton{
   @apply  mx-auto text-center font-light 
-                        text-xs  md:text-sm lg:text-sm xl:text-sm 2xl:text-sm
+                        text-xs  md:text-sm lg:text-sm 
+                        xl:text-sm 2xl:text-sm
                         py-2 px-4 text-gray-600 
                         shadow-md 
-                        grow 
-                        hover:text-blue-300  transition duration-200 ease-in-out hover:border-blue-200  hover:scale-105;
+                        grow
+                        hover:text-blue-300  transition 
+                        duration-200 ease-in-out 
+                        hover:border-blue-200  
+                        hover:shadow-lg
+                        ;
   }
 
 
