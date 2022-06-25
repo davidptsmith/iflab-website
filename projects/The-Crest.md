@@ -19,11 +19,16 @@ tables: {
 }
 ---
 
+
+<span >“ Click [here](https://youtu.be/SfVSOS5ZnLU) to view the video</span>.
+
+
 ## Concept
 
 The rhythmic repetitive geometry of the artwork designs for The Crest Apartments evolved through an extensive design development phase, across a series of iterative refinements. Initial inspiration came from the unique siting of the of building, high on a rise, looking out to Burswood Penisula and a distinctive neck-bend in the Swan River. Residents at upper levels here will enjoy the benefit of views across those meandering waters of the river. Contemplation of tidal fluctuations in levels, and of surface movements of that water body, have informed the creation of an abstracted rhythmic pattern, which translates both two and three dimensions into a compelling physical geometry.
 
 An elaboration of the conceptual relationship with fluid surfaces has been achieved through selection of a unique material finish for the artwork - a spectra material that shimmers, shifts, and changes hue as one’s position and angle of sight varies and as light plays across its angles and folds. Different wavelengths of light are reflected back to the viewer resulting in an ever-changing gradient
+
 
 
 ## Project
