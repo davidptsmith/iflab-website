@@ -209,7 +209,7 @@ function returnButtons(setText) {
   }
   arr.push(
     <button
-      className="insightsFilterButton grow "
+      className="insightsFilterButton grow max-w-[400px] "
       key={999}
       onClick={() => applyFiler(setText, "All")}
     >
