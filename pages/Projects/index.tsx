@@ -22,7 +22,11 @@ const Home: NextPage = ({ projects }) => {
   const [text, setText] = useState("");
 
   return (
-    <div>
+    <>
+      <head>
+        <title>if/lab | Projects</title>
+        <meta name="description" content="if/lab Projects" />
+      </head>
       <div className="sticky  top-0 w-full bg-white z-50">
         <Nav />
       </div>
@@ -34,11 +38,13 @@ const Home: NextPage = ({ projects }) => {
       </Head>
 
       <div className=" md:w-2/3  lg:w-2/3 xl:w-1/3 2xl:w-1/3 lg:mt-24  w-5/6 relative my-4 lg:my-0 mx-auto flex flex-row ">
-        <h2 className="text-3xl mb-4 w-full mx-auto text-center">if/Lab Projects</h2>
+        <h2 className="text-3xl mb-4 w-full mx-auto text-center">
+          if/Lab Projects
+        </h2>
       </div>
-    
+
       <div className="md:w-2/3 lg:w-2/3 xl:w-1/3 2xl:w-1/3 w-5/6 relative mb-6 mx-auto mt-4  pt-0 lg:mb-12 h-full">
-          {FilterButtons(setText)}
+        {FilterButtons(setText)}
       </div>
 
       <ul className="container lg:mt-24   flex flex-wrap  w-10/12 m-auto">
@@ -48,7 +54,7 @@ const Home: NextPage = ({ projects }) => {
       <div className="snap-end">
         <Footer />
       </div>
-    </div>
+    </>
   );
 };
 

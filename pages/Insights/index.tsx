@@ -18,6 +18,10 @@ const Home: NextPage = ({ posts }) => {
 
   return (
     <div>
+      <head>
+      <title>if/lab | Insights</title>
+      <meta name="description" content="if/lab Insights"/>
+    </head>
       <div className="sticky  top-0 w-full bg-white z-50">
         <Nav />
       </div>

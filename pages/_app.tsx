@@ -27,13 +27,19 @@ function MyApp({ Component, pageProps }: AppProps) {
   }, [router]);
 
   return (
-    <>
+    <html lang="en">
+    <head>
+      <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+      <meta httpEquiv="Content-Type" content="text/html; charset=ISO-8859-1"></meta>
+      <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+    </head>
+
       {pageLoading ? (
         <CustomLoadingScreen/>
       ) : (
         <Component {...pageProps} />
       )}
-    </>
+    </html>
   );
 }
 

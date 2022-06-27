@@ -12,7 +12,11 @@ import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
   return (
-    <div>
+    <div >
+    <head>
+      <title>if/lab | About </title>
+      <meta name="description" content="About if/lab"/>
+    </head>
       <div className="sticky  top-0 w-full bg-white z-50">
         <Nav />
       </div>

@@ -20,6 +20,10 @@ export default function ProjectPage({
 
   return (
     <>
+      <head>
+        <title>if/lab | {title}</title>
+        <meta name="description" content="if/lab Projects" />
+      </head>
       <div className="sticky  top-0 w-full bg-white z-50">
         <Nav />
       </div>
