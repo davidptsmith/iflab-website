@@ -66,10 +66,9 @@ class ContactCarousel extends Component {
         <Swipe onSwipeLeft={this.nextSlide} onSwipeRight={this.prevSlide}>
           {this.props.CarouselData.map((slide, index) => {
             return (
-              <div className="h-full w-full overflow-hidden  rounded-lg   min-w-full">
+              <div key={index} className="h-full w-full overflow-hidden  rounded-lg   min-w-full">
 
               <img
-                key={index}
                 src={slide.image}
                 alt={AltTextFromImage(slide.image)}
                 className={
