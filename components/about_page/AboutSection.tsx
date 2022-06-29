@@ -1,4 +1,5 @@
 import ValueStatement from "../home_page/ValueStatement";
+import { AltTextFromImage } from "../Utilities/Helpers";
 
 const AboutSection = () => {
   return (
@@ -10,7 +11,7 @@ const AboutSection = () => {
           <div className="h-full w-full  object-cover  col-span-2 ">
             <div className="overflow-hidden  w-full h-full">
               <img
-                alt=""
+                alt="if/Lab Ravensthorpe timber Architectural Project"
                 className="h-full object-cover"
                 src="\images\projects\Ravensthorpe\cover_image.jpg"
               />
