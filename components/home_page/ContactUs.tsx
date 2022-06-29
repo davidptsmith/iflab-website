@@ -6,9 +6,9 @@ import {AltTextFromImage} from "../Utilities/Helpers"
 const ContactUs = () => {
   return (
     <div className="  min-h-[640px] lg:px-4 md:w-4/5 w-10/12   mx-auto z-10 grid grid-cols-1 md:gap-4 md:grid-cols-2">
-      <div className="w-full md:h-full overflow-hidden m-auto">
+      <div className="w-full md:h-full h-full max-h-screen  overflow-hidden m-auto">
         <img
-          className="object-cover md:h-full w-full"
+          className="object-cover md:h-full w-full h-full max-h-screen "
           src="/images/HomeHeroImages/05_ifLab_Architecture_Ravensthorpe.jpg"
           alt={AltTextFromImage("05_ifLab_Architecture_Ravensthorpe")}
         />

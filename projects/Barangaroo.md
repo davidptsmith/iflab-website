@@ -2,7 +2,7 @@
 title: "Barangaroo Pier Pavilion" 
 date: '6'
 excerpt: 'this is more information and things about the project. Look at this test, it is testing the length of the item'
-cover_image: '/images/projects/Barangaroo/cover_image.jpg'
+cover_image: '/images/projects/Barangaroo Pier Pavilion/cover_image.jpg'
 aside_image: '/images/projects/Barangaroo/cover_image.jpg'
 tags: ["Architecture", "Competition", "Pavilion", "Barangaroo Pier"]
 tables: {

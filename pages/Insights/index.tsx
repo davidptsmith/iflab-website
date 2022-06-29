@@ -68,7 +68,7 @@ const Home: NextPage = ({ posts }) => {
 
       <div className="lg:mt-24 ">{searchBlog(posts, text)}</div>
 
-      <div className="snap-end">
+      <div className="snap-end pt-12 lg:pt-24">
         <Footer />
       </div>
     </main>
