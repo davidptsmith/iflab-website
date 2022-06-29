@@ -4,8 +4,8 @@ import NavigationText from "../Utilities/NavigationText";
 const ArchitecturePresenter = () => {
   return (
     <div id="KeyProjects" className="SectionStyle">
-      <div className="grid  lg:grid-cols-3  w-10/12 md:py-24  2xl:space-x-8 gap-8 mx-auto ">
-        <div className=" m-auto w-10/12 pt-12 ">
+      <div className="grid  lg:grid-cols-3 w-11/12  md:w-10/12 md:py-24  2xl:space-x-8 gap-8 mx-auto ">
+        <div className=" m-auto md:w-10/12 pt-12 ">
           <h1>
             Key Projects:
             <br />

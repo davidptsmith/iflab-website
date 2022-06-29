@@ -10,6 +10,7 @@ const WhatWeDoPresenter = () => {
       <div className=" mx-auto place-items-center grid  ">
         <img
           src="./images/diagrams/Iflab Network Diagram-01.png"
+          alt="What if/lab does diagram"
           className=" w-11/12 xl:w-3/5 lg:pt-4"
         ></img>
       </div>

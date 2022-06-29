@@ -12,7 +12,7 @@ const KeyProjectsCard = ({
         <a href={`/Projects/${projectName}`} className="">
           <img
             alt={`iflab ${projectName} Project Image`}
-            className="min-h-full  md:h-72    h-full  min-w-full m-auto object-cover opacity-90"
+            className="min-h-full  md:h-72   h-full max-h-screen   min-w-full m-auto object-cover opacity-90"
             src={imageUrl}
           />
 

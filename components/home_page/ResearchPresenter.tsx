@@ -4,7 +4,7 @@ import NavigationText from "../Utilities/NavigationText";
 const ResearchPresenter = () => {
   return (
     <div id="KeyProjects" className="SectionStyle">
-      <div className=" flex flex-col-reverse lg:grid  lg:col  lg:grid-cols-3  w-10/12  2xl:space-x-8 gap-8 mx-auto pt-4">
+      <div className=" flex flex-col-reverse lg:grid  lg:col  lg:grid-cols-3  md:w-10/12 w-11/12  2xl:space-x-8 gap-8 mx-auto pt-4">
         <KeyProjectsCard
           projectName={"Shop Drawing Automation"}
           projectType={"Public Art"}
@@ -25,7 +25,7 @@ const ResearchPresenter = () => {
           link_path={"/Insights/Physics-based-Simulations"}
         />
 
-        <div className=" m-auto w-10/12   lg:pl-8">
+        <div className=" m-auto md:w-10/12   lg:pl-8">
           <h1>
             Creating Value
             <br />
