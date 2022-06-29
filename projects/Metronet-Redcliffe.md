@@ -1,39 +1,45 @@
 ---
-title: "Metronet Redcliffe" 
-date: 'JUNE 18, 2019'
+title: "Redcliffe Station Precinct" 
+date: '3'
 excerpt: 'this is more information and things about the project. Look at this test, it is testing the length of the item'
 cover_image: '/images/projects/Metronet Redcliffe/cover_image.jpg'
 aside_image: '/images/posts/BLOG_DrawingAutomation/1.jpg'
-tags: ["Shop Drawings", "Fabrication", "Architecture", "Automation", "Grasshopper", "Computational Design", "Rhino 3D"]
+tags: ["Urban Design", "Architecture", "Automation", "Grasshopper", "Computational Design", "Rhino 3D"]
 tables: {
   items: [
-    ["People", "Value"],
-    ["Project Details", "Value"],
-    ["Budget", "Value"],
-    ["Location", "Value"],
-    ["Material", "Value"],
-    ["Processes", "Value"],
+    ["Project Team", "if/LAB, Hames Sharley"],
+    ["Project Details", "Urban Design Masterplan"],
+    ["Location", "Redcliffe Station, Western Australia"],
+    ["Completion Date", "2019"],
+    ["Client", "Metronet"],
   ]
 }
 ---
 
-## Concept
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum amet quiss atque a enim odit eligendi dolor iusto minima quaerat. Eveniet nesciunt, nemo quos, asperiores molestiae quisquam deserunt dicta iste necessitatibus labore ut animi suscipit illo maxime quis nulla natus sint quidem et recusandae odit aut a corporis quam! Suscipit explicabo quasi doloribus, consequuntur inventore qui rerum atque voluptatibus officia unde, quisquam quaerat consectetur est, numquam ducimus cum aliquam dicta ullam harum corrupti quos error?
-
-
 ## Project
 
-**consectetur est, numquam ducimus cum aliquam dicta ullam harum corrupti quos error?**
+if/LAB worked closely with the Hames Sharley Urban Design team to develop a custom sketchkit tool for exploring design options, enablinging the team to rapidly explore and test numerous scenarios.
+The sketch tool provided the team with on-screen metrics to evaluate each of the design options, which was then used to facilitate a number of stakeholder meetings and produce drawings and diagrams for the final feasibility report.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum amet quiss atque a enim odit eligendi dolor iusto minima quaerat. Eveniet nesciunt, nemo quos, asperiores molestiae quisquam deserunt dicta iste necessitatibus labore ut animi suscipit illo maxime quis nulla natus sint quidem et recusandae odit aut a corporis quam! Suscipit explicabo quasi doloribus, consequuntur inventore qui rerum atque voluptatibus officia unde, quisquam quaerat consectetur est, numquam ducimus cum aliquam dicta ullam harum corrupti quos error?
+A platform, digital approach to urban masterplanning allows for rapid, iterative, and evidence-based design, testing and modelling of urban form, with the aim to support transparent decision-making. 
 
-## Other Things 
+Traditionally, the design team would ‘sketch’ these ideas out on paper (or in a 3d modelling platform), and often things are overlooked, or the team settle on ‘rules of thumb’ for assessing options and their impact. This is a result of the time it takes to test these assumptions and calculations within a business-as-usual framework.
 
-*consectetur est, numquam ducimus cum aliquam dicta ullam harum corrupti quos error?*
+These sketches are limited to areas and volumes, and would require someone to run manual calculations for each of the desired outputs:
+-	carbon/environmental impact (calculating environmental impact can be highly manual and therefore, costly and time consuming)
+-	number of jobs
+-	number of residences
+-	building typology mix/neighbourhood mix
+- GFA/NLA
+-	carparks required/number of cars
+-	etc..
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum amet quiss atque a enim odit eligendi dolor iusto minima quaerat. Eveniet nesciunt, nemo quos, asperiores molestiae quisquam deserunt dicta iste necessitatibus labore ut animi suscipit illo maxime quis nulla natus sint quidem et recusandae odit aut a corporis quam! Suscipit explicabo quasi doloribus, consequuntur inventore qui rerum atque voluptatibus officia unde, quisquam quaerat consectetur est, numquam ducimus cum aliquam dicta ullam harum corrupti quos error?
+Each design iteration needs to go through a separate workflow or process to see what its impact is for each of the desirable outputs or calculations. 
 
->consectetur est, numquam ducimus cum aliquam dicta ullam harum corrupti quos error?
+This takes time (labour and cost), and is slow, therefore limits the progress and development of the project. Often time falls short, and we are left with the ‘best case scenario’ of what was tested by the design team. (maybe 2-3 options) where as a technology-enabled approach allows designers to rapidly test and make informed design decisions rather than spending time running calculations. (ie change building heights and volumes and see the impact live)
 
-*image collection thing
+A technology-enabled approach also allows us to see how each ‘design’ decision impacts the rest of the ‘analysis methods’ and their outputs. Traditionally, one would sketch out a plan, model the massing volumes, output the numbers, and put them into a spreadsheet to assess its performance, then go back into the model (or sketch), make adjustments, re input the new areas, and see its impact again. 
+
+The platform process is intended to reduce the time and resourcing required by the ‘specialists’.  
+
+**Calculations are built into the model, and outputs are seen in real time.**
