@@ -31,7 +31,7 @@ const Home: NextPage = ({ imagePaths }) => (
       <meta name="description" content="if/lab Homepage"/>
     </Head>
   
-  <main className="max-h-screen   overflow-x-hidden  snap snap-y snap-mandatory ScrollingLayer   ">
+  <div className="max-h-screen   overflow-x-hidden  snap snap-y snap-mandatory ScrollingLayer   ">
   {/* <main className="max-h-screen  overflow-y-scroll snap snap-y snap-mandatory ScrollingLayer overflow-hidden md:overflow-visible"> */}
     <div className="absolute z-50 w-screen pb-1  pr-4 ">
       <div className=" bg-white">
@@ -105,8 +105,8 @@ const Home: NextPage = ({ imagePaths }) => (
         <Footer />
       </section>
     </div>
+  </div>
   </main>
-  </ma>
 );
 
 export default Home;

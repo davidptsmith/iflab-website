@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { AltTextFromImage } from "../Utilities/Helpers";
 
 export default function Post({ post }) {
   return (
@@ -6,7 +7,7 @@ export default function Post({ post }) {
       <div className="flex flex-col  ">
         <img
           src={post.frontmatter.cover_image}
-          alt=""
+          alt="If/lab blog cover image"
           className="h-40  md:h-72 min-w-full align-bottom object-cover opacity-90"
         />
 

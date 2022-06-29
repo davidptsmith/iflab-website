@@ -44,7 +44,7 @@ const ContactUs = () => {
           <br className="hidden lg:visible" />
         </div>
 
-        <Link href={"./Contact"} passHref={true}>
+        <Link href="/Contact" passHref={true}>
           <div className="border-t-2 cursor-pointer">
             <h3>
               We are always happy to assist <br />

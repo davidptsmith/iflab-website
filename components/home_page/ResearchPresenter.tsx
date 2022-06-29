@@ -12,7 +12,7 @@ const ResearchPresenter = () => {
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, fugiat."
           }
           imageUrl={"/images/posts/BLOG_Drawing From CSV _1/1.jpg"}
-          link_path={"Insights/Automated-Shop-Drawings"}
+          link_path={"/Insights/Automated-Shop-Drawings"}
         />
 
         <KeyProjectsCard
@@ -22,7 +22,7 @@ const ResearchPresenter = () => {
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, fugiat."
           }
           imageUrl={"/images/posts/BLOG_LIV - FORM FINDING/1.jpg"}
-          link_path={"Insights/Physics-based-Simulations"}
+          link_path={"/Insights/Physics-based-Simulations"}
         />
 
         <div className=" m-auto w-10/12   lg:pl-8">

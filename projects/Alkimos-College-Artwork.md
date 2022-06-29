@@ -2,7 +2,7 @@
 title: "Alkimos Secondary College Facade" 
 date: '5'
 excerpt: 'this is more information and things about the project. Look at this test, it is testing the length of the item'
-cover_image: '/images/projects/Alkimos/cover_image.jpg'
+cover_image: '/images/projects/Alkimos Secondary College Facade/cover_image.jpg'
 aside_image: '/images/posts/BLOG_DrawingAutomation/1.jpg'
 tags: ["Shop Drawings", "Public Art", "Facade", "Automation", "Grasshopper", "Computational Design", "Rhino 3D"]
 tables: {
@@ -14,6 +14,7 @@ tables: {
     ["Completion Date", "In Construction"],
     ["Size", "195 sqm"],
     ["Client", "Department of Finance"],
+ 
   ]
 }
 ---

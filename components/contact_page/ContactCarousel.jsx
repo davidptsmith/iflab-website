@@ -7,7 +7,7 @@ import {
 } from "react-icons/ai";
 import Swipe from "react-easy-swipe";
 import IflabLogo_SVG from "../IfLab_logo/IfLabLogoSVG-No-Hover";
-
+import {AltTextFromImage} from "../Utilities/Helpers"
 
 class ContactCarousel extends Component {
   constructor(props) {
@@ -27,7 +27,7 @@ class ContactCarousel extends Component {
             : this.state.currentSlide + 1;
         this.setState({ currentSlide: newSlide });
       }
-    }, 5000);
+    }, 3000);
   }
 
   nextSlide = () => {
@@ -71,10 +71,10 @@ class ContactCarousel extends Component {
               <img
                 key={index}
                 src={slide.image}
-                alt="This is a carousel slide"
+                alt={AltTextFromImage(slide.image)}
                 className={
                   index === this.state.currentSlide
-                  ? "  max-h-full h-96  2xl:h-[800px]    object-cover opacity-100 min-w-full z-0  filter brightness-75"
+                  ? "  max-h-full h-96  2xl:h-[680px]    object-cover opacity-100 min-w-full z-0  filter brightness-75"
                   : "hidden"
                 }
                 />

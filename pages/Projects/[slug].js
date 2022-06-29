@@ -9,6 +9,7 @@ import ProjectTable from "../../components/Projects/ProjectTable";
 import ImagesCarousel from "../../components/Projects/ImagesCarousel";
 import Nav from "../../components/NavBar/Nav";
 import Footer from "../../components/Footer";
+import {AltTextFromImage} from "../../components/Utilities/Helpers"
 
 export default function ProjectPage({
   frontmatter: { title, date, cover_image, aside_image, tables },
@@ -40,6 +41,7 @@ export default function ProjectPage({
               <img
                 className="w-full object-cover hidden md:visible "
                 src={cover_image}
+                alt={`If/lab Project Image ${title}`}
               />
 
               {/* <ImagesCarousel CarouselData={imagePaths} /> */}
@@ -117,9 +119,10 @@ const imageGrid = (imagePaths) => {
           transition={{ delay: 0.5 }}
         >
           <img
-            alt="iflab Project Image"
+            // alt="iflab Project Image"
             className="object-cover   md:w-full opacity-90"
             src={images.image}
+            alt={AltTextFromImage(images.image)}
           />
         </motion.div>
       ))
