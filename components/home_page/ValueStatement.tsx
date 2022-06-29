@@ -36,7 +36,7 @@ const ValueStatement = () => {
             <br />- Challenging the status quo and always searching for a better process and outcome.
           </p>
         </div>
-        <Link href={"./Contact"} passHref={true}>
+        <Link href={"/Contact"} passHref={true}>
           <div className="border-t-2 cursor-pointer">
             <h3>
               Want us to help you change the way you build?

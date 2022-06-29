@@ -18,7 +18,7 @@ const ArchitecturePresenter = () => {
           </p>
           <NavigationText
             text={"See our other projects here"}
-            url={"./Projects"}
+            url={"/Projects"}
           />
         </div>
 
