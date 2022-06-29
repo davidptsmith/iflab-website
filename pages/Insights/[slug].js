@@ -13,7 +13,7 @@ export default function PostPage({
   content,
 }) {
   return (
-    <main>
+    <>
       <head>
         <title>if/lab | {title}</title>
         <meta name="description" content="if/lab Projects" />
