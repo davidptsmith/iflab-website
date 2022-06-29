@@ -1,8 +1,8 @@
 ---
-title: "Duncan Street, Vic Park" 
+title: "Duncan Street Vic Park" 
 date: '10'
 excerpt: 'this is more information and things about the project. Look at this test, it is testing the length of the item'
-cover_image: '/images/projects/Duncan Street/cover_image.jpg'
+cover_image: '/images/projects/Duncan Street Vic Park/cover_image.jpg'
 aside_image: '/images/posts/BLOG_DrawingAutomation/1.jpg'
 tags: ["Shop Drawings", "Fabrication", "Facade", "Public Art", "Grasshopper", "Computational Design", "Rhino 3D"]
 tables: {
