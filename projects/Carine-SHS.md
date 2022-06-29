@@ -1,6 +1,6 @@
 ---
 title: "Carine SHS" 
-date: '4'
+date: '6'
 excerpt: 'this is more information and things about the project. Look at this test, it is testing the length of the item'
 cover_image: '/images/projects/Carine SHS/cover_image.jpg'
 aside_image: '/images/posts/BLOG_DrawingAutomation/1.jpg'
