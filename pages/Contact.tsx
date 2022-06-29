@@ -13,11 +13,11 @@ import fs from "fs";
 
 const Home: NextPage = ({ imagePaths }) => {
   return (
-    <div>
-      <head>
+    <main>
+      <Head>
         <title>if/lab | Contact </title>
         <meta name="description" content="if/lab contact" />
-      </head>
+      </Head>
       <div className="sticky  top-0 w-full bg-white z-50">
         <Nav />
       </div>
@@ -66,7 +66,7 @@ const Home: NextPage = ({ imagePaths }) => {
       <div className="snap-end">
         <Footer />
       </div>
-    </div>
+    </main>
   );
 };
 

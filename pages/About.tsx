@@ -12,11 +12,11 @@ import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
   return (
-    <div >
-    <head>
+    <>
+    <Head>
       <title>if/lab | About </title>
       <meta name="description" content="About if/lab"/>
-    </head>
+    </Head>
       <div className="sticky  top-0 w-full bg-white z-50">
         <Nav />
       </div>
@@ -38,7 +38,7 @@ const Home: NextPage = () => {
       <div className="snap-end">
         <Footer />
       </div>
-    </div>
+    </>
   );
 };
 

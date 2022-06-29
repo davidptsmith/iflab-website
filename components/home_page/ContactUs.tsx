@@ -1,6 +1,7 @@
 import Link from "next/dist/client/link";
 import { AiOutlineDoubleRight, AiOutlineRight } from "react-icons/ai";
 import NavigationText from "../Utilities/NavigationText";
+import {AltTextFromImage} from "../Utilities/Helpers"
 
 const ContactUs = () => {
   return (
@@ -8,7 +9,8 @@ const ContactUs = () => {
       <div className="w-full md:h-full overflow-hidden m-auto">
         <img
           className="object-cover md:h-full w-full"
-          src="/images/HomeHeroImages/05.jpg"
+          src="/images/HomeHeroImages/05_ifLab_Architecture_Ravensthorpe.jpg"
+          alt={AltTextFromImage("05_ifLab_Architecture_Ravensthorpe")}
         />
       </div>
 

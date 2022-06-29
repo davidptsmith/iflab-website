@@ -39,7 +39,7 @@ const ArchitecturePresenter = () => {
           projectDescription={
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, fugiat."
           }
-          imageUrl={"/images/HomeHeroImages/10.jpg"}
+          imageUrl={"/images/HomeHeroImages/10_ifLab_Timber_Architecture.jpg"}
           link_path={"/Projects/Yanchep-Stage-1"}
         />
       </div>

@@ -25,11 +25,11 @@ import WhatWeDoPresenter from "../components/home_page/WhatWeDoPresenter";
 import ArchitecturePresenter from "../components/home_page/ArchitecturePresenter";
 
 const Home: NextPage = ({ imagePaths }) => (
-  <>
-      <head>
+  <main>
+      <Head>
       <title>if/lab | Home </title>
       <meta name="description" content="if/lab Homepage"/>
-    </head>
+    </Head>
   
   <main className="max-h-screen   overflow-x-hidden  snap snap-y snap-mandatory ScrollingLayer   ">
   {/* <main className="max-h-screen  overflow-y-scroll snap snap-y snap-mandatory ScrollingLayer overflow-hidden md:overflow-visible"> */}
@@ -106,7 +106,7 @@ const Home: NextPage = ({ imagePaths }) => (
       </section>
     </div>
   </main>
-  </>
+  </ma>
 );
 
 export default Home;

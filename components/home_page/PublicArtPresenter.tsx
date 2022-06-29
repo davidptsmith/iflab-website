@@ -33,7 +33,7 @@ const PublicArtPresenter = () => {
           projectDescription={
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, fugiat."
           }
-          imageUrl={"/images/HomeHeroImages/01.jpg"}
+          imageUrl={"/images/HomeHeroImages/01_ifLab_Public_Art_Anemoi.jpg"}
           link_path={"/Projects/Anemoi"}
         />
 
@@ -43,7 +43,7 @@ const PublicArtPresenter = () => {
           projectDescription={
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, fugiat."
           }
-          imageUrl={"/images/HomeHeroImages/12.jpg"}
+          imageUrl={"/images/HomeHeroImages/12_ifLab_Public_Art_Yanchep.jpg"}
           link_path={"/Projects/Yanchep-Stage-1"}
         />
       </div>

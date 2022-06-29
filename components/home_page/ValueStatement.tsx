@@ -53,7 +53,7 @@ const ValueStatement = () => {
         <img
           className="h-full object-cover"
           alt="Precinct Computational Art Project"
-          src=".\images\HomePageImages\06.jpg"
+          src=".\images\HomePageImages\06_ifLab_Public_Art_Precinct.jpg"
         />
       </div>
     </div>

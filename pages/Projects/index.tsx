@@ -22,20 +22,16 @@ const Home: NextPage = ({ projects }) => {
   const [text, setText] = useState("");
 
   return (
-    <>
-      <head>
+    <main>
+      <Head>
         <title>if/lab | Projects</title>
         <meta name="description" content="if/lab Projects" />
-      </head>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <div className="sticky  top-0 w-full bg-white z-50">
         <Nav />
       </div>
 
-      <Head>
-        <title>Iflab Projects</title>
-        <meta name="description" content="Iflab Insights" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
 
       <div className=" md:w-2/3  lg:w-2/3 xl:w-1/3 2xl:w-1/3 lg:mt-24  w-5/6 relative my-4 lg:my-0 mx-auto flex flex-row ">
         <h2 className="text-3xl mb-4 w-full mx-auto text-center">
@@ -54,7 +50,7 @@ const Home: NextPage = ({ projects }) => {
       <div className="snap-end">
         <Footer />
       </div>
-    </>
+    </main>
   );
 };
 

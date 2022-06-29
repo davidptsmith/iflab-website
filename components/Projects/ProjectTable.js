@@ -21,9 +21,9 @@ function showTableItems(items) {
 }
 
 // Generate html for table items 
-function returnTableHTML(heading, body) {
+function returnTableHTML(heading, body, i) {
   return (
-    <div className="border-t border-gray-200 pt-4">
+    <div key={i} className="border-t border-gray-200 pt-4">
       <dt className="font-medium text-gray-900">{heading}</dt>
       <dd className="mt-2 text-sm -mb-4 md:-mb-8 text-gray-500">{body}</dd>
     </div>

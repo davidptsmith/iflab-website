@@ -19,7 +19,7 @@ export default function ProjectPage({
   const coverObj = { cover_image };
 
   return (
-    <>
+    <main>
       <head>
         <title>if/lab | {title}</title>
         <meta name="description" content="if/lab Projects" />
@@ -83,7 +83,7 @@ export default function ProjectPage({
         </div>
       </div>
       <Footer />
-    </>
+    </main>
   );
 }
 

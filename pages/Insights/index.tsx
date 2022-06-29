@@ -17,20 +17,16 @@ const Home: NextPage = ({ posts }) => {
   const [text, setText] = useState("");
 
   return (
-    <div>
-      <head>
-      <title>if/lab | Insights</title>
-      <meta name="description" content="if/lab Insights"/>
-    </head>
+    <main>
+      <Head>
+        <title>if/lab | Insights</title>
+        <meta name="description" content="if/lab Insights" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+
       <div className="sticky  top-0 w-full bg-white z-50">
         <Nav />
       </div>
-
-      <Head>
-        <title>Iflab Insights</title>
-        <meta name="description" content="Iflab Insights" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
 
       <div className=" md:w-2/3  lg:w-2/3 xl:w-1/3 2xl:w-1/3 lg:mt-24  w-5/6 relative my-4 lg:my-0 mx-auto flex flex-row ">
         <h2 className="text-2xl font-">Find Something That Interests You...</h2>
@@ -67,7 +63,7 @@ const Home: NextPage = ({ posts }) => {
       </div>
 
       <div className="md:w-2/3 lg:w-2/3 xl:w-1/3 2xl:w-1/3 w-5/6 relative mb-6 mx-auto mt-4 pt-0 lg:mb-12 flex ">
-      {FilterButtons(setText)}
+        {FilterButtons(setText)}
       </div>
 
       <div className="lg:mt-24 ">{searchBlog(posts, text)}</div>
@@ -75,7 +71,7 @@ const Home: NextPage = ({ posts }) => {
       <div className="snap-end">
         <Footer />
       </div>
-    </div>
+    </main>
   );
 };
 
@@ -139,7 +135,11 @@ const searchBlog = (posts, text) => {
             key={index}
             className=" overflow-hidden cursor-pointer h-full rounded-lg shadow-lg transition duration-500 ease-in-out transform  hover:shadow-2xl "
           >
-            <motion.li className="m-auto "  transition={{delay:0.2 , duration: 0.5 }} layout>
+            <motion.li
+              className="m-auto "
+              transition={{ delay: 0.2, duration: 0.5 }}
+              layout
+            >
               <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
@@ -155,8 +155,6 @@ const searchBlog = (posts, text) => {
     // }
   }
 };
-
- 
 
 export async function getStaticProps() {
   //get files from post dir
@@ -186,7 +184,6 @@ export async function getStaticProps() {
     },
   };
 }
-
 
 const tags = [
   "Architecture",

@@ -77,7 +77,7 @@ class HeroCarousel extends Component {
               <img
                 key={index}
                 src={slide.image}
-                alt="This is a carousel slide"
+                alt="if/lab Project image"
                 className={
                   index === this.state.currentSlide
                     ? " mx-auto object-cover h-screen  opacity-100 w-full z-0  filter brightness-75"
