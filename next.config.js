@@ -12,7 +12,8 @@ module.exports = { assetPrefix: './' }; // enforces relative paths
 module.exports = {
   reactStrictMode: true,
   images: {
-    loader: 'imgix',
+    // loader: 'imgix',
+    loader: 'cloudinary',
     path: '',
   },
   typescript: {
