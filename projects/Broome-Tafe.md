@@ -36,6 +36,13 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum amet quiss atque 
 *This is Italic Text: consectetur est, numquam ducimus cum aliquam dicta ullam harum corrupti quos error?*
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum amet quiss atque a enim odit eligendi dolor iusto minima quaerat. Eveniet nesciunt, nemo quos, asperiores molestiae quisquam deserunt dicta iste necessitatibus labore ut animi suscipit illo maxime quis nulla natus sint quidem et recusandae odit aut a corporis quam! Suscipit explicabo quasi doloribus, consequuntur inventore qui rerum atque voluptatibus officia unde, quisquam quaerat consectetur est, numquam ducimus cum aliquam dicta ullam harum corrupti quos error?
+<figure  class="mx-auto w-full ">
+    <img src="/images/posts/BLOG_PCDG/1.jpg"   class="mx-auto w-full object-cover m-0" alt="if/Lab Project image for -REPLACE-WITH-PROJECT-NAME-"  />
+   <figcaption class="mx-auto text-center -pt-72 ">
+   new caption
+   </figcaption>
+</figure>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum amet quiss atque a enim odit eligendi dolor iusto minima quaerat. Eveniet nesciunt, nemo quos, asperiores molestiae quisquam deserunt dicta iste necessitatibus labore ut animi suscipit illo maxime quis nulla natus sint quidem et recusandae odit aut a corporis quam! Suscipit explicabo quasi doloribus, consequuntur inventore qui rerum atque voluptatibus officia unde, quisquam quaerat consectetur est, numquam ducimus cum aliquam dicta ullam harum corrupti quos error?
 
 >consectetur est, numquam ducimus cum aliquam dicta ullam harum corrupti quos error?
 
@@ -43,20 +50,19 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum amet quiss atque 
 
 ## Youtube Link
 
-<div class="aspect-w-16 aspect-h-9">
-<iframe width="750" height="422" src="https://www.youtube.com/embed/9ZPYwEEeB1I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div >
+<iframe class="VideoMD"  src="https://www.youtube.com/embed/9ZPYwEEeB1I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 
 ## Add Images
-<figure  >
-    <img src="/images/posts/BLOG_PCDG/1.jpg"  class="center" alt="Test Image"  />
-   <figcaption class="center">
+<figure  class="mx-auto w-full ">
+    <img src="/images/posts/BLOG_PCDG/1.jpg"   class="mx-auto w-full object-cover m-0" alt="if/Lab Project image for -REPLACE-WITH-PROJECT-NAME-"  />
+   <figcaption class="mx-auto text-center">
    new caption
    </figcaption>
 </figure>
-
-
+ 
 
 ## Link 
 
