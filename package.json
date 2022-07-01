@@ -1,5 +1,6 @@
 {
-  "name": "iflab-website-v2",
+  "name": "nextjs-static-website",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "build": "next build && next export",
@@ -7,31 +8,33 @@
     "fix": "next lint --fix",
     "lint": "next lint",
     "start": "next start",
-    "test": "playwright test",
-    "export": "next export"
+    "test": "playwright test"
   },
   "dependencies": {
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^12.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "@headlessui/react": "^1.4.2",
-    "firebase": "^9.5.0",
     "framer-motion": "^5.3.1",
     "gray-matter": "^4.0.3",
-    "leaflet": "^1.7.1",
     "marked": "^4.0.5",
-    "next": "^12.0.8",
     "next-optimized-images": "^2.6.2",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
     "react-easy-swipe": "^0.0.22",
-    "react-icons": "^4.3.1",
-    "react-leaflet": "^3.2.2"
+    "react-icons": "^4.3.1"
   },
   "devDependencies": {
+    "@playwright/test": "^1.20.0",
+    "eslint": "^8.11.0",
+    "eslint-config-next": "^12.1.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.6.0",
+    "serve": "^13.0.2",
     "@tailwindcss/typography": "^0.5.0",
     "@types/node": "16.11.9",
     "@types/react": "17.0.36",
     "autoprefixer": "^10.4.2",
-    "eslint": "7.32.0",
-    "eslint-config-next": "12.0.4",
     "postcss": "^8.4.6",
     "postcss-import": "^14.0.2",
     "postcss-preset-env": "^7.4.0",

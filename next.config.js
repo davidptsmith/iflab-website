@@ -29,3 +29,13 @@ module.exports = {
     "@next/next/no-img-elements": "off",
   }
 }
+
+
+
+
+
+
+
+// module.exports = {
+//     trailingSlash: true
+// };
