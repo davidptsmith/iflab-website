@@ -49,9 +49,9 @@ const ValueStatement = () => {
           </div>
         </Link>
       </div>
-      <div className="h-full overflow-hidden ">
+      <div className="md:h-full  overflow-hidden ">
         <img
-          className="h-full max-h-screen object-cover"
+          className="md:h-full h-72 max-h-screen  object-cover"
           alt="Precinct Computational Art Project"
           src=".\images\HomePageImages\06_ifLab_Public_Art_Precinct.jpg"
         />
