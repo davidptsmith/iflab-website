@@ -180,9 +180,12 @@ function compareStrings( a, b ) {
 const tags = [
   "Architecture",
   "Public Art",
-  "Fabrication",
-  "Computational Design",
   "Urban Design",
+  "Education",
+  "Digital Fabrication",
+  "Automation",
+  "Research",
+  "Timber",
 ];
 
 function FilterButtons(setText) {
