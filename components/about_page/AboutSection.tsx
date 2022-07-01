@@ -5,16 +5,21 @@ const AboutSection = () => {
   return (
     <>
       <div className="    mx-auto prose max-w-none w-11/12 md:w-10/12   my-12  ">
-        <div className="  mx-auto md:grid md:grid-cols-3 md:gap-12 2xl:gap-28 flex-col-reverse flex     ">
+        <div className="  mx-auto md:grid xl:grid-cols-3 md:gap-12 xl:gap-28 flex-col-reverse flex     ">
           {/* <div className="  mx-auto sm:grid sm:grid-cols-1 lg:grid-cols-3 md:gap-12 order-last flex   "> */}
 
           <div className="h-full w-full  object-cover  col-span-2 ">
-            <div className="overflow-hidden  w-full h-full">
+            <div className="overflow-hidden max-h-full my-auto lg:h-full">
               <img
                 alt="if/Lab Ravensthorpe timber Architectural Project"
                 className="h-full object-cover"
                 src="\images\projects\Ravensthorpe\cover_image.jpg"
               />
+            {/* <img
+            alt=""
+            className="h-full object-cover "
+            src="\images\HomeHeroImages\14_ifLab_Public_Art_Yanchep.jpg"
+          /> */}
             </div>
             {/* <ContactCarousel CarouselData={imagePaths}/> */}
           </div>
@@ -24,7 +29,7 @@ const AboutSection = () => {
             src="\images\HomeHeroImages\08.jpg"
           /> */}
 
-          <div className="my-auto mt-12 ">
+          <div className="my-auto xl:pt-8 ">
             <div>
           
             <h1 className="text-left ">About if/Lab</h1>
@@ -37,8 +42,8 @@ const AboutSection = () => {
               transformation that can deliver better, cheaper, and faster design
               and technology enabled solutions for the built environment.
             </p>
-            <br className="hidden lg:visible" />
-            <p>
+            <br className="hidden lg:visible "  />
+            <p className=" lg:text-justify md:text-justify text-left  ">
               We employ a creative, transdisciplinary, and data-informed
               approach so that we can help to design a better future for all. We
               believe in learning through exploring, creative solutions to
@@ -47,7 +52,7 @@ const AboutSection = () => {
               of highly robust processes and better end-products.
             </p>
             <br className="hidden lg:visible" />
-            <p>
+            <p className=" lg:text-justify md:text-justify text-left  ">
               We are experts in data, design, technology, research, strategy,
               sustainability, and modern methods of construction utilising
               prefabrication and advanced manufacturing.
