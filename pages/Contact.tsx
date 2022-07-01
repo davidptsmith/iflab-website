@@ -23,10 +23,10 @@ const Home: NextPage = ({ imagePaths }) => {
       </div>
 
       <div className="    mx-auto prose max-w-none w-11/12 md:w-10/12   my-12  ">
-        <div className="  mx-auto md:grid md:grid-cols-3 md:gap-12 2xl:gap-28 flex-col-reverse flex     ">
+        <div className="  mx-auto md:grid md:grid-cols-3 md:gap-12 2xl:gap-28 flex-col-reverse flex      ">
           {/* <div className="  mx-auto sm:grid sm:grid-cols-1 lg:grid-cols-3 md:gap-12 order-last flex   "> */}
 
-          <div className=" relative w-full md:h-full h-96 object-cover  col-span-2 ">
+          <div className=" relative w-full md:h-full h-96  object-cover  col-span-2 ">
             <ContactCarousel CarouselData={imagePaths} />
           </div>
           {/* <img
