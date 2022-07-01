@@ -15,7 +15,7 @@ const Home: NextPage = ({ imagePaths }) => {
   return (
     <main>
       <Head>
-        <title>if/lab | Contact </title>
+        <title>if/Lab | Contact </title>
         <meta name="description" content="if/lab contact" />
       </Head>
       <div className="sticky  top-0 w-full bg-white z-50">

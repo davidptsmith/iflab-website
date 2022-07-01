@@ -24,7 +24,7 @@ const Home: NextPage = ({ projects }) => {
   return (
     <main>
       <Head>
-        <title>if/lab | Projects</title>
+        <title>if/Lab | Projects</title>
         <meta name="description" content="if/lab Projects" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

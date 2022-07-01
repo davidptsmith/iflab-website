@@ -19,7 +19,7 @@ const Home: NextPage = ({ posts }) => {
   return (
     <main>
       <Head>
-        <title>if/lab | Insights</title>
+        <title>if/Lab | Insights</title>
         <meta name="description" content="if/lab Insights" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

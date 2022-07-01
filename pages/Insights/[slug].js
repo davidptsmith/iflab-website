@@ -14,10 +14,10 @@ export default function PostPage({
 }) {
   return (
     <>
-      <head>
-        <title>if/lab | {title}</title>
+      <Head>
+        <title>if/Lab | {title}</title>
         <meta name="description" content="if/lab Projects" />
-      </head>
+      </Head>
       <Nav />
 
       <div className="mx-auto sm:w-6/12 w-11/12 prose">

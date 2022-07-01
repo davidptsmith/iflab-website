@@ -21,10 +21,10 @@ export default function ProjectPage({
 
   return (
     <main>
-      <head>
-        <title>if/lab | {title}</title>
+      <Head>
+        <title>if/Lab | {title}</title>
         <meta name="description" content="if/lab Projects" />
-      </head>
+      </Head>
       <div className="sticky  top-0 w-full bg-white z-50">
         <Nav />
       </div>

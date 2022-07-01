@@ -27,7 +27,7 @@ import ArchitecturePresenter from "../components/home_page/ArchitecturePresenter
 const Home: NextPage = ({ imagePaths }) => (
   <main>
       <Head>
-      <title>if/lab | Home </title>
+      <title>if/Lab | Home </title>
       <meta name="description" content="if/lab Homepage"/>
     </Head>
   

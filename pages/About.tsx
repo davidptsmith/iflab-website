@@ -14,7 +14,7 @@ const Home: NextPage = () => {
   return (
     <>
     <Head>
-      <title>if/lab | About </title>
+      <title>if/Lab | About </title>
       <meta name="description" content="About if/lab"/>
     </Head>
       <div className="sticky  top-0 w-full bg-white z-50">
