@@ -2,6 +2,7 @@
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
+import Head from "next/head";
 import { marked } from "marked";
 import Link from "next/link";
 import ImagesCarousel from "../../components/Projects/ImagesCarousel";

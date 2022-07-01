@@ -4,6 +4,7 @@ import path from "path";
 import matter from "gray-matter";
 import { marked } from "marked";
 import { motion } from "framer-motion";
+import Head from "next/head";
 import Link from "next/link";
 import ProjectTable from "../../components/Projects/ProjectTable";
 import ImagesCarousel from "../../components/Projects/ImagesCarousel";
