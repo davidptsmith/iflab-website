@@ -3,11 +3,12 @@
 ***This Project Is Still A Work In Progress***
 
 Link to testing site: 
-http://iflab-testing-website.s3-website-ap-southeast-2.amazonaws.com/
+
+https://nice-stone-078cf9d10.1.azurestaticapps.net/
 
 This website development project is to create a custom designed website that displays our work in a clear manner with the ability to filter projects based on type and search through out blog posts. 
 
-It takes images and markdown for projects and posts and automatically generates a pages and routing for a static site to be hosted on an S3 bucket. 
+It takes images and markdown for projects and posts and automatically generates a pages and routing. Commits trigger the CI/CD and redeploy site to Azure Static Web Apps.
 
 
 # Images of the project 
