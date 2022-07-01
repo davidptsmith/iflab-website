@@ -73,7 +73,7 @@ class ContactCarousel extends Component {
                 alt={AltTextFromImage(slide.image)}
                 className={
                   index === this.state.currentSlide
-                  ? "  max-h-full h-96  2xl:h-[680px]    object-cover opacity-100 min-w-full z-0  filter brightness-75"
+                  ? "  max-h-full h-96  2xl:h-[720px]    object-cover opacity-100 min-w-full z-0  filter brightness-75"
                   : "hidden"
                 }
                 />
