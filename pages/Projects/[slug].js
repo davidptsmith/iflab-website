@@ -19,12 +19,14 @@ export default function ProjectPage({
   content,
   imagePaths
 }) {
-  console.log(cover_image)
+  console.log(path.join(slug))
   
+  let hostname = ""
   if (typeof window !== 'undefined') {
-    const hostname = window.location.hostname;
+    hostname = window.location.hostname;
     console.log(hostname)
- }
+  }
+  console.log(`${hostname}/Projects/${slug}`)
   return (
     <main>
       <Head>
@@ -45,7 +47,7 @@ export default function ProjectPage({
         {/* Open Graph */}
         <meta
           property="og:url"
-          content={path.join(slug)}
+          content={`${hostname}/Projects/${slug}`}
           key="ogurl"
         />
         <meta name="image" property="og:image" content={`${hostname}${cover_image}`} key="ogimage" />
