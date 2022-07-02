@@ -23,8 +23,10 @@ export default function ProjectPage({
   
   let hostname = ""
   if (typeof window !== 'undefined') {
-    hostname = window.location.hostname;
-    console.log(hostname)
+    if (hostname != undefined){
+      hostname = window.location.hostname;
+      console.log(hostname)
+    }
   }
   console.log(`${hostname}/Projects/${slug}`)
   return (
