@@ -5,16 +5,16 @@ import {AltTextFromImage} from "../Utilities/Helpers"
 
 const ContactUs = () => {
   return (
-    <div className="  min-h-[640px] lg:px-4 md:w-4/5 w-10/12   mx-auto z-10 grid grid-cols-1 md:gap-4 md:grid-cols-2">
-      <div className="w-full md:h-full h-full max-h-screen  overflow-hidden m-auto">
+    <div className="  min-h-[640px] xl:px-4  w-10/12 md:w-3/4  mx-auto z-10 grid grid-cols-1 gap-4  md:gap-12 xl:grid-cols-2">
+      <div className="w-full xl:h-full h-full max-h-screen  overflow-hidden m-auto">
         <img
-          className="object-cover md:h-full w-full h-full max-h-screen "
+          className="object-cover xl:h-full w-full h-full max-h-screen "
           src="/images/HomeHeroImages/05_ifLab_Architecture_Ravensthorpe.jpg"
           alt={AltTextFromImage("05_ifLab_Architecture_Ravensthorpe")}
         />
       </div>
 
-      <div className="md:w-2/3 md:my-auto  md:ml-16">
+      <div className="xl:w-2/3 md:my-auto  xl:ml-16 xl:mt-12">
         <div className="flex items-baseline  ">
           {/* ////////////////////  update the link to contact page /////////////////// */}
 
@@ -23,20 +23,20 @@ const ContactUs = () => {
             <br /> About Your Project
           </h1>
         </div>
-        <div className=" lg:text-justify md:text-justify text-left  ">
-          <p className=" lg:text-justify md:text-justify text-left  ">
+        <div className=" xl:text-justify md:text-justify text-left  ">
+          <p className=" xl:text-justify md:text-justify text-left  ">
             if/LAB is a transdisciplinary design and technology studio based in
             Perth, Western Australia.
           </p>
-          <p className=" lg:text-justify md:text-justify text-left  ">
+          <p className=" xl:text-justify md:text-justify text-left  ">
             We leverage innovation in design, technology, and manufacturing to
             enable equitable access to better design for all.
           </p>
-          <p className=" lg:text-justify md:text-justify text-left  ">
+          <p className=" xl:text-justify md:text-justify text-left  ">
             By asking "what if?" we unlock new avenues for design and delivery
             across sectors and scales.
           </p>
-          <p className=" lg:text-justify md:text-justify text-left  ">
+          <p className=" xl:text-justify md:text-justify text-left  ">
             Our team of architects, designers, computational experts, and
             software developers are ready to change the future by changing
             building, today.
