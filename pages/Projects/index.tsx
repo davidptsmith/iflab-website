@@ -152,7 +152,7 @@ export async function getStaticProps() {
     );
 
     const { data: frontmatter } = matter(markdownWithMeta);
-
+    
     return {
       slug,
       frontmatter,
@@ -162,7 +162,7 @@ export async function getStaticProps() {
   return {
     props: {
       // projects: projects 
-      projects: projects.sort(),
+      projects: projects.filter(checkShowProject).sort(),
     },
   };
 }
@@ -176,6 +176,12 @@ function compareStrings( a, b ) {
   }
   return 0;
 }
+
+
+function checkShowProject(project){
+  return project.frontmatter.ShowProject == true ? true : false
+}
+
 
 const tags = [
   "Architecture",

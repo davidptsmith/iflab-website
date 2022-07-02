@@ -180,10 +180,16 @@ export async function getStaticProps() {
 
   return {
     props: {
-      posts: posts.sort(sortByDate),
+      posts: posts.filter(checkShowProject).sort(sortByDate),
     },
   };
 }
+
+function checkShowProject(project){
+  return project.frontmatter.ShowProject == true ? true : false
+}
+
+
 
 const tags = [
   "Architecture",
