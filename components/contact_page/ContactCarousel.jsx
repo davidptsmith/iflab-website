@@ -56,7 +56,7 @@ class ContactCarousel extends Component {
         <div className="h-full w-full absolute grid place-items-center  z-20 ">
           {/* <div className="bg-white m-auto h-72 w-72"> */}
           <div className="text-white">
-            <div className="text-white  m-auto pb-12   w-72  2xl:w-[480px]  ">
+            <div className="text-white  m-auto pb-12   w-72  lg:w-[480px]  ">
               <IflabLogo_SVG />
             </div>
            
@@ -73,7 +73,7 @@ class ContactCarousel extends Component {
                 alt={AltTextFromImage(slide.image)}
                 className={
                   index === this.state.currentSlide
-                  ? "  max-h-full h-96  2xl:h-[720px]    object-cover opacity-100 min-w-full z-0  filter brightness-75"
+                  ? "  max-h-full h-96  lg:h-[720px]    object-cover opacity-100 min-w-full z-0  filter brightness-75"
                   : "hidden"
                 }
                 />
