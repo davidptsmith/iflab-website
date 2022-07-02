@@ -45,10 +45,10 @@ export default function ProjectPage({
         {/* Open Graph */}
         <meta
           property="og:url"
-          content={path.join('Projects', slug)}
+          content={path.join(slug)}
           key="ogurl"
         />
-        <meta name="image" property="og:image" content={`https://nice-stone-078cf9d10.1.azurestaticapps.net/${cover_image}`} key="ogimage" />
+        <meta name="image" property="og:image" content={`${hostname}${cover_image}`} key="ogimage" />
         <meta property="og:site_name" content={'If/Lab'} key="ogsitename" />
       </Head>
       <div className="sticky  top-0 w-full bg-white z-50">
