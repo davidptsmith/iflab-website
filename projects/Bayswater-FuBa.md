@@ -1,5 +1,6 @@
 ---
 title: "Bayswater FuBa" 
+ShowProject : true
 date: '6'
 excerpt: 'this is more information and things about the project. Look at this test, it is testing the length of the item'
 cover_image: '/images/projects/Bayswater FuBa/cover_image.jpg'

@@ -1,5 +1,6 @@
 ---
 title: 'Shop Drawing Automation with Rhino and Grasshopper'
+ShowProject : true
 date: 'JUNE 07, 2019'
 excerpt: 'Video showcase of the Crest Apartments Public Artwork Facade.'
 cover_image: '/images/posts/BLOG_Drawing From CSV _1/1.jpg'

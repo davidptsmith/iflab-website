@@ -1,5 +1,6 @@
 ---
 title: 'Goldcoast - Arduino'
+ShowProject : true
 date: 'JULY 11, 2019'
 excerpt: '**** Using an Arduino to control lighting in grasshopper'
 cover_image: '/images/posts/Arduino/Arduino-Bits.jpg'

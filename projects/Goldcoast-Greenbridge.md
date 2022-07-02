@@ -1,5 +1,6 @@
 ---
 title: "Goldcoast Greenbridge" 
+ShowProject : true
 date: '10'
 excerpt: 'this is more information and things about the project. Look at this test, it is testing the length of the item'
 cover_image: '/images/projects/Goldcoast Greenbridge/cover_image.jpg'

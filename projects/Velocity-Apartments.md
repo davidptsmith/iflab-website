@@ -1,5 +1,6 @@
 ---
 title: "Velocity Apartments" 
+ShowProject : true
 date: 'JUNE 18, 2019'
 excerpt: 'this is more information and things about the project. Look at this test, it is testing the length of the item'
 cover_image: '/images/projects/Velocity Apartments/cover_image.jpg'

@@ -1,5 +1,6 @@
 ---
 title: 'Creative Design Workflows: Parametric Explorations through Physics-based Simulations'
+ShowProject : true
 date: 'JUNE 03, 2019'
 excerpt: 'This article demonstrates how we used computational design tools to realise a unique and innovative typology for a soffit, in Fremantle, Western Australia.'
 cover_image: '/images/posts/BLOG_LIV - FORM FINDING/1.jpg'

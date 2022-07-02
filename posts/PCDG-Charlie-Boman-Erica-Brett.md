@@ -1,5 +1,6 @@
 ---
 title: 'PCDG #2 - Erica Brett: SUPERSPACE (Woods Bagot) + Charlie Boman: Roland Snooks Studio'
+ShowProject : true
 date: 'AUGUST 20, 2019'
 excerpt: 'We are happy to announce the second Perth Computational Design Group event, with two excellent speakers doing some amazing things!'
 cover_image: '/images/posts/BLOG_PCDG/2.jpg'

@@ -1,5 +1,6 @@
 ---
 title: 'Optimisation of Facade Panels for The Crest Apartments'
+ShowProject : true
 date: 'JUNE 25, 2019'
 excerpt: 'Our workflow for the Crest Apartments artwork facade allowed us to quickly explore different parameters and any resulting implications they may have on the aesthetic and production of the facade. '
 cover_image: '/images/posts/Crest/1.jpg'

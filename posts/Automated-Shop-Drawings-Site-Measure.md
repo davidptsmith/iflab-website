@@ -1,5 +1,6 @@
 ---
 title: 'Automated Modeling + Drawings from Site Measurements'
+ShowProject : true
 date: 'JUNE 18, 2019'
 excerpt: ''
 cover_image: '/images/posts/BLOG_Drawing From CSV _1/3.jfif'

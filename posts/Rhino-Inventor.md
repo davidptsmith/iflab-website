@@ -1,5 +1,6 @@
 ---
 title: 'Rhino 3D to Autodesk Inventor: Sheet Metal'
+ShowProject : true
 date: 'DECEMBER 19, 2018'
 excerpt: 'Workflow to facilitate the production of required fabrication documentation from design models by automating the link between Rhino 3D and Inventor.'
 cover_image: '/images/posts/BLOG_InventorScriptBlog/2.jpg'

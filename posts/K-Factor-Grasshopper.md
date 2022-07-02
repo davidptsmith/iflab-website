@@ -1,5 +1,6 @@
 ---
 title: 'Rhino 3D + Grasshopper Sheet Metal Bending'
+ShowProject : true
 date: 'JANUARY 21, 2019'
 excerpt: 'Extending the capabilities of Rhino and factors in material elasticity for the calculation of bend allowances and deductions to produce accurate unroll patterns for fabrication. '
 cover_image: '/images/posts/BLOG_Grasshopper K Factor/1.jpg'

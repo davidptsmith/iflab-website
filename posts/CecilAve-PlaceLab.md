@@ -1,5 +1,6 @@
 ---
 title: "Cecil Avenue Masterplan Paving Pattern: Design Assist with PLACE Laboratory"
+ShowProject : true
 date: 'SEPTEMBER 25, 2019'
 excerpt: 'If/LAB were engaged by PLACE Laboratory in a Design Assist role to develop up and detail paving patterns for their Cecil Avenue Masterplan.'
 cover_image: '/images/posts/BLOG_CECIL/4.jpg'

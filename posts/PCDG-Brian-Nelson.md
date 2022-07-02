@@ -1,5 +1,6 @@
 ---
 title: 'Structural Composites in Art, Architecture and Infrastructure by Brian A Nelson [PCDG #3]'
+ShowProject : true
 date: 'October 01, 2019 '
 excerpt: 'We are happy to announce the third Perth Computational Design Group event, with two excellent speakers doing some amazing things!'
 cover_image: '/images/posts/BLOG_PCDG/1.jpg'
