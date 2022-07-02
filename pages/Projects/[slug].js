@@ -47,11 +47,11 @@ export default function ProjectPage({
         {/* <meta name="twitter:creator" content={twitterHandle} key="twhandle" /> */}
 
         {/* Open Graph */}
-        <meta
+        {/* <meta
           property="og:url"
           content={`${hostname}/Projects/${slug}`}
           key="ogurl"
-        />
+        /> */}
         <meta name="image" property="og:image" content={`${hostname}${cover_image}`} key="ogimage" />
         <meta property="og:site_name" content={'If/Lab'} key="ogsitename" />
       </Head>
