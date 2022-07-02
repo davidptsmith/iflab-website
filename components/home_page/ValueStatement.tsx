@@ -9,7 +9,7 @@ import {
 
 const ValueStatement = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 md:gap-8 min-h-[800px] mx-auto w-10/12  md:px-4 h-full md:pt-2  2xl:pt-24 pt-8 pb-24 md:pb-36">
+    <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-8 min-h-[800px] mx-auto w-10/12  md:px-4 h-full lg:pt-2  2xl:pt-24 pt-8 pb-24 lg:pb-36">
       {/* <div className="m-auto sm:w-2/3 "> */}
       <div className="m-auto  md:w-4/5 ">
         <h1 className="2xl:w-4/5 ">
