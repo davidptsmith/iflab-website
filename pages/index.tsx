@@ -28,7 +28,15 @@ const Home: NextPage = ({ imagePaths }) => (
   <main>
       <Head>
       <title>if/Lab | Home </title>
+      <meta name="description" content="if/lab Homepage" />
+        <meta
+          name="description"
+          property="og:description"
+          content={`if/lab Project | Home`}
+          key="ogdesc"
+        />
       <meta name="description" content="if/lab Homepage"/>
+      <meta property="og:site_name" content={'If/Lab'} key="ogsitename" />
     </Head>
   
   <div className="max-h-screen   overflow-x-hidden  snap snap-y snap-mandatory ScrollingLayer   ">

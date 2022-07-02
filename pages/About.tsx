@@ -16,6 +16,7 @@ const Home: NextPage = () => {
     <Head>
       <title>if/Lab | About </title>
       <meta name="description" content="About if/lab"/>
+      <meta name="image" property="og:image" content={"<%= require('./images/projects/Ravensthorpe/cover_image.jpg) %>"} key="ogimage" />
     </Head>
       <div className="sticky  top-0 w-full bg-white z-50">
         <Nav />

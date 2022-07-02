@@ -13,11 +13,33 @@ export default function PostPage({
   slug,
   content,
 }) {
+  let hostname = ""
+  if (typeof window !== 'undefined') {
+    if (hostname != undefined){
+      hostname = window.location.hostname;
+      console.log(hostname)
+    }
+  }
+
   return (
     <>
       <Head>
         <title>if/Lab | {title}</title>
         <meta name="description" content="if/lab Projects" />
+        <meta
+          name="description"
+          property="og:description"
+          content={`if/lab Project | ${title}`}
+          key="ogdesc"
+        />
+
+        {/* Twitter */}
+        <meta  name="twitter:card" content="summary" key="twcard" />
+        {/* <meta name="twitter:creator" content={twitterHandle} key="twhandle" /> */}
+
+        {/* Open Graph */}
+        <meta name="image" property="og:image" content={`${hostname}${cover_image}`} key="ogimage" />
+        <meta property="og:site_name" content={'If/Lab'} key="ogsitename" />
       </Head>
       <Nav />
 
