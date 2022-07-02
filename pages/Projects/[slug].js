@@ -36,11 +36,11 @@ export default function ProjectPage({
  */}
 
       <div>
-        <div className=" prose max-w-none lg:mt-12 mx-auto md:w-10/12 w-11/12 ">
-          <div className=" flex flex-col-reverse md:grid md:grid-cols-5 mt-14 gap-8">
-            <div className="h-full md:col-span-3 overflow-hidden md:pr-4">
+        <div className=" prose max-w-none lg:mt-12 mx-auto lg:w-10/12 w-11/12 ">
+          <div className=" flex flex-col-reverse lg:grid lg:grid-cols-5 mt-14 gap-8">
+            <div className="h-full lg:col-span-3  overflow-hidden lg:pr-4">
               <img
-                className="w-full object-cover hidden md:visible "
+                className="w-full object-cover hidden lg:visible "
                 src={cover_image}
                 alt={`If/lab Project Image ${title}`}
               />
@@ -50,21 +50,21 @@ export default function ProjectPage({
                 {imageGrid(imagePaths)}
               </div>
             </div>
-            <div className="md:border-l-2 md:col-span-2  prose max-w-none md:pl-16 md:pt-8 w-full">
+            <div className="lg:border-l-2 lg:col-span-2  prose max-w-none lg:pl-16 md:pt-8 w-full">
               {/* image is hidden on larger screens */}
-              <div className="-mt-20 mx-auto mb-12 h-96 visible md:hidden ">
+              <div className="-mt-20 mx-auto mb-12 h-96 visible lg:hidden ">
                 <img
-                  className="  mx-auto object-cover  h-full visible md:hidden "
+                  className="  mx-auto object-cover  h-full visible lg:hidden "
                   src={cover_image}
                 />
               </div>
               <h1>{title}</h1>
               <ProjectTable items={tables.items} />
               {/* Images referenced in the text will not be visible on the larger screens. These however will be filtered throughout on small screens to break up the post */}
-              <div className=" hidden  md:inline ">
+              <div className=" hidden  lg:inline ">
                 {/* Project text */}
                 <div
-                  className="prose  text-justify mt-24 prose-img:md:inline prose-img:hidden 
+                  className="prose  text-justify mt-24 prose-img:lg:inline prose-img:hidden 
             prose-h2:text-3xl 
             prose-h2:border-b
             prose-h2:py-2
