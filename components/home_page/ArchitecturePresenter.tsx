@@ -30,7 +30,7 @@ const ArchitecturePresenter = () => {
           }
           
           imageUrl={"/images/projects/Ravensthorpe/cover_image.jpg"}
-          link_path={"/Projects/Anemoi"}
+          link_path={"/Projects/Ravensthorpe"}
         />
 
         <KeyProjectsCard
@@ -40,7 +40,7 @@ const ArchitecturePresenter = () => {
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, fugiat."
           }
           imageUrl={"/images/HomeHeroImages/10_ifLab_Timber_Architecture.jpg"}
-          link_path={"/Projects/Yanchep-Stage-1"}
+          link_path={"/Projects/Prefabricated-Chalets"}
         />
       </div>
     </div>
