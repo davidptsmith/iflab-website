@@ -12,19 +12,33 @@ import Nav from "../../components/NavBar/Nav";
 import Footer from "../../components/Footer";
 import {AltTextFromImage} from "../../components/Utilities/Helpers"
 
+
 export default function ProjectPage({
   frontmatter: { title, date, cover_image, aside_image, tables },
   slug,
   content,
-  imagePaths,
+  imagePaths
 }) {
-  const coverObj = { cover_image };
-
   return (
     <main>
       <Head>
         <title>if/Lab | {title}</title>
-        <meta name="description" content="if/lab Projects" />
+        <meta name="description" content={`if/lab Project ${title}`} />
+        <meta property="og:title" content={`if/Lab | ${title}`} key="ogtitle" />
+       <meta property="og:description" content={`if/lab Project ${title}`} key="ogdesc" />
+
+
+      {/* Twitter */}
+      <meta name="twitter:card" content="summary" key="twcard" />
+      {/* <meta name="twitter:creator" content={twitterHandle} key="twhandle" /> */}
+
+      {/* Open Graph */}
+      <meta property="og:url" content={path.join("Projects" , slug)} key="ogurl" />
+      <meta property="og:image" content={cover_image} key="ogimage" />
+      <meta property="og:site_name" content={"If/Lab"} key="ogsitename" />
+
+
+
       </Head>
       <div className="sticky  top-0 w-full bg-white z-50">
         <Nav />
@@ -171,7 +185,7 @@ export async function getStaticProps({ params: { slug } }) {
       frontmatter,
       slug,
       content,
-      imagePaths,
+      imagePaths
     },
   };
 }
