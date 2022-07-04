@@ -9,9 +9,9 @@ import Link from "next/link";
 import ProjectTable from "../../components/Projects/ProjectTable";
 import ImagesCarousel from "../../components/Projects/ImagesCarousel";
 import Nav from "../../components/NavBar/Nav";
-import Footer from "../../components/Footer";
 import {AltTextFromImage} from "../../components/Utilities/Helpers"
 import Footer from "../../components/Footer";
+
 
 
 export default function ProjectPage({
