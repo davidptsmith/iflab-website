@@ -69,7 +69,7 @@ class ContactCarousel extends Component {
               <div key={index} className="h-full w-full overflow-hidden  rounded-lg   min-w-full">
 
               <img
-                loading="lazy" 
+                loading="eager" 
                 src={slide.image}
                 alt={AltTextFromImage(slide.image)}
                 className={

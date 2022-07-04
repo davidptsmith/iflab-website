@@ -76,7 +76,7 @@ class HeroCarousel extends Component {
           {this.props.CarouselData.map((slide, index) => {
             return (
               <img
-              loading="lazy" 
+              loading="eager" 
                 key={index}
                 src={slide.image}
                 alt="if/lab Project image"
