@@ -2,14 +2,19 @@
 title: 'Goldcoast - Arduino'
 ShowProject : true
 date: 'JULY 11, 2019'
-excerpt: '**** Using an Arduino to control lighting in grasshopper'
+excerpt: 'Using an Arduino to test lighting design options by simulating the processes in grasshopper'
 cover_image: '/images/posts/Arduino/Arduino-Bits.jpg'
 tags: ["Responsive architecture", "responsive buildings", "Arduino", "firefly", "grasshopper", "lighting"]
 ---
 
-# TESTING
 
-//add links in where projects are mentioned 
+
+
+<div >
+<iframe class="VideoMD"  src="https://www.youtube.com/embed/z3D8shNoJpk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+### Prototyping Lighting with Arduino & Grasshopper  
 
 With the advent of technology, the line between the real and the virtual is becoming progressively blurred. We interact with the virtual on a day to day, hour to hour, minute to minute basis -smart phones, software and the web have become a woven and essential part to the way we live.
 
@@ -22,16 +27,19 @@ The Green Bridge concept proposal enabled us to explore basic principles of inte
 Our concept proposal for the Green Bridge public artwork in the Gold Coast was the first step in exploring these themes. The video above demonstrates an effort to begin to understand the potential of responsive buildings through exploring one way of interacting with the digital model.
 
 
-//add image 
+
+<figure  class="mx-auto w-full ">
+    <img src="\images\posts\BLOG_ARDUINO\Photo Jun 04, 3 40 32 PM.jpg"   class="mx-auto w-full object-cover m-0" alt="if/Arduino Micro Controller"  />
+   <figcaption class="mx-auto text-center">
+   Arduino Micro Controller
+   </figcaption>
+</figure>
 
 The prototype was developed using an [Arduino]("https://www.arduino.cc"), an open-source micro-controller, with an ultrasonic sensor for measuring distance. The sensor emits an ultrasound which travels through the air, and if it hits an object it will bounce back to the sensor. The distance is then calculated by considering the speed and travel time of the ultrasound. 
 
-<div >
-<iframe class="VideoMD" src="https://www.youtube.com/embed/z3D8shNoJpk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
 
 
- The lighting was intended to be actuated through sensors on the bridge, enabling the bridge to interact and communicate with the heart of the cultural centre, HOTA.
+The lighting was intended to be actuated through sensors on the bridge, enabling the bridge to interact and communicate with the heart of the cultural centre, HOTA.
 
 
 

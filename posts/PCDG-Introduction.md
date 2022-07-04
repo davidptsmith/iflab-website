@@ -9,7 +9,14 @@ tags: ["Perth", "Perth Computational Design Group", "Computational Design", "Gra
 
 
 We were fortunate to have two great speakers, Ross Donaldson and Tristan Morgan, who set the scene for future speakers.
-<img src="/images">
+
+<figure  class="mx-auto w-full ">
+    <img src="\images\posts\BLOG_PCDG\3.jpg"   class="mx-auto w-full object-cover m-0" alt="Perth Computational Design Poster"  />
+       <figcaption class="mx-auto text-center">
+   Perth Computational Design Poster
+   </figcaption>
+</figure>
+
 See the talks here. (Apologies in advance for the poor recording, I’ts my first time)
 <div >
 <iframe class="VideoMD"  src="https://www.youtube.com/embed/zLI3B4w0BNw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -18,11 +25,11 @@ See the talks here. (Apologies in advance for the poor recording, I’ts my firs
 <br></br>
 
 <div >
-<iframe class="VideoMD"  src="https://www.youtube.com/embed/4N4y_paWVUc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>As we all 
+<iframe class="VideoMD"  src="https://www.youtube.com/embed/4N4y_paWVUc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 
-know, the architecture engineering and construction industry is in a state of flux fuelled by transformative shifts in technology and design. 
+As we all know, the architecture engineering and construction industry is in a state of flux fuelled by transformative shifts in technology and design. 
 
 For a number of years now, Tristan and I have been looking to set up a network of like minded people from within the industry to get together, connect with one another, and to share ideas, processes workflows and design thinking strategies amongst one another. 
 
@@ -36,25 +43,16 @@ If anyone where is interested in speaking at a future event, we would love for y
 
 Some ideas for future talks.
 
-·         designing for building performance,
-
-·         robots and micro controllers (of any sort),
-
-·         design to production, digital fabrication
-
-·         controlling buildings in use, 
-
-·         clever ways of making things, 
-
-·         data analysis and data visualisations, 
-
-·        optimisation and simulation,
-
-·         interesting ways of representing things (VR, AR, etc)
-
-·         machine learning/AI, 
-
-·         other things that we haven't thought of.
+- designing for building performance,
+- robots and micro controllers (of any sort),
+- design to production, digital fabrication
+- controlling buildings in use, 
+- clever ways of making things, 
+- data analysis and data visualisations, 
+- optimisation and simulation,
+- interesting ways of representing things (VR, AR, etc)
+- machine learning/AI, 
+- other things that we haven't thought of.
 
  
 

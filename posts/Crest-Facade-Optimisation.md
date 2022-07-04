@@ -18,6 +18,14 @@ The adoption of computational design enables smaller teams of designers to compe
 
 So why should you optimise? He is an example of a recently completed, integrated public artwork façade, that we delivered from design to fabrication, using Rhino and Grasshopper. 
 
+
+<figure  class="mx-auto w-full ">
+    <img src="\images\posts\BLOG_Crest - Optimisation\1.jpg"   class="mx-auto w-full object-cover m-0" alt="if/Lab facade optimization "  />
+   <figcaption class="mx-auto text-center">
+  Comparison Image Showing Original and Optimised Facade Panels
+   </figcaption>
+</figure>
+
 ### Design
 
 The flexibility of Rhino and Grasshopper enabled us to quickly and iteratively test numerous concepts, whilst having the ability to know exactly how many pieces would be required and what the estimated cost would be. Traditional design methods typically involve shorter allocations of time for design, and more time allocated to documentation. Computational design flips that relationship, allowing designers to spend more time designing and less time documenting.
