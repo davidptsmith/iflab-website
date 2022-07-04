@@ -1,31 +1,29 @@
 // @ts-ignore
-import fs from "fs";
-import path from "path";
-import matter from "gray-matter";
-import { marked } from "marked";
-import { motion } from "framer-motion";
-import Head from "next/head";
-import Link from "next/link";
-import ProjectTable from "../../components/Projects/ProjectTable";
-import ImagesCarousel from "../../components/Projects/ImagesCarousel";
-import Nav from "../../components/NavBar/Nav";
-import {AltTextFromImage} from "../../components/Utilities/Helpers"
-import Footer from "../../components/Footer";
-
-
+import fs from 'fs';
+import path from 'path';
+import matter from 'gray-matter';
+import { marked } from 'marked';
+import { motion } from 'framer-motion';
+import Head from 'next/head';
+import Link from 'next/link';
+import ProjectTable from '../../components/Projects/ProjectTable';
+import ImagesCarousel from '../../components/Projects/ImagesCarousel';
+import Nav from '../../components/NavBar/Nav';
+import { AltTextFromImage } from '../../components/Utilities/Helpers';
+import Footer from '../../components/Footer';
+import { AiOutlineDoubleRight, AiOutlineRight } from 'react-icons/ai';
 
 export default function ProjectPage({
   frontmatter: { title, date, cover_image, aside_image, tables },
   slug,
   content,
-  imagePaths
+  imagePaths,
 }) {
-    
-  let hostname = ""
+  let hostname = '';
   if (typeof window !== 'undefined') {
-    if (hostname != undefined){
+    if (hostname != undefined) {
       hostname = window.location.hostname;
-      console.log(hostname)
+      console.log(hostname);
     }
   }
 
@@ -34,7 +32,12 @@ export default function ProjectPage({
       <Head>
         <title>if/Lab | {title}</title>
         <meta name="description" content={`if/lab Project ${title}`} />
-        <meta name="title" property="og:title" content={`if/Lab | ${title}`} key="ogtitle" />
+        <meta
+          name="title"
+          property="og:title"
+          content={`if/Lab | ${title}`}
+          key="ogtitle"
+        />
         <meta
           name="description"
           property="og:description"
@@ -43,11 +46,16 @@ export default function ProjectPage({
         />
 
         {/* Twitter */}
-        <meta  name="twitter:card" content="summary" key="twcard" />
+        <meta name="twitter:card" content="summary" key="twcard" />
         {/* <meta name="twitter:creator" content={twitterHandle} key="twhandle" /> */}
 
         {/* Open Graph */}
-        <meta name="image" property="og:image" content={`${hostname}${cover_image}`} key="ogimage" />
+        <meta
+          name="image"
+          property="og:image"
+          content={`${hostname}${cover_image}`}
+          key="ogimage"
+        />
         <meta property="og:site_name" content={'If/Lab'} key="ogsitename" />
       </Head>
       <div className="sticky  top-0 w-full bg-white z-50">
@@ -89,12 +97,20 @@ export default function ProjectPage({
                 {/* Project text */}
                 <div
                   className="prose  text-justify mt-24 prose-img:lg:inline prose-img:hidden 
-            prose-h2:text-3xl 
-            prose-h2:border-b
-            prose-h2:py-2
-            prose-h2:Accordion"
+                             prose-h2:text-3xl 
+                             prose-h2:border-b
+                             prose-h2:py-2
+                             prose-h2:Accordion"
                   dangerouslySetInnerHTML={{ __html: marked(content) }}
                 ></div>
+                 <Link href="/Projects">
+            <a className=" font-light mt-8 pt-8 text-right">
+              <p>
+              Explore More Projects
+              <AiOutlineDoubleRight className="  p-1 text-2xl text-gray-600 inline-block cursor-pointer" />
+              </p>
+            </a>
+          </Link>
               </div>
             </div>
           </div>
@@ -105,7 +121,12 @@ export default function ProjectPage({
 
         <div className="text-right m-24 sm:w-2/3 w-11/12 mx-auto  mt-14">
           <Link href="/Projects">
-            <a className=" font-light underline"> See More Projects </a>
+            <a className=" font-light mt-8 pt-8 text-right">
+              <p>
+                Explore More Projects
+                <AiOutlineDoubleRight className="  p-1 text-2xl text-gray-600 inline-block cursor-pointer" />
+              </p>
+            </a>
           </Link>
         </div>
       </div>
@@ -117,7 +138,7 @@ export default function ProjectPage({
 const imageGrid = (imagePaths) => {
   return new Array(
     imagePaths
-      .filter((images) => images.image.includes("cover_image.jpg"))
+      .filter((images) => images.image.includes('cover_image.jpg'))
       .map((images, index) => (
         <motion.div
           key={index}
@@ -134,7 +155,7 @@ const imageGrid = (imagePaths) => {
         </motion.div>
       )),
     imagePaths
-      .filter((images) => !images.image.includes("cover_image.jpg"))
+      .filter((images) => !images.image.includes('cover_image.jpg'))
       .map((images, index) => (
         <motion.div
           key={index}
@@ -155,10 +176,10 @@ const imageGrid = (imagePaths) => {
 };
 
 export async function getStaticPaths() {
-  const files = fs.readdirSync(path.join("projects"));
+  const files = fs.readdirSync(path.join('projects'));
   const paths = files.map((filename) => ({
     params: {
-      slug: filename.replace(".md", ""),
+      slug: filename.replace('.md', ''),
     },
   }));
 
@@ -172,21 +193,21 @@ export async function getStaticProps({ params: { slug } }) {
   // get markdown content
 
   const markdownWithMeta = fs.readFileSync(
-    path.join("projects", slug + ".md"),
-    "utf-8"
+    path.join('projects', slug + '.md'),
+    'utf-8'
   );
 
   const { data: frontmatter, content } = matter(markdownWithMeta);
 
   //create image path
-  const imagePath = path.join("public/images/projects/", frontmatter.title);
+  const imagePath = path.join('public/images/projects/', frontmatter.title);
 
   //get files from post dir
   const images = fs.readdirSync(imagePath);
 
   const imagePaths = images.map((image) => {
     return {
-      image: "/images/projects/" + frontmatter.title + "/" + image,
+      image: '/images/projects/' + frontmatter.title + '/' + image,
     };
   });
 
@@ -195,7 +216,7 @@ export async function getStaticProps({ params: { slug } }) {
       frontmatter,
       slug,
       content,
-      imagePaths
+      imagePaths,
     },
   };
 }

@@ -8,6 +8,7 @@ import Link from "next/link";
 import ImagesCarousel from "../../components/Projects/ImagesCarousel";
 import Nav from "../../components/NavBar/Nav";
 import Footer from "../../components/Footer";
+import { AiOutlineDoubleRight, AiOutlineRight } from "react-icons/ai";
 
 export default function PostPage({
   frontmatter: { title, date, cover_image },
@@ -64,8 +65,10 @@ export default function PostPage({
 
           <Link href="/Insights">
             <a className=" font-light mt-8 pt-8 text-right">
-              {" "}
-              See More {"-->"}{" "}
+              <p>
+              Explore More Insights
+              <AiOutlineDoubleRight className="  p-1 text-2xl text-gray-600 inline-block cursor-pointer" />
+              </p>
             </a>
           </Link>
         </div>
