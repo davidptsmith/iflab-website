@@ -77,6 +77,7 @@ class HeroCarousel extends Component {
             return (
               <img
               loading="eager" 
+              fetchpriority="high"
                 key={index}
                 src={slide.image}
                 alt="if/lab Project image"
