@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Image from 'next/image'
 
 import {
   AiOutlineLeft,
@@ -75,6 +76,7 @@ class HeroCarousel extends Component {
           {this.props.CarouselData.map((slide, index) => {
             return (
               <img
+              loading="lazy" 
                 key={index}
                 src={slide.image}
                 alt="if/lab Project image"

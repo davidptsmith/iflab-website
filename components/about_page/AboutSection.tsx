@@ -11,6 +11,7 @@ const AboutSection = () => {
           <div className="h-full w-full  object-cover  col-span-2 ">
             <div className="overflow-hidden max-h-full my-auto lg:h-full">
               <img
+                loading="lazy" 
                 alt="if/Lab Ravensthorpe timber Architectural Project"
                 className="h-full object-cover"
                 src="\images\projects\Ravensthorpe\cover_image.jpg"
