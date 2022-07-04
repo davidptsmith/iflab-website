@@ -7,6 +7,7 @@ import { marked } from "marked";
 import Link from "next/link";
 import ImagesCarousel from "../../components/Projects/ImagesCarousel";
 import Nav from "../../components/NavBar/Nav";
+import Footer from "../../components/Footer";
 
 export default function PostPage({
   frontmatter: { title, date, cover_image },
@@ -50,7 +51,7 @@ export default function PostPage({
 
         <br />
         <div className="mt-8">
-          <h1 className="text-xl  ">{title}</h1>
+          <h1 className="text-3xl">{title}</h1>
           {/* <div className="font-light">Posted on {date}</div> */}
           {/* <img src={cover_image} alt={title} /> */}
 
@@ -68,6 +69,9 @@ export default function PostPage({
             </a>
           </Link>
         </div>
+      </div>
+      <div className="snap-end pt-12">
+        <Footer />
       </div>
     </>
   );
