@@ -6,7 +6,6 @@ export default function Post({ post }) {
     <Link href={`/Insights/${post.slug}`} passHref>
       <div className="flex flex-col  ">
         <img
-        loading="lazy" 
           src={post.frontmatter.cover_image}
           alt="If/lab blog cover image"
           className="h-40  md:h-72 min-w-full align-bottom object-cover opacity-90"
