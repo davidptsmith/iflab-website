@@ -91,7 +91,7 @@ const searchBlog = (posts, text) => {
   if (filteredPosts.length == 0) {
     return (
       <motion.li
-        className="  flex-col flex   m-auto w-2/3  p-4"
+      className="  flex-col flex   m-auto w-full md:w-2/3 xl:w-1/3  p-4"
         key="999"
         layout
       >
@@ -112,7 +112,7 @@ const searchBlog = (posts, text) => {
         {filteredPosts.map((post, index) => (
           <div
             key={index}
-            className=" overflow-hidden cursor-pointer h-full rounded-lg shadow-lg transition duration-500 ease-in-out transform  hover:shadow-2xl "
+            className=" overflow-hidden cursor-pointer h-full rounded-lg shadow-lg transition duration-500 ease-in-out transform md:w-2/3 xl:w-1/3 hover:shadow-2xl "
           >
             <motion.li className="m-auto " layout>
               <motion.div
