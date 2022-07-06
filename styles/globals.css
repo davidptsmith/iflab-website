@@ -75,12 +75,14 @@
 ::-webkit-scrollbar {
     width: 16px;
     height: 16px;
+    @apply hidden sm:inline-block
   }
   
   /* Track */
   ::-webkit-scrollbar-track {
     border-radius: 100vh;
     background: #edf2f7;
+    @apply hidden sm:inline-block
   }
   
   /* Handle */
@@ -88,11 +90,13 @@
     background: #cbd5e0;
     border-radius: 100vh;
     border: 3px solid #edf2f7;
+    @apply hidden sm:inline-block
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
     background: #a0aec0;
+    @apply hidden sm:inline-block
   }
 
   .filterbutton{

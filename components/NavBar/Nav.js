@@ -7,7 +7,7 @@ function Nav() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="">
-      <nav className=" lg:pt-2 pt-4 z-30 cursor-pointer w-11/12   flex flex-row  justify-between self-center  m-auto pb-4  border-b">
+      <nav className=" lg:pt-2 pt-4 z-50 cursor-pointer w-11/12   flex flex-row  justify-between self-center  m-auto pb-4  ">
         <div className="flex-shrink-0 my-auto  pt-4 md:pt-2    md:w-32 w-24  items-center h-14 text-gray-600">
           <IflabLogoSVG />
         </div>

@@ -41,8 +41,8 @@ const Home: NextPage = ({ imagePaths }) => (
   
   <div className="max-h-screen   overflow-x-hidden  snap snap-y snap-mandatory ScrollingLayer   ">
   {/* <main className="max-h-screen  overflow-y-scroll snap snap-y snap-mandatory ScrollingLayer overflow-hidden md:overflow-visible"> */}
-    <div className="absolute z-50 w-screen pb-1  pr-4 ">
-      <div className=" bg-white">
+    <div className="absolute z-50 w-screen pb-1  sm:pr-4 ">
+      <div className=" bg-white border-b">
         <Nav />
       </div>
     </div>
