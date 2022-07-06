@@ -79,7 +79,7 @@ class HeroCarousel extends Component {
               loading={
                 (index === this.state.currentSlide || index + 1 === this.state.currentSlide || index + 2 === this.state.currentSlide)
                 ? "eager"
-                : "lazy"
+                : "eager"
               }
               fetchpriority="high"
               key={index} 

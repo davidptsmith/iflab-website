@@ -31,7 +31,7 @@ const ArchitecturePresenter = () => {
           
           imageUrl={"/images/projects/Ravensthorpe/cover_image.jpg"}
           link_path={"/Projects/Ravensthorpe"}
-        />
+          />
 
         <KeyProjectsCard
           projectName={"Timberbuilt Cabins"}
@@ -39,7 +39,7 @@ const ArchitecturePresenter = () => {
           projectDescription={
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, fugiat."
           }
-          imageUrl={"/images/HomeHeroImages/10_ifLab_Timber_Architecture.jpg"}
+          imageUrl={"/images/projects/Prefabricated Chalets/cover_image.jpg"}
           link_path={"/Projects/Prefabricated-Chalets"}
         />
       </div>
