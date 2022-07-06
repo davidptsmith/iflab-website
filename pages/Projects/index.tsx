@@ -87,7 +87,7 @@ const searchBlog = (projects, text) => {
   if (filteredPosts.length == 0) {
     return (
       <motion.li
-        className="  flex-col flex   m-auto w-2/3  p-4"
+        className="  flex-col flex   m-auto md:w-2/3  p-4"
         key="999"
         layout
       >
@@ -106,7 +106,7 @@ const searchBlog = (projects, text) => {
   if (filteredPosts.length === 1) {
     return filteredPosts.map((projects, index) => (
       <motion.li
-        className="  flex-col flex  m-auto w-2/3 p-4"
+        className="  flex-col flex  m-auto md:w-2/3 p-4"
         key={index}
         layout
       >
