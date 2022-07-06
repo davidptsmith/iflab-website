@@ -11,7 +11,6 @@ const KeyProjectsCard = ({
       <div className="h-full w-full relative m-auto rounded mx-auto lg:min-h-[600px] min-h-[200px] max-h-72 md:max-h-full overflow-hidden shadow-md  hover:shadow-2xl cursor-pointer ">
         <a href={`/Projects/${projectName}`} className="">
           <img
-            loading="lazy" 
             alt={`iflab ${projectName} Project Image`}
             className="min-h-full   max-h-screen   min-w-full m-auto object-cover opacity-90"
             src={imageUrl}
