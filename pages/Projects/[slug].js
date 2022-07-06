@@ -148,7 +148,7 @@ const imageGrid = (imagePaths) => {
           transition={{ delay: 0.5 }}
         >
           <img
-            loading="lazy" 
+            
             alt="iflab Project Image"
             className="object-cover   md:w-full opacity-90"
             src={images.image}
@@ -166,7 +166,7 @@ const imageGrid = (imagePaths) => {
           transition={{ delay: 0.5 }}
         >
           <img
-          loading="lazy" 
+          
             // alt="iflab Project Image"
             className="object-cover   md:w-full opacity-90"
             src={images.image}
