@@ -75,18 +75,25 @@ class HeroCarousel extends Component {
         <Swipe onSwipeLeft={this.nextSlide} onSwipeRight={this.prevSlide}>
           {this.props.CarouselData.map((slide, index) => {
             return (
+              <div>
               <img
-              loading="eager" 
+              loading={
+                (index === this.state.currentSlide || index + 1 === this.state.currentSlide || index + 2 === this.state.currentSlide)
+                ? "eager"
+                : "lazy"
+              }
               fetchpriority="high"
-                key={index}
-                src={slide.image}
-                alt="if/lab Project image"
-                className={
-                  index === this.state.currentSlide
-                    ? " mx-auto object-cover h-screen  opacity-100 w-full z-0  filter brightness-75"
-                    : "hidden"
-                }
+              key={index}
+              src={slide.image}
+              alt="if/lab Project image"
+              className={
+                index === this.state.currentSlide
+                ? " mx-auto object-cover h-screen  opacity-100 w-full z-0  filter brightness-75"
+                : "hidden"
+              }
               />
+              
+              </div>
             );
           })}
         </Swipe>
