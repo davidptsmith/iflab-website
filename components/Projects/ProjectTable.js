@@ -15,7 +15,7 @@ export default ProjectTable;
 function showTableItems(items) {
   var html = [];
   for (let i = 0; i < items.length; i++) {
-    html.push(returnTableHTML(items[i][0], items[i][1]));
+    html.push(returnTableHTML(items[i][0], items[i][1] , i));
   }
   return html;
 }
