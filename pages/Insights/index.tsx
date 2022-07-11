@@ -194,10 +194,16 @@ function checkShowProject(project){
 const tags = [
   "Architecture",
   "Public Art",
-  "Fabrication",
-  "Computational Design",
   "Urban Design",
-  "Grasshopper",
+  "Education",
+  "Digital Fabrication",
+  "Automation",
+  "Research",
+  "Timber",
+  "Shop drawings",
+  "Workflows",
+  "Sheet Metal",
+  "Design Assist",
 ];
 
 function FilterButtons(setText) {
@@ -220,11 +226,11 @@ function returnButtons(setText) {
   }
   arr.push(
     <button
-      className="insightsFilterButton grow "
+      className="insightsFilterButton grow max-w-[250px]  object-left "
       key={999}
       onClick={() => applyFiler(setText, "All")}
     >
-      All Projects
+      All Insights
     </button>
   );
 
