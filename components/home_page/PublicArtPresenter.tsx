@@ -16,13 +16,14 @@ const PublicArtPresenter = () => {
             testing bed for innovation. We work alongside architects,
             fabricators, and clients to ensure that the solutions we provide are
             fit for purpose add value.
-            <br />
+            </p>
+            <p >
             Our projects work with new fabrication techniques to realise complex
             geometry and ensure that we minimize the wastage of our designs to
             ensure they align with our core sustainability goals.
           </p>
           <NavigationText
-            text={"See our other projects here"}
+            text={"See our projects here"}
             url={"/Projects"}
           />
         </div>

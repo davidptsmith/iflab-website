@@ -15,10 +15,10 @@ const ContactUs = () => {
       </div>
 
       <div className="xl:w-2/3 md:my-auto  xl:ml-16 xl:mt-12">
-        <div className="flex items-baseline  ">
+        <div className="flex items-baseline prose ">
           {/* ////////////////////  update the link to contact page /////////////////// */}
 
-          <h1 className="font-semibold text-black bottom-0 h-full  cursor-pointer text-left ">
+          <h1 className="bottom-0 h-full  cursor-pointer text-left ">
             Contact Us
             <br /> About Your Project
           </h1>

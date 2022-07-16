@@ -43,7 +43,7 @@ The k factor is a common process that refers to the calculation that estimates t
 By using Grasshopper, if/LAB was able to use a number of engineering functions that extend the capabilities of Rhino within sheet metal fabrication. This custom workflow enabled accurately modelled and unrolled sheet metal for Denmac’s fabrication requirements without the need for additional software such as Solidworks or Autodesk Inventor. 
 
 <figure  class="mx-auto w-full ">
-    <img src="\images\posts\BLOG_Grasshopper K Factor\Rhino-Grasshopper.jpg"   class="mx-auto w-full object-cover m-0" alt="if/Lab k factor bending "  />
+    <img src="/images/posts/BLOG_Grasshopper K Factor/Rhino-Grasshopper.jpg"   class="mx-auto w-full object-cover m-0" alt="if/Lab k factor bending "  />
 </figure>
 
 
