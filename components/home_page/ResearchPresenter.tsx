@@ -42,7 +42,7 @@ const ResearchPresenter = () => {
             challenge.
           </p>
           <NavigationText
-            text={"See a selection of our project insights"}
+            text={"Find our project insights here"}
             url={"/Insights"}
           />
         </div>
