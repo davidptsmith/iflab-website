@@ -6,6 +6,7 @@ import Navbar from "../components/Navbar";
 
 import { motion } from "framer-motion";
 import Footer from "../components/Footer";
+import ProjectTypesPresenter from "../components/home_page/ProjectTypesPresenter";
 import PublicArtPresenter from "../components/home_page/PublicArtPresenter";
 import ResearchPresenter from "../components/home_page/ResearchPresenter";
 import TestimonialPresenter from "../components/home_page/TestimonialPresenter";
@@ -71,12 +72,19 @@ const Home: NextPage = ({ imagePaths }) => (
         {/* <ParallaxImageBreak imageNumber={3} /> */}
 
         {/* <section className='w-full h-full snap-mandatory snap-start ' > */}
-        <ArchitecturePresenter />
+        <ProjectTypesPresenter/>
+
+
+        {/* <ArchitecturePresenter />
         <div className="bg-slate-100 py-12 h-full w-screen">
         <ResearchPresenter />
         </div>
-        <PublicArtPresenter />
+        <PublicArtPresenter /> */}
         {/* </section> */}
+
+
+
+
 
         {/* <ParallaxImageBreak imageNumber={4} /> */}
 
@@ -102,7 +110,6 @@ const Home: NextPage = ({ imagePaths }) => (
           <Services />
         </div> */}
 
-        {/* <ResearchPresenter /> */}
 
         <div className="bg-slate-100 py-12 h-full w-screen md:pb-24">
           <ContactUs />
