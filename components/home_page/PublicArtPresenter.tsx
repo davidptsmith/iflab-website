@@ -23,7 +23,7 @@ const PublicArtPresenter = () => {
             ensure they align with our core sustainability goals.
           </p>
           <NavigationText
-            text={"See our other projects here"}
+            text={"See our projects here"}
             url={"/Projects"}
           />
         </div>
