@@ -13,7 +13,7 @@ const ValueStatement = () => {
       {/* <div className="m-auto sm:w-2/3 "> */}
       <div className="m-auto  md:w-4/5 ">
         <h1 className="2xl:w-4/5 ">
-          We ask <b className="underline">What if</b> we could change future by changing building?
+          We ask <b className="underline">What if</b> we could change the future by changing building?
         </h1>
         <div className=" text-lg font-light">
           <p>
