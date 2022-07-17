@@ -8,7 +8,7 @@ const ContactUs = () => {
     <div className="  min-h-[640px] xl:px-4  w-10/12 md:w-3/4  mx-auto z-10 grid grid-cols-1 gap-4  md:gap-12 xl:grid-cols-2">
       <div className="w-full xl:h-full h-full max-h-screen  overflow-hidden m-auto">
         <img
-          className="object-cover xl:h-full w-full h-full max-h-screen "
+          className="object-cover xl:h-full w-full  h-72 md:h-full max-h-screen "
           src="/images/HomeHeroImages/05_ifLab_Architecture_Ravensthorpe.jpg"
           alt={AltTextFromImage("05_ifLab_Architecture_Ravensthorpe")}
         />
