@@ -112,7 +112,7 @@ const Home: NextPage = ({ imagePaths }) => (
         </div> */}
 
 
-        <div className="bg-slate-100 py-12 h-full w-screen md:pb-24">
+        <div className="bg-slate-100 py-12 h-full w-screen md:pb-48">
           <ContactUs />
           {/* </section> */}
         </div>
