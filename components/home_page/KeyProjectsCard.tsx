@@ -17,7 +17,7 @@ const KeyProjectsCard = ({
           />
 
           <div
-            className="flex items-center shadow-lg justify-center h-full w-full top-0 absolute  bg-opacity-30  bg-black 
+            className="flex items-center shadow-lg justify-center h-full w-full top-0 absolute  bg-opacity-20  bg-black 
 hover:opacity-100   hover:bg-black hover:bg-opacity-50 hover:scale-105 hover:shadow-lg"
           >
             <h3 className="xl:text-4xl   sm:text-3xl text-3xl p-2  font-bold  text-white z-50 text-center  uppercase">

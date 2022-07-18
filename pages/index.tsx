@@ -62,17 +62,18 @@ const Home: NextPage = ({ imagePaths }) => (
       id="Home"
       className=" snap snap-y snap-start w-full h-full snap-mandatory  "
     >
-      <div className=" bg-white prose full max-w-none pt-24   ">
-        <ValueStatement />
+      <div className=" bg-slate-100  prose full max-w-none pt-24   ">
+      {/* <div className=" bg-white prose full max-w-none pt-24   "> */}
 
         <div className="bg-slate-100 h-full w-screen ">
-          <WhatWeDoPresenter />
+        <ValueStatement />
+          {/* <WhatWeDoPresenter /> */}
           {/* <Mission /> */}
+        <ProjectTypesPresenter/>
         </div>
         {/* <ParallaxImageBreak imageNumber={3} /> */}
 
         {/* <section className='w-full h-full snap-mandatory snap-start ' > */}
-        <ProjectTypesPresenter/>
 
 
         {/* <ArchitecturePresenter />
