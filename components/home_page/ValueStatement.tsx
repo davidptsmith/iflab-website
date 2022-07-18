@@ -39,7 +39,7 @@ const ValueStatement = () => {
         <Link href={"/Contact"} passHref={true}>
           <div className="border-t-2 cursor-pointer">
             <h3>
-              Want us to help you change the way you build?
+              Let us help change the way you build
               <AiOutlineDoubleRight className="  p-1 mb-1 text-2xl text-gray-600 inline-block cursor-pointer" />
 
             </h3>
@@ -53,7 +53,7 @@ const ValueStatement = () => {
         <img
           className="md:h-full h-72 max-h-screen  object-cover"
           alt="Precinct Computational Art Project"
-          src=".\images\HomePageImages\06_ifLab_Public_Art_Precinct.jpg"
+          src=".\images\HomePageImages\06_ifLab_Public_Art_Waterford.jpg"
         />
       </div>
     </div>
