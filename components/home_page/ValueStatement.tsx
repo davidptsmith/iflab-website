@@ -9,7 +9,7 @@ import {
 
 const ValueStatement = () => {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-8 min-h-[800px] mx-auto w-10/12  md:px-4 h-full lg:pt-2  2xl:pt-24 pt-8 pb-24 lg:pb-36">
+    <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-8 min-h-[800px] mx-auto w-10/12  md:px-4 h-full lg:pt-2  2xl:pt-24 pt-8 md:pb-24 lg:pb-36">
       {/* <div className="m-auto sm:w-2/3 "> */}
       <div className="m-auto  md:w-4/5 ">
         <h1 className="2xl:w-4/5 ">
@@ -37,8 +37,8 @@ const ValueStatement = () => {
           </p>
         </div>
         <Link href={"/Contact"} passHref={true}>
-          <div className="border-t-2 cursor-pointer">
-            <h3>
+          <div className="border-t-2 md:w-full cursor-pointer">
+            <h3 className="md:w-full w-3/4 ">
               Let us help change the way you build
               <AiOutlineDoubleRight className="  p-1 mb-1 text-2xl text-gray-600 inline-block cursor-pointer" />
 
@@ -49,7 +49,7 @@ const ValueStatement = () => {
           </div>
         </Link>
       </div>
-      <div className="md:h-full  overflow-hidden ">
+      <div className="md:h-full  overflow-hidden hidden lg:inline ">
         <img
           className="md:h-full h-72 max-h-screen  object-cover"
           alt="Precinct Computational Art Project"
