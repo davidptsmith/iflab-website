@@ -9,7 +9,7 @@ const AboutSection = () => {
           {/* <div className="  mx-auto sm:grid sm:grid-cols-1 lg:grid-cols-3 md:gap-12 order-last flex   "> */}
 
           <div className="h-full w-full  object-cover  col-span-2 ">
-            <div className="overflow-hidden max-h-full my-auto lg:h-full">
+            <div className="overflow-hidden max-h-full h-76  my-auto lg:h-full">
               <img
                 alt="if/Lab Ravensthorpe timber Architectural Project"
                 className="h-full object-cover"

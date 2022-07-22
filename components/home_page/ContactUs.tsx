@@ -19,7 +19,6 @@ const ContactUs = () => {
 
         <div className="flex items-baseline prose md:my-auto">
           {/* ////////////////////  update the link to contact page /////////////////// */}
-
           <h1 className="bottom-0 h-full  cursor-pointer text-left ">
             Contact Us
             <br /> About Your Project
