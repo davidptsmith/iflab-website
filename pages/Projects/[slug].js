@@ -138,25 +138,8 @@ export default function ProjectPage({
 const imageGrid = (imagePaths) => {
   return new Array(
     imagePaths
-      .filter((images) => images.image.includes('cover_image.jpg'))
-      .map((images, index) => (
-        <motion.div
-          key={index}
-          className="w-full overflow-hidden m-auto "
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.5 }}
-        >
-          <img
-            
-            alt="iflab Project Image"
-            className="object-cover   md:w-full opacity-90"
-            src={images.image}
-          />
-        </motion.div>
-      )),
-    imagePaths
       .filter((images) => !images.image.includes('cover_image.jpg'))
+      .sort()
       .map((images, index) => (
         <motion.div
           key={index}
