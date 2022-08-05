@@ -3,17 +3,19 @@ title: "Perth Airport T1 Expansion"
 ShowProject : true
 date: 'JUNE 18, 2019'
 excerpt: 'this is more information and things about the project. Look at this test, it is testing the length of the item'
-cover_image: '/images/projects/Perth Airport/cover_image.jpg'
+cover_image: '/images/projects/Perth Airport T1 Expansion/cover_image.jpg'
 aside_image: '/images/posts/BLOG_DrawingAutomation/1.jpg'
 tags: ["Architecture", "Automation", "Grasshopper", "Computational Design", "Rhino 3D"]
 tables: {
+  items: [
     ["Project Team", "if/LAB, Plus Architecture and SMAR Architects"],
     ["Project Details", "Concept Proposal"],
     ["Location", "Perth International Airport"],
     ["Completion Date", "2018"],   
-    ["Client", "Perth Airport Pty Ltd"],
-  ]
-}
+    ["Client", "Perth Airport Pty Ltd"]
+]}
+
+
 ---
 
 ## Project
