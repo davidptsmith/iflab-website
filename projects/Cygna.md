@@ -8,7 +8,7 @@ aside_image: '/images/posts/BLOG_DrawingAutomation/1.jpg'
 tags: ["Shop Drawings", "Digital Fabrication", "Automation", "Public Art", "Grasshopper", "Computational Design", "Rhino 3D"]
 tables: {
   items: [
-    ["Project Team", "if/LAB, [Jon Tarry] (http://www.jontarry.com/)"],
+    ["Project Team", "if/LAB, Jon Tarry"],
     ["Project Details", "Percent for Art: Sculpture"],
     ["Budget", "$295,000"],
     ["Location", "East Perth, Western Australia"],
@@ -20,6 +20,8 @@ tables: {
 ---
 
 ## Concept
+
+Cygna is an sculptural artwork developed in joint patnership with artist Jon Tarry. if/LAB's, Daniel Giuffre and Jon worked closely on the EOI concept submission which was awarded to the joint venture collaboraiton between both artists. Daniel and Jon, worked on the project together through to completion.
 
 Cygna is a modernist interpretation of Perth’s graceful black swan and the winding Swan River has been installed as an iconic feature of the City’s east end. Standing on the corner of Hay and Pier Streets it is a visual draw card. The concept of Cygna (The Swan) aims to develop notions of cultural mapping, rivers and flight paths of birds.
 

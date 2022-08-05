@@ -1,9 +1,9 @@
 ---
-title: "Duncan Street Vic Park" 
+title: "Duncan Street, Vic Park" 
 ShowProject : true
 date: '10'
 excerpt: 'this is more information and things about the project. Look at this test, it is testing the length of the item'
-cover_image: '/images/projects/Duncan Street Vic Park/cover_image.jpg'
+cover_image: '/images/projects/Duncan Street/cover_image.jpg'
 aside_image: '/images/posts/BLOG_DrawingAutomation/1.jpg'
 tags: ["Shop Drawings", "Fabrication", "Facade", "Public Art", "Grasshopper", "Computational Design", "Rhino 3D"]
 tables: {
@@ -11,11 +11,11 @@ tables: {
     ["Project Team", "if/LAB"],
     ["Project Details", "Percent for Art: Facade Screen"],
     ["Budget", "$478,000"],
-    ["Architect", "[MAarch*] (https://www.maarch.net.au/)"],
+    ["Architect", "MAarch*"],
     ["Completion Date", "In Construction"],
     ["Size", "420 sqm"],
-    ["Client", "[Roshana Care] (https://www.roshana.com.au/)"],
-    ["Fabricator", "[Kilmore Group](https://kilmoregroup.com.au/)"],
+    ["Client", "Roshana Care"],
+    ["Fabricator", "Kilmore Group"],
   ]
 }
 ---
@@ -32,6 +32,5 @@ The thematic inspiration for the selection of colours used within the facade pan
 
 <span style="colour:blue">“ We know it’s a rare thing and it makes us feel special, we think it’s either luck, destiny, a sign that something big is going to happen...”</span>.
 
-The lighting within the facade was developed by futher exploring the Autumn theme and the notion of change. The lighting patterns is inspired by the Eta Aquariid meteor shower which occurs every May. A meteor shower appears much like a shooting star in the sky. 
-**Wish upon a shooting star**
+The lighting within the facade was developed by further exploring the Autumn theme and the notion of change. The lighting patterns is inspired by the Eta Aquariid meteor shower which occurs every May. A meteor shower appears much like a shooting star in the sky - *Wish upon a shooting star*
 

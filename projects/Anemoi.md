@@ -8,25 +8,28 @@ aside_image: '/images/posts/BLOG_DrawingAutomation/1.jpg'
 tags: ["Shop Drawings", "Fabrication", "Public Art", "Automation", "Grasshopper", "Computational Design", "Rhino 3D"]
 tables: {
   items: [
-    ["Project Team", "if/LAB, [Rick Vermey] (https://www.rickvermey.com/)"],
+    ["Project Team", "if/LAB, Rick Vermey"],
     ["Project Details", "Percent for Art: Soffit"],
     ["Budget", "$500,000"],
     ["Location", "Fremantle"],
     ["Completion Date", "2019"],
     ["Size", "200 sqm"],
-    ["Client", "[Defence Housing Australia] (https://www.dha.gov.au/)"],
-    ["Fabricator", "[Denmac](https://www.denmac.net.au/)"],
+    ["Client", "Defence Housing Australia"],
+    ["Fabricator", "Denmac"],
   ]
 }
 ---
 
 ## Concept
 
+
 Anemoi is a physical representation of the local prevailing winds known as the ‘Fremantle Doctor’. Fremantle is a port city in Perth, Western Australia, and its’s character has largely emerged from its connection with the coast. The Anemoi artwork is a playful nod to this and the Freo Doctor, Fremantle’s dependable summer sea-breeze.
 
 Building upon this observation, the designers focused on the unseen but tangible forces of coastal winds, weather systems and oceanic currents and swells, to guide the development of this soffit treatment artwork. A cohesive abstracted sculptural form evolved, informed by representations of wind movement and direction such as meteorological mapping, bathymetric contours, the undulating ocean surface, charting of tidal swells and oceanic current flows, wind-filled sails, draping fishnets, emergent patterns in shipping route paths, billowing flags and shipping pennants.
 
 The materials, texture, colours and appearance conceptually reflect its surrounding context. Dynamic LED lighting is controlled by an anemometer installed on the roof which allows the weather to dictate the lighting patterns and colours in real-time. The behaviour of the wind is made visual, as light in motion.
+
+**Anemoi was shortlisted in the CODAWORX awards top 100 projects**
 
 
 ## Project

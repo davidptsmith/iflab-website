@@ -8,7 +8,7 @@ aside_image: '/images/posts/BLOG_DrawingAutomation/1.jpg'
 tags: ["Shop Drawings", "Fabrication", "Public Art", "Automation", "Grasshopper", "Computational Design", "Rhino 3D"]
 tables: {
   items: [
-    ["Project Team", "if/LAB, [Rick Vermey] (https://www.rickvermey.com/)"],
+    ["Project Team", "if/LAB, Rick Vermey"],
     ["Project Details", "Percent for Art: Bridge Link"],
     ["Location", "Gold Coast, HOTA"],
     ["Completion Date", "Shortlisted EOI, 2018"],

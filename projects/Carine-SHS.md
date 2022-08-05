@@ -15,7 +15,7 @@ tables: {
     ["Completion Date", "In Construction"],
     ["Size", "178 sqm"],
     ["Client", "Department of Finance"],
-    ["Fabricator", "[Kilmore Group](https://kilmoregroup.com.au/)"],
+    ["Fabricator", "Kilmore Group"],
   ]
 }
 ---

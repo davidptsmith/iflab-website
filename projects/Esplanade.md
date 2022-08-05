@@ -8,12 +8,12 @@ aside_image: '/images/posts/BLOG_DrawingAutomation/1.jpg'
 tags: ["Shop Drawings", "Fabrication", "Public Art", "Automation", "Grasshopper", "Computational Design", "Rhino 3D"]
 tables: {
   items: [
-    ["Project Team", "if/LAB, [Rick Vermey] (https://www.rickvermey.com/), [Shane Hansen] (https://japingkaaboriginalart.com/collections/yondee-shane-hansen/), [Karla Hart] (https://karlahartproductions.com/), Melinda Eades (Dancer), Uncle Farley Garlett (Cultural Advisor) "],
+    ["Project Team", "if/LAB, Rick Vermey, Shane Hansen, Karla Hart (Singer, Choreographer, Curator, Dancer), Melinda Eades (Dancer), Uncle Farley Garlett (Cultural Advisor)"],
     ["Project Details", "Percent for Art: Sculpture"],
     ["Location", "Elizabeth Quay"],
     ["Completion Date", "EOI Shortlist, 2021"],
-    ["Client", "[Brookfield Properties] (https://www.brookfieldproperties.com/en.html)"],
-    ["Architect", "[Hassell] (https://www.hassellstudio.com/)"],
+    ["Client", "Brookfield Properties"],
+    ["Architect", "Hassell"],
 
   ]
 }
@@ -39,7 +39,7 @@ Together we strived to create an artwork that can speak of:
 
 Choosing to to engage with a female dancer and choreographer in the process of finding this sculptural form came from conversation with Uncle Farley Garlett about other histories of the site, beyond those known milestone stories of masculine leaders’ presence at gatherings here (Yellagonga, Midgegooroo, Yagan, the documented 1833 ceremonial kening performance, colonial ceremonies such as 1890 Proclamation of selfgovernment, Jubilee events, military parades, athletics carnivals, Speakers Corner, Invasion Day rallies, National Apology to Stolen Generations, etc). We learned that in language, Derbal Yerrigan is regarded as feminine, a source of nurture, and associated with fertility and new growth. Food gathering, crabbing, fishing and such day to day habitation would once have been familiar along our Booneenoro shoreline and females were also a pivotal part in Noongar Lore ceremony at spots along the river. 
 
-*“As Noongar dancers we dance with no shoes on, so we can connect to country and send a vibration to our old people.” Karla Hart*
+*“As Noongar dancers we dance with no shoes on, so we can connect to country and send a vibration to our old people.” - Karla Hart*
 
 Aunty Fanny Balbok Yondeel was one strong Noongar woman who made her presence felt throughout the city environs, as a traditional owner steadfastly resisting European changes to customs and landscape, expressing her belonging to place and dedicated to her culture and law. Today, many passionately engaged and respected leaders are strong Noongar women - a growing generation of acknowledged spokespeople, future Elders. They represent the powerful spirit and rising energy of contemporary First Nations Cultures, building toward a future of shared respect and unity. One of our ambitions for how the artwork site could continue to reach outward from this process is to commission a contemporary dance work for youth performers, specifically for the place, in response to the sculpture, as part of this artwork project. This is part of how we propose to continue to collaborate with Karla Hart going forward. This newly created cultural asset could then go on to be programmed and performed onsite at future times of significance for Noongar people. It could potentially become part of the larger repository of knowledge shared and passed on. This could also involve composition of accompanying new musical (song) expression.
 

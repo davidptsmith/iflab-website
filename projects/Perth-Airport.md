@@ -1,5 +1,5 @@
 ---
-title: "Perth Airport" 
+title: "Perth Airport T1 Expansion" 
 ShowProject : true
 date: 'JUNE 18, 2019'
 excerpt: 'this is more information and things about the project. Look at this test, it is testing the length of the item'
@@ -7,34 +7,17 @@ cover_image: '/images/projects/Perth Airport/cover_image.jpg'
 aside_image: '/images/posts/BLOG_DrawingAutomation/1.jpg'
 tags: ["Architecture", "Automation", "Grasshopper", "Computational Design", "Rhino 3D"]
 tables: {
-  items: [
-    ["People", "Value"],
-    ["Project Details", "Value"],
-    ["Budget", "Value"],
-    ["Location", "Value"],
-    ["Material", "Value"],
-    ["Processes", "Value"],
+    ["Project Team", "if/LAB, Plus Architecture and SMAR Architects"],
+    ["Project Details", "Concept Proposal"],
+    ["Location", "Perth International Airport"],
+    ["Completion Date", "2018"],   
+    ["Client", "Perth Airport Pty Ltd"],
   ]
 }
 ---
 
-## Concept
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum amet quiss atque a enim odit eligendi dolor iusto minima quaerat. Eveniet nesciunt, nemo quos, asperiores molestiae quisquam deserunt dicta iste necessitatibus labore ut animi suscipit illo maxime quis nulla natus sint quidem et recusandae odit aut a corporis quam! Suscipit explicabo quasi doloribus, consequuntur inventore qui rerum atque voluptatibus officia unde, quisquam quaerat consectetur est, numquam ducimus cum aliquam dicta ullam harum corrupti quos error?
-
-
 ## Project
 
-**consectetur est, numquam ducimus cum aliquam dicta ullam harum corrupti quos error?**
+Collaboration with Plus Architecture to assist Perth Airport in communicating their vision for the future expansion of the international operation at Terminal
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum amet quiss atque a enim odit eligendi dolor iusto minima quaerat. Eveniet nesciunt, nemo quos, asperiores molestiae quisquam deserunt dicta iste necessitatibus labore ut animi suscipit illo maxime quis nulla natus sint quidem et recusandae odit aut a corporis quam! Suscipit explicabo quasi doloribus, consequuntur inventore qui rerum atque voluptatibus officia unde, quisquam quaerat consectetur est, numquam ducimus cum aliquam dicta ullam harum corrupti quos error?
-
-## Other Things 
-
-*consectetur est, numquam ducimus cum aliquam dicta ullam harum corrupti quos error?*
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum amet quiss atque a enim odit eligendi dolor iusto minima quaerat. Eveniet nesciunt, nemo quos, asperiores molestiae quisquam deserunt dicta iste necessitatibus labore ut animi suscipit illo maxime quis nulla natus sint quidem et recusandae odit aut a corporis quam! Suscipit explicabo quasi doloribus, consequuntur inventore qui rerum atque voluptatibus officia unde, quisquam quaerat consectetur est, numquam ducimus cum aliquam dicta ullam harum corrupti quos error?
-
->consectetur est, numquam ducimus cum aliquam dicta ullam harum corrupti quos error?
-
-*image collection thing
+if/LAB's scope included the complex modelling of the free-form roof and concept renders.
