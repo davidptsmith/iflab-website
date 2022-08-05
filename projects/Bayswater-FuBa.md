@@ -8,17 +8,16 @@ aside_image: '/images/projects/Bayswater FuBa/cover_image.jpg'
 tags: ["Masterplan", "Architecture", "Urban Design", "Computational Design", ]
 tables: {
   items: [
-    ["Project Team", "if/LAB, [Plus Architecture] (https://www.plusarchitecture.com.au/)"],
+    ["Project Team", "if/LAB, Plus Architecture"],
     ["Project Details", "Masterplan Concept"],
     ["Location", "King William St, Bayswater"],
     ["Completion Date", "2018"],   
-    ["Client", "[Future Bayswater](https://futurebayswater.com/)"],
+    ["Client", "Future Bayswater"],
   ]
 }
 ---
 
 ## Project
-
 
 if/LAB worked in collaboration with Plus Architecture to design a masterplan concept for the high street in Bayswater, WA.
 

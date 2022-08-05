@@ -13,9 +13,9 @@ tables: {
     ["Location", "Curtin University Campus, Western Australia"],
     ["Completion Date", "2020"],
     ["Designers", "Masters Students from Curtin University, Unit 5008: Advanced Architectural Systems"],
-    ["Fabrication", "[Timberbuilt Australia] (https://timberbuilt.com.au/), [Kilmore Group](https://kilmoregroup.com.au/) "],
-    ["Sponsors", "[Timberbuilt Australia] (https://timberbuilt.com.au/), [Kilmore Group](https://kilmoregroup.com.au/), [World Wide Timber Traders] (https://wwtt.com.au/), [Curtin University](https://exchange.curtin.edu.au/school-of-design-and-built-environment/), Intensive Fields Lab (if/LAB)"],
-    ["Engineering", "[Scott Smalley Partners] (https://au.linkedin.com/company/scott-smalley-partnership-pty-ltd)"],
+    ["Fabrication", "Timberbuilt Australia, Kilmore Group "],
+    ["Sponsors", "Timberbuilt Australia, Kilmore Group, World Wide Timber Traders, Curtin University, Intensive Fields Lab (if/LAB)"],
+    ["Engineering", "Scott Smalley Partners"],
     
   ]
 }

@@ -8,14 +8,13 @@ aside_image: '/images/posts/BLOG_DrawingAutomation/1.jpg'
 tags: ["Shop Drawings", "Public Art", "Facade", "Automation", "Grasshopper", "Computational Design", "Rhino 3D"]
 tables: {
   items: [
-    ["Project Team", "if/LAB, [Rick Vermey](https://www.rickvermey.com/)"],
+    ["Project Team", "if/LAB, Rick Vermey"],
     ["Project Details", "Percent for Art: Facade"],
     ["Budget", "$295,000"],
     ["Location", "Alkimos, Western Australia"],
     ["Completion Date", "In Construction"],
     ["Size", "195 sqm"],
     ["Client", "Department of Finance"],
- 
   ]
 }
 ---
