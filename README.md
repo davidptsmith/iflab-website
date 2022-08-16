@@ -4,7 +4,7 @@
 
 Link to testing site: 
 
-https://nice-stone-078cf9d10.1.azurestaticapps.net/
+https://happy-river-0ec5b0d00.1.azurestaticapps.net
 
 This website development project is to create a custom designed website that displays our work in a clear manner with the ability to filter projects based on type and search through out blog posts. 
 
