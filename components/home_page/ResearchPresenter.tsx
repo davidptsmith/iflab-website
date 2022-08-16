@@ -12,7 +12,7 @@ const ResearchPresenter = () => {
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, fugiat."
           }
           imageUrl={"/images/posts/Automated_Modeling_Drawings_from_Site_Measurements/Automated_Modeling_Drawings_from_Site_Measurements_4.jpg"}
-          link_path={"/Insights/Automated-Shop-Drawings"}
+          link_path={"/Insights/Automated_Modeling_Drawings_from_Site_Measurements"}
         />
 
         <KeyProjectsCard
@@ -22,7 +22,7 @@ const ResearchPresenter = () => {
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, fugiat."
           }
           imageUrl={"/images/posts/Physics_based_Simulations/Physics_based_Simulations_1.jpg"}
-          link_path={"/Insights/Physics-based-Simulations"}
+          link_path={"/Insights/Physics_based_Simulations"}
         />
 
         <div className=" m-auto md:w-10/12   lg:pl-8">
