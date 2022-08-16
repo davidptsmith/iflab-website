@@ -11,7 +11,7 @@ const ResearchPresenter = () => {
           projectDescription={
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, fugiat."
           }
-          imageUrl={"/images/posts/BLOG_Drawing From CSV _1/1.jpg"}
+          imageUrl={"/images/posts/Automated_Modeling_Drawings_from_Site_Measurements/Automated_Modeling_Drawings_from_Site_Measurements_4.jpg"}
           link_path={"/Insights/Automated-Shop-Drawings"}
         />
 
@@ -21,7 +21,7 @@ const ResearchPresenter = () => {
           projectDescription={
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, fugiat."
           }
-          imageUrl={"/images/posts/BLOG_LIV - FORM FINDING/1.jpg"}
+          imageUrl={"/images/posts/Physics_based_Simulations/Physics_based_Simulations_1.jpg"}
           link_path={"/Insights/Physics-based-Simulations"}
         />
 
@@ -34,7 +34,7 @@ const ResearchPresenter = () => {
           <p className="">
             Research is at the heart of if/lab's processes. We are never happy
             with "what is" but rather challenge the status quo by asking{" "}
-            <b>"what if?"</b>
+            "what if?"
           </p>
           <p className="">
             Projects provide numerous challenges and opportunities to do better.

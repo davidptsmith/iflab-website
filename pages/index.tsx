@@ -67,20 +67,23 @@ const Home: NextPage = ({ imagePaths }) => (
 
         <div className="bg-slate-100 h-full w-screen ">
         <ValueStatement />
+
           {/* <WhatWeDoPresenter /> */}
           {/* <Mission /> */}
-        <ProjectTypesPresenter/>
+        {/* <ProjectTypesPresenter/> */}
         </div>
         {/* <ParallaxImageBreak imageNumber={3} /> */}
 
         {/* <section className='w-full h-full snap-mandatory snap-start ' > */}
+        {/* <div className="bg-slate-100 h-full w-screen">
+          <Services />
+        </div> */}
 
-
-        {/* <ArchitecturePresenter />
+        <ArchitecturePresenter />
         <div className="bg-slate-100 py-12 h-full w-screen">
         <ResearchPresenter />
         </div>
-        <PublicArtPresenter /> */}
+        <PublicArtPresenter />
         {/* </section> */}
 
 
@@ -91,9 +94,9 @@ const Home: NextPage = ({ imagePaths }) => (
 
         {/* <section className='w-full h-full snap-mandatory snap-start ' > */}
 
-        {/* <div className="bg-slate-100 h-full">
+        <div className="bg-slate-100 h-full">
           <TestimonialPresenter />
-        </div> */}
+        </div>
 
         {/* </section> */}
 
@@ -107,9 +110,7 @@ const Home: NextPage = ({ imagePaths }) => (
 
         {/* <section className='w-full h-full snap-mandatory snap-start ' > */}
 
-        {/* <div className="bg-slate-100 h-full w-screen">
-          <Services />
-        </div> */}
+ 
 
 
         <div className="bg-slate-100 py-12 h-full w-screen md:pb-48">

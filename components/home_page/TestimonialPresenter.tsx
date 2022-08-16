@@ -4,7 +4,7 @@ import TestimonialCard from "./TestimonialCard";
 const TestimonialPresenter = () => {
   return (
     <div id="Testimonials" className="SectionStyle">
-      <div className="m-auto w-10/12">
+      <div className="m-auto w-10/12 md:pb-24">
         <section className=" my-auto   h-full  lg:px-4 ">
           <div className="w-full  pb-8">
             <svg
