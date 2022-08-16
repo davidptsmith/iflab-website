@@ -49,7 +49,7 @@ const ValueStatement = () => {
           </div>
         </Link>
       </div>
-      <div className="md:h-full  overflow-hidden hidden lg:inline ">
+      <div className="md:h-full  overflow-hidden hidden md:inline ">
         <img
           className="md:h-full h-72 max-h-screen  object-cover"
           alt="Precinct Computational Art Project"
