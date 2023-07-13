@@ -19,21 +19,18 @@ It takes images and markdown for projects and posts and automatically generates 
 
  *Image Carousel: Cycle through key project images*
 
- <img src="_WIP_Images/-2022-03-16 11_39_44.png" alt="" width="100%"/>
- <br/>
- <img src="_WIP_Images/-2022-03-16 11_07_22.png" alt="" width="100%"/>
- <img src="_WIP_Images/1.png" alt="" width="100%"/>
- <img src="_WIP_Images/2.png" alt="" width="100%"/>
- <img src="_WIP_Images/3.png" alt="" width="100%"/>
- <img src="_WIP_Images/4.png" alt="" width="100%"/>
- <img src="_WIP_Images/5.png" alt="" width="100%"/>
- <img src="_WIP_Images/6.png" alt="" width="100%"/>
- <img src="_WIP_Images/7.png" alt="" width="100%"/>
- <img src="_WIP_Images/8.png" alt="" width="100%"/>
- <img src="_WIP_Images/9.png" alt="" width="100%"/>
- <img src="_WIP_Images/10.png" alt="" width="100%"/>
- <img src="_WIP_Images/11.png" alt="" width="100%"/>
- 
+![image](https://github.com/davidptsmith/iflab-website/assets/76982323/7272b3dc-f3fc-48cc-8ae3-fc9b98e4eb02)
+![image](https://github.com/davidptsmith/iflab-website/assets/76982323/e529a251-1393-4de0-8000-af571333a0c7)
+![image](https://github.com/davidptsmith/iflab-website/assets/76982323/31315297-ecdb-485a-9221-9bf29a68c7d2)
+![image](https://github.com/davidptsmith/iflab-website/assets/76982323/60719fdd-e8a0-4517-99b2-ea1b1a1eaef7)
+![image](https://github.com/davidptsmith/iflab-website/assets/76982323/aa0ae839-da38-42d3-a851-f4bde17312f0)
+![image](https://github.com/davidptsmith/iflab-website/assets/76982323/f48175c0-4e8b-42a7-9a1c-6f070c383143)
+![image](https://github.com/davidptsmith/iflab-website/assets/76982323/c1fb26d4-a931-4e26-bb95-bb2ddf5d8d8c)
+![image](https://github.com/davidptsmith/iflab-website/assets/76982323/ab858f91-7261-4db5-a414-a8a1ab70a222)
+![image](https://github.com/davidptsmith/iflab-website/assets/76982323/303413b8-e117-4ec7-ac57-638fb36c6480)
+![image](https://github.com/davidptsmith/iflab-website/assets/76982323/c10ef249-99fa-4022-9b92-ce69e2d18757)
+![image](https://github.com/davidptsmith/iflab-website/assets/76982323/79d1af22-04ac-4e39-93ea-d1813c930453)
+
  <br/>
  <br/>
 
